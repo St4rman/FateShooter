@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\projects\\unreal\\fateshooter\\projectfate\\source\\projectfate\\projectfateprojectile.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\projects\\unreal\\fateshooter\\projectfate\\intermediate\\build\\win64\\x64\\projectfateeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\projects\\unreal\\fateshooter\\projectfate\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\projectfate\\definitions.projectfate.h",
+            "e:\\projects\\unreal\\fateshooter\\projectfate\\source\\projectfate\\projectfateprojectile.h",
+            "e:\\projects\\unreal\\fateshooter\\projectfate\\intermediate\\build\\win64\\unrealeditor\\inc\\projectfate\\uht\\projectfateprojectile.generated.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\projectilemovementcomponent.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\movementcomponent.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\movementcomponent.generated.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\projectilemovementcomponent.generated.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\spherecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

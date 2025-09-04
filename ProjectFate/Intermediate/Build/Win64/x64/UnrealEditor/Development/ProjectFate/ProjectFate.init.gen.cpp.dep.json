@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\projects\\unreal\\fateshooter\\projectfate\\intermediate\\build\\win64\\unrealeditor\\inc\\projectfate\\uht\\projectfate.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\projects\\unreal\\fateshooter\\projectfate\\intermediate\\build\\win64\\x64\\projectfateeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\projects\\unreal\\fateshooter\\projectfate\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\projectfate\\definitions.projectfate.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

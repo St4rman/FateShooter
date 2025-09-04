@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"E:\\Projects\\UNREAL\\Fate\\FateShooter\\ProjectFate\\Source\\ProjectFate\\ProjectFate.Build.cs",
+		"E:\\Projects\\UNREAL\\Fate\\FateShooter\\ProjectFate\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\AdvancedSessions.Build.cs",
+		"E:\\Projects\\UNREAL\\Fate\\FateShooter\\ProjectFate\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\AdvancedSteamSessions.Build.cs",
+		"E:\\Projects\\UNREAL\\Fate\\FateShooter\\ProjectFate\\Source\\ProjectFate.Target.cs",
+		"E:\\Projects\\UNREAL\\Fate\\FateShooter\\ProjectFate\\Source\\ProjectFateEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}

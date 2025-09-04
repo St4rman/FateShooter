@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\projects\\unreal\\fateshooter\\projectfate\\intermediate\\build\\win64\\unrealeditor\\inc\\projectfate\\uht\\projectfategamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\projects\\unreal\\fateshooter\\projectfate\\intermediate\\build\\win64\\x64\\projectfateeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\projects\\unreal\\fateshooter\\projectfate\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\projectfate\\definitions.projectfate.h",
+            "e:\\projects\\unreal\\fateshooter\\projectfate\\source\\projectfate\\projectfategamemode.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "e:\\projects\\unreal\\fateshooter\\projectfate\\intermediate\\build\\win64\\unrealeditor\\inc\\projectfate\\uht\\projectfategamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
