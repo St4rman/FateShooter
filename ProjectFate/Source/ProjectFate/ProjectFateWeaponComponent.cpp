@@ -13,10 +13,8 @@
 #include "Engine/LocalPlayer.h"
 #include "Engine/World.h"
 
-// Sets default values for this component's properties
 UProjectFateWeaponComponent::UProjectFateWeaponComponent()
 {
-	// Default offset from the character location for projectiles to spawn
 	MuzzleOffset = FVector(100.0f, 0.0f, 10.0f);
 }
 
@@ -28,7 +26,6 @@ void UProjectFateWeaponComponent::Fire()
 		return;
 	}
 
-	// Try and fire a projectile
 	if (ProjectileClass != nullptr)
 	{
 		UWorld* const World = GetWorld();
@@ -36,28 +33,22 @@ void UProjectFateWeaponComponent::Fire()
 		{
 			APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
 			const FRotator SpawnRotation = PlayerController->PlayerCameraManager->GetCameraRotation();
-			// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
 			const FVector SpawnLocation = GetOwner()->GetActorLocation() + SpawnRotation.RotateVector(MuzzleOffset);
 	
-			//Set Spawn Collision Handling Override
 			FActorSpawnParameters ActorSpawnParams;
 			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
 	
-			// Spawn the projectile at the muzzle
 			World->SpawnActor<AProjectFateProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
 		}
 	}
 	
-	// Try and play the sound if specified
 	if (FireSound != nullptr)
 	{
 		UGameplayStatics::PlaySoundAtLocation(this, FireSound, Character->GetActorLocation());
 	}
 	
-	// Try and play a firing animation if specified
 	if (FireAnimation != nullptr)
 	{
-		// Get the animation object for the arms mesh
 		UAnimInstance* AnimInstance = Character->GetMesh1P()->GetAnimInstance();
 		if (AnimInstance != nullptr)
 		{
@@ -70,13 +61,11 @@ bool UProjectFateWeaponComponent::AttachWeapon(AProjectFateCharacter* TargetChar
 {
 	Character = TargetCharacter;
 
-	// Check that the character is valid, and has no weapon component yet
 	if (Character == nullptr || Character->GetInstanceComponents().FindItemByClass<UProjectFateWeaponComponent>())
 	{
 		return false;
 	}
 
-	// Attach the weapon to the First Person Character
 	const FAttachmentTransformRules AttachmentRules(EAttachmentRule::SnapToTarget, true);
 	if (Character->IsLocallyControlled())
 	{
@@ -87,21 +76,18 @@ bool UProjectFateWeaponComponent::AttachWeapon(AProjectFateCharacter* TargetChar
 		AttachToComponent(Character->GetMesh3P(),AttachmentRules, FName(TEXT("hand_rSocket")));
 	}
 	
-	// AttachToComponent(Character)
 	
 	
-	// Set up action bindings
 	if (APlayerController* PlayerController = Cast<APlayerController>(Character->GetController()))
 	{
 		if (UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(PlayerController->GetLocalPlayer()))
 		{
-			// Set the priority of the mapping to 1, so that it overrides the Jump action with the Fire action when using touch input
 			Subsystem->AddMappingContext(FireMappingContext, 1);
 		}
 
 		if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerController->InputComponent))
 		{
-			// Fire
+			
 			EnhancedInputComponent->BindAction(FireAction, ETriggerEvent::Triggered, this, &UProjectFateWeaponComponent::Fire);
 		}
 	}
@@ -111,10 +97,10 @@ bool UProjectFateWeaponComponent::AttachWeapon(AProjectFateCharacter* TargetChar
 
 void UProjectFateWeaponComponent::EndPlay(const EEndPlayReason::Type EndPlayReason)
 {
-	// ensure we have a character owner
+	
 	if (Character != nullptr)
 	{
-		// remove the input mapping context from the Player Controller
+		
 		if (APlayerController* PlayerController = Cast<APlayerController>(Character->GetController()))
 		{
 			if (UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(PlayerController->GetLocalPlayer()))
@@ -123,7 +109,5 @@ void UProjectFateWeaponComponent::EndPlay(const EEndPlayReason::Type EndPlayReas
 			}
 		}
 	}
-
-	// maintain the EndPlay call chain
 	Super::EndPlay(EndPlayReason);
 }
