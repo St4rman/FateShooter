@@ -8,7 +8,12 @@
 				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyBlueprints/Player/BP_TestPlayer.uasset",
 				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
-				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyContent/Levels/TestBoxLevel.umap"
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyContent/Levels/TestBoxLevel.umap",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/FirstPerson/Blueprints/BP_FateCharacter.uasset",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyBlueprints/GameModes/Core/BP_GM_Core.uasset",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyBlueprints/Player/BP_FateCharacter.uasset",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter1.uasset"
 			]
 		}
 	]

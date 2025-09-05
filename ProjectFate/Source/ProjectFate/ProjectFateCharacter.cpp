@@ -68,7 +68,7 @@ void AProjectFateCharacter::PostInitializeComponents()
 	MovementComp->BrakingDecelerationWalking = 100.f;
 	
 	MovementComp->JumpZVelocity = 700.0f;
-	MovementComp->AirControl = 0.2f;
+	MovementComp->AirControl = 0.6f;
 
 	ACharacter::PostInitializeComponents();
 	

@@ -57,8 +57,6 @@ protected:
 	/** Called for looking input */
 	void Look(const FInputActionValue& Value);
 	
-	
-
 	void PostInitializeComponents() override;
 	
 	FVector2D MovementCache;
