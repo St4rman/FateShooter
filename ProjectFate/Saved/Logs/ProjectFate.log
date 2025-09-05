@@ -1715,3 +1715,138 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.09.05-13.48.49:368][  0]LogPakFile: Display: Mounted Pak file 'D:/Games/EpicGames/UE_5.5/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
 [2025.09.05-13.48.49:368][  0]LogPakFile: Initializing PakPlatformFile
 [2025.09.05-13.48.49:386][  0]LogPakFile: Display: Mounted Pak file 'D:/Games/EpicGames/UE_5.5/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2025.09.05-13.48.51:033][  0]LogSlate: Took 0.014679 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.09.05-13.48.51:064][  0]LogSlate: Took 0.014549 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.09.05-13.48.51:170][  0]LogNNEDenoiser: ApplySettings: bDenoiserEnabled 1
+[2025.09.05-13.48.51:230][  0]LogNNEDenoiser: Loaded input mapping from NNEDIM_ColorAlbedoNormal_Alpha
+[2025.09.05-13.48.51:245][  0]LogNNEDenoiser: Loaded output mapping from NNEDOM_Output_Alpha
+[2025.09.05-13.48.51:246][  0]LogNNEDenoiser: Try create model instance with runtime NNERuntimeORTDml on RDG...
+[2025.09.05-13.48.51:434][  0]LogNNEDenoiser: Display: Created model instance with runtime NNERuntimeORTDml on RDG
+[2025.09.05-13.48.51:434][  0]LogNNEDenoiser: Create denoiser from asset /NNEDenoiser/NNED_Oidn2-3_Balanced_Alpha.NNED_Oidn2-3_Balanced_Alpha...
+[2025.09.05-13.48.51:462][  0]LogNNEDenoiser: Loaded input mapping from NNEDTIM_ColorAlbedoNormal_Alpha
+[2025.09.05-13.48.51:475][  0]LogNNEDenoiser: Loaded output mapping from NNEDTOM_Output_Alpha
+[2025.09.05-13.48.51:475][  0]LogNNEDenoiser: Try create model instance with runtime NNERuntimeORTDml on RDG...
+[2025.09.05-13.48.51:607][  0]LogNNEDenoiser: Display: Created model instance with runtime NNERuntimeORTDml on RDG
+[2025.09.05-13.48.51:607][  0]LogNNEDenoiser: Create temporal denoiser from asset /NNEDenoiser/NNEDT_Oidn2-3_Balanced_Alpha.NNEDT_Oidn2-3_Balanced_Alpha...
+[2025.09.05-13.48.51:699][  0]LogSlate: Took 0.014162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.09.05-13.48.52:582][  0]LogStall: Startup...
+[2025.09.05-13.48.52:594][  0]LogStall: Startup complete.
+[2025.09.05-13.48.52:816][  0]LogLoad: (Engine Initialization) Total time: 132.44 seconds
+[2025.09.05-13.48.53:859][  0]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.05-13.48.53:859][  0]LogContentValidation: Enabled validators:
+[2025.09.05-13.48.53:860][  0]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.05-13.48.53:860][  0]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.05-13.48.53:860][  0]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.05-13.48.53:860][  0]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.05-13.48.53:860][  0]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.05-13.48.53:860][  0]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.05-13.48.53:863][  0]AssetCheck: /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight Validating asset
+[2025.09.05-13.48.54:038][  0]LogContentStreaming: Texture pool size now 600 MB
+[2025.09.05-13.48.54:038][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="600"
+[2025.09.05-13.48.54:158][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.05-13.48.54:212][  0]LogPython: Display: Running start-up script D:/Games/EpicGames/UE_5.5/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2025.09.05-13.49.11:869][  0]LogDerivedDataCache: C:/Users/idhant/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.05-13.49.46:466][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2025.09.05-13.49.46:483][  0]LogPython: Display: Running start-up script D:/Games/EpicGames/UE_5.5/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 52.2 sec
+[2025.09.05-13.49.47:491][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: ProjectFateEditor Win64 Development
+[2025.09.05-13.49.48:149][  1]LogAssetRegistry: AssetRegistryGather time 47.0944s: AssetDataDiscovery 1.3612s, AssetDataGather 45.1364s, StoreResults 0.5967s. Wall time 135.4840s.
+	NumCachedDirectories 0. NumUncachedDirectories 1779. NumCachedFiles 0. NumUncachedFiles 7992.
+	BackgroundTickInterruptions 0.
+[2025.09.05-13.49.48:272][  1]LogSourceControl: Uncontrolled asset enumeration started...
+[2025.09.05-13.49.48:284][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2025.09.05-13.49.49:584][  2]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 85.538406
+[2025.09.05-13.49.49:592][  2]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2025.09.05-13.49.49:599][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 85.913109
+[2025.09.05-13.49.50:315][  5]LogSourceControl: Uncontrolled asset enumeration finished in 2.043076 seconds (Found 7700 uncontrolled assets)
+[2025.09.05-13.49.50:671][  6]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.09.05-13.49.51:339][  8]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 87.334686
+[2025.09.05-13.49.51:343][  8]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1566107338
+[2025.09.05-13.49.51:343][  8]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 87.334686, Update Interval: 344.111450
+[2025.09.05-13.49.52:331][ 11]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: d9d...c5a Access[Expires: 2025.09.05-15.49.55 Remaining: 7200.34] Refresh[Expires: 2026-03-04T13:31:03.532Z Remaining: 15550868.53] State: Valid
+[2025.09.05-13.49.52:668][ 12]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Received FUserAuthToken
+[2025.09.05-13.49.53:668][ 15]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Login complete: EOS_Success
+[2025.09.05-13.49.53:669][ 15]LogFab: Display: User logged in
+[2025.09.05-13.49.53:671][ 15]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
+[2025.09.05-13.49.54:337][ 18]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-serwr9v0fECmzCWUmfsuLw-CLi-qKjtCEWSiwJGXcmMUg]
+[2025.09.05-13.50.24:664][161]LogSlate: Took 0.014116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.09.05-13.50.47:246][406]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2025.09.05-13.50.47:377][406]LogStreaming: Display: FlushAsyncLoading(351): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.05-13.50.48:265][406]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2025.09.05-13.50.48:475][406]LogChaosDD: Creating Chaos Debug Draw Scene for world TestBoxLevel
+[2025.09.05-13.50.48:606][406]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MyContent/Levels/TestBoxLevel.TestBoxLevel
+[2025.09.05-13.50.48:613][406]Cmd: MAP LOAD FILE="E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyContent/Levels/TestBoxLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.05-13.50.48:667][406]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.09.05-13.50.48:680][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.05-13.50.48:721][406]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.05-13.50.48:765][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.09.05-13.50.48:793][406]LogWorld: UWorld::CleanupWorld for TestBoxLevel, bSessionEnded=true, bCleanupResources=true
+[2025.09.05-13.50.48:794][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.05-13.50.48:819][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2025.09.05-13.50.48:836][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.09.05-13.50.48:868][406]LogAudio: Display: Audio Device (ID: 1) registered with world 'TestBoxLevel'.
+[2025.09.05-13.50.48:868][406]LogChaosDD: Creating Chaos Debug Draw Scene for world TestBoxLevel
+[2025.09.05-13.50.49:197][406]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.05-13.50.49:218][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.09.05-13.50.49:226][406]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.05-13.50.49:227][406]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.368ms to complete.
+[2025.09.05-13.50.49:658][407]LogSlate: Took 0.001406 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.09.05-13.50.56:388][738]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.05-13.50.56:414][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.05-13.50.56:459][738]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2025.09.05-13.50.56:468][738]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.09.05-13.50.56:470][738]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.09.05-13.50.56:471][738]LogStreaming: Display: FlushAsyncLoading(354): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.05-13.50.56:494][738]LogPlayLevel: Creating play world package: /Game/MyContent/Levels/UEDPIE_0_TestBoxLevel
+[2025.09.05-13.50.56:510][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014677s)
+[2025.09.05-13.50.56:510][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Levels/TestBoxLevel.TestBoxLevel to /Game/MyContent/Levels/UEDPIE_0_TestBoxLevel.TestBoxLevel (0.015324s)
+[2025.09.05-13.50.56:534][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.09.05-13.50.56:544][738]LogChaosDD: Creating Chaos Debug Draw Scene for world TestBoxLevel
+[2025.09.05-13.50.56:554][738]LogPlayLevel: PIE: World Init took: (0.008572s)
+[2025.09.05-13.50.56:558][738]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.09.05-13.50.56:561][738]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.05-13.50.56:561][738]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.05-13.50.56:561][738]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.05-13.50.56:561][738]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.05-13.50.56:561][738]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.05-13.50.56:561][738]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.05-13.50.56:561][738]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.05-13.50.56:562][738]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.05-13.50.56:564][738]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.05-13.50.56:564][738]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.05-13.50.56:564][738]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.05-13.50.56:574][738]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.05-13.50.57:189][738]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.09.05-13.50.57:192][738]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.05-13.50.57:192][738]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.05-13.50.57:193][738]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.05-13.50.57:197][738]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.09.05-13.50.57:197][738]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.09.05-13.50.57:201][738]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.09.05-13.50.57:202][738]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.09.05-13.50.57:202][738]LogInit: FAudioDevice initialized with ID 2.
+[2025.09.05-13.50.57:202][738]LogAudio: Display: Audio Device (ID: 2) registered with world 'TestBoxLevel'.
+[2025.09.05-13.50.57:203][738]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.09.05-13.50.57:229][738]LogLoad: Game class is 'BP_GM_Core_C'
+[2025.09.05-13.50.57:234][738]LogWorld: Bringing World /Game/MyContent/Levels/UEDPIE_0_TestBoxLevel.TestBoxLevel up for play (max tick rate 60) at 2025.09.05-14.50.57
+[2025.09.05-13.50.57:240][738]LogWorld: Bringing up level for play took: 0.008823
+[2025.09.05-13.50.57:246][738]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2025.09.05-13.50.57:360][738]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.09.05-13.50.57:361][738]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.09.05-13.50.57:361][738]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.09.05-13.50.57:466][738]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.09.05-13.50.57:471][738]PIE: Server logged in
+[2025.09.05-13.50.57:477][738]PIE: Play in editor total start time 1.073 seconds.
+[2025.09.05-13.51.05:144][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.05-13.51.05:146][157]LogWorld: BeginTearingDown for /Game/MyContent/Levels/UEDPIE_0_TestBoxLevel
+[2025.09.05-13.51.05:147][157]LogWorld: UWorld::CleanupWorld for TestBoxLevel, bSessionEnded=true, bCleanupResources=true
+[2025.09.05-13.51.05:148][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.05-13.51.05:158][157]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.05-13.51.05:163][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.05-13.51.05:181][157]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.05-13.51.05:183][157]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.09.05-13.51.05:185][157]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.09.05-13.51.05:190][157]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.09.05-13.51.05:206][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.05-13.51.05:217][157]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2025.09.05-13.51.05:290][158]LogPlayLevel: Display: Destroying online subsystem :Context_1
