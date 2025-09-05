@@ -1,0 +1,43 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\projects\\unreal\\fate\\fateshooter\\projectfate\\plugins\\advancedsessions\\intermediate\\build\\win64\\unrealgame\\inc\\advancedsessions\\uht\\advancedgamesession.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\projects\\unreal\\fate\\fateshooter\\projectfate\\intermediate\\build\\win64\\x64\\projectfate\\development\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\projects\\unreal\\fate\\fateshooter\\projectfate\\plugins\\advancedsessions\\intermediate\\build\\win64\\x64\\unrealgame\\development\\advancedsessions\\definitions.advancedsessions.h",
+            "e:\\projects\\unreal\\fate\\fateshooter\\projectfate\\plugins\\advancedsessions\\source\\advancedsessions\\classes\\advancedgamesession.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\online.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinesubsystem.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinesubsystemmodule.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinesubsystemtypes.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinesubsystemnames.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinedelegatemacros.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlineidentityinterface.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlinefriendsinterface.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlinesessioninterface.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlinesessiondelegates.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinekeyvaluepair.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlineexternaluiinterface.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlinemessageinterface.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlineerror.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\voiceinterface.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinesubsystempackage.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\multithreadedpatching.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlinetitlefileinterface.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlineentitlementsinterface.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlineusercloudinterface.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamesession.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\gamesession.generated.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerstate.h",
+            "d:\\games\\epicgames\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\playerstate.generated.h",
+            "e:\\projects\\unreal\\fate\\fateshooter\\projectfate\\plugins\\advancedsessions\\intermediate\\build\\win64\\unrealgame\\inc\\advancedsessions\\uht\\advancedgamesession.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
