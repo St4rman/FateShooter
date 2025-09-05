@@ -5,7 +5,19 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyContent/Levels/TestBoxLevel.umap",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyBlueprints/GameModes/Core/BP_GM_Core.uasset",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyBlueprints/Player/BP_FateCharacter.uasset",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/Characters/Mannequins/Meshes/SKM_Manny.uasset",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/FirstPerson/Blueprints/BP_PickUp_Rifle.uasset",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyBlueprints/Player/BP_TestPlayer.uasset",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/FirstPerson/Blueprints/BP_FateCharacter.uasset",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter1.uasset"
 			]
 		}
 	]

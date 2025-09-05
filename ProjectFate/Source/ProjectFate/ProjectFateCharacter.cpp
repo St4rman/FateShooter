@@ -6,10 +6,13 @@
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 #include "Engine/LocalPlayer.h"
+#include "GameFramework/PawnMovementComponent.h"
+class UCharacterMovementComponent;
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -34,7 +37,13 @@ AProjectFateCharacter::AProjectFateCharacter()
 	Mesh1P->bCastDynamicShadow = false;
 	Mesh1P->CastShadow = false;
 	Mesh1P->SetRelativeLocation(FVector(-30.f, 0.f, -150.f));
-
+	
+	Mesh3P = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("ThirdPerson3P"));
+	Mesh3P->SetOnlyOwnerSee(false);
+	Mesh3P->SetupAttachment(GetCapsuleComponent());
+	Mesh3P->SetRelativeLocation(FVector(0, 0, -90.0f));
+	Mesh3P->SetRelativeRotation(FRotator(0.f, -90.0f, 0.f));
+	
 }
 
 //////////////////////////////////////////////////////////////////////////// Input
@@ -51,6 +60,23 @@ void AProjectFateCharacter::NotifyControllerChanged()
 			Subsystem->AddMappingContext(DefaultMappingContext, 0);
 		}
 	}
+}
+
+void AProjectFateCharacter::PostInitializeComponents()
+{
+	MovementComp = GetCharacterMovement();
+	MovementComp->GravityScale = 2.2f;
+	MovementComp->MaxAcceleration = 5000.0f;
+	
+	MovementComp->GroundFriction = 4.0f;
+	MovementComp->MaxWalkSpeed= 1000.0f;
+	MovementComp->BrakingDecelerationWalking = 100.f;
+	
+	MovementComp->JumpZVelocity = 800.0f;
+	MovementComp->AirControl = 0.6f;
+
+	ACharacter::PostInitializeComponents();
+	
 }
 
 void AProjectFateCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -79,7 +105,8 @@ void AProjectFateCharacter::Move(const FInputActionValue& Value)
 {
 	// input is a Vector2D
 	FVector2D MovementVector = Value.Get<FVector2D>();
-
+	MovementCache = MovementVector;
+	
 	if (Controller != nullptr)
 	{
 		// add movement 
@@ -99,4 +126,17 @@ void AProjectFateCharacter::Look(const FInputActionValue& Value)
 		AddControllerYawInput(LookAxisVector.X);
 		AddControllerPitchInput(LookAxisVector.Y);
 	}
+}
+
+
+
+/*
+ * Quake like camera lean
+ */
+bool AProjectFateCharacter::ShouldCamLean()
+{
+	float CurrentVelocity = GetVelocity().Length();
+	bool bShouldLean = false;
+	bShouldLean = ! MovementComp->IsFalling() && CurrentVelocity > 200.0f && MovementCache.X != 0.0f;
+	return bShouldLean;
 }

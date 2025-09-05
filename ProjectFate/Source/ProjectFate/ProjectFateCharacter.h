@@ -7,7 +7,9 @@
 #include "Logging/LogMacros.h"
 #include "ProjectFateCharacter.generated.h"
 
+class ACharacter;
 class UInputComponent;
+class UCharacterMovementComponent;
 class USkeletalMeshComponent;
 class UCameraComponent;
 class UInputAction;
@@ -24,6 +26,9 @@ class AProjectFateCharacter : public ACharacter
 	/** Pawn mesh: 1st person view (arms; seen only by self) */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Mesh, meta = (AllowPrivateAccess = "true"))
 	USkeletalMeshComponent* Mesh1P;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Mesh, meta = (AllowPrivateAccess = "true"))
+	USkeletalMeshComponent* Mesh3P;
 
 	/** First person camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
@@ -54,6 +59,11 @@ protected:
 
 	/** Called for looking input */
 	void Look(const FInputActionValue& Value);
+	
+	void PostInitializeComponents() override;
+	
+	FVector2D MovementCache;
+	UCharacterMovementComponent* MovementComp;
 
 protected:
 	// APawn interface
@@ -64,8 +74,14 @@ protected:
 public:
 	/** Returns Mesh1P subobject **/
 	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
+	USkeletalMeshComponent* GetMesh3P() const { return Mesh3P; }
+
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
-};
+	UFUNCTION(BlueprintCallable)
+	bool ShouldCamLean();
 
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
+	void DoCamLean();
+};
