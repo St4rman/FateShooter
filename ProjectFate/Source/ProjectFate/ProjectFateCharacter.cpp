@@ -67,7 +67,7 @@ void AProjectFateCharacter::PostInitializeComponents()
 	MovementComp->MaxWalkSpeed= 1000.0f;
 	MovementComp->BrakingDecelerationWalking = 100.f;
 	
-	MovementComp->JumpZVelocity = 700.0f;
+	MovementComp->JumpZVelocity = 800.0f;
 	MovementComp->AirControl = 0.6f;
 
 	ACharacter::PostInitializeComponents();
