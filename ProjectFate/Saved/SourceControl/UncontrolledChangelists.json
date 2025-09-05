@@ -5,7 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyBlueprints/Player/BP_TestPlayer.uasset",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyContent/Levels/TestBoxLevel.umap"
 			]
 		}
 	]

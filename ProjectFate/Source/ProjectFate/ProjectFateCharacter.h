@@ -7,7 +7,9 @@
 #include "Logging/LogMacros.h"
 #include "ProjectFateCharacter.generated.h"
 
+class ACharacter;
 class UInputComponent;
+class UCharacterMovementComponent;
 class USkeletalMeshComponent;
 class UCameraComponent;
 class UInputAction;
@@ -54,6 +56,13 @@ protected:
 
 	/** Called for looking input */
 	void Look(const FInputActionValue& Value);
+	
+	
+
+	void PostInitializeComponents() override;
+	
+	FVector2D MovementCache;
+	UCharacterMovementComponent* MovementComp;
 
 protected:
 	// APawn interface
@@ -67,5 +76,9 @@ public:
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
-};
+	UFUNCTION(BlueprintCallable)
+	bool ShouldCamLean();
 
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
+	void DoCamLean();
+};
