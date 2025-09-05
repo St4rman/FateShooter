@@ -38,6 +38,11 @@ AProjectFateCharacter::AProjectFateCharacter()
 	Mesh1P->CastShadow = false;
 	Mesh1P->SetRelativeLocation(FVector(-30.f, 0.f, -150.f));
 	
+	Mesh3P = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("ThirdPerson3P"));
+	Mesh3P->SetOnlyOwnerSee(false);
+	Mesh3P->SetupAttachment(GetCapsuleComponent());
+	Mesh3P->SetRelativeLocation(FVector(0, 0, -90.0f));
+	Mesh3P->SetRelativeRotation(FRotator(0.f, -90.0f, 0.f));
 	
 }
 
