@@ -11208,3 +11208,37 @@ Sampler Limit: 32
 [2025.09.05-19.00.20:844][270]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
 [2025.09.05-19.00.20:844][270]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
 [2025.09.05-19.00.20:844][270]LogShaderCompilers: Display: ================================================
+[2025.09.05-19.00.58:202][ 94]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.05-19.00.58:411][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.09.05-19.00.58:423][ 94]LogSavePackage: Moving output files for package: /Game/MyContent/Levels/TestBoxLevel
+[2025.09.05-19.00.58:424][ 94]LogSavePackage: Moving 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Saved/TestBoxLevelE6706AFE4A6BA96E6B6DFD86807922AD.tmp' to 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyContent/Levels/TestBoxLevel.umap'
+[2025.09.05-19.00.58:433][ 94]LogFileHelpers: Saving map 'TestBoxLevel' took 0.051
+[2025.09.05-19.00.58:499][ 94]LogFileHelpers: InternalPromptForCheckoutAndSave took 296.185 ms (total: 12.0 sec)
+[2025.09.05-19.00.58:623][ 94]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.05-19.00.58:624][ 94]LogContentValidation: Enabled validators:
+[2025.09.05-19.00.58:624][ 94]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.05-19.00.58:624][ 94]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.05-19.00.58:624][ 94]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.05-19.00.58:624][ 94]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.05-19.00.58:624][ 94]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.05-19.00.58:624][ 94]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.05-19.00.58:624][ 94]AssetCheck: /Game/MyContent/Levels/TestBoxLevel Validating asset
+[2025.09.05-19.01.12:645][413]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.09.05-19.01.12:645][413]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.09.05-19.01.12:646][413]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/MyContent/Levels/TestBoxLevel.TestBoxLevel:PersistentLevel.StaticMeshActor_5
+[2025.09.05-19.01.12:648][413]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/MyContent/Levels/TestBoxLevel.TestBoxLevel:PersistentLevel.StaticMeshActor_5
+[2025.09.05-19.02.49:245][999]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.05-19.02.49:466][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.09.05-19.02.49:480][999]LogSavePackage: Moving output files for package: /Game/MyContent/Levels/TestBoxLevel
+[2025.09.05-19.02.49:480][999]LogSavePackage: Moving 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Saved/TestBoxLevel21CF3E594D36E50C089030B272341C9C.tmp' to 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyContent/Levels/TestBoxLevel.umap'
+[2025.09.05-19.02.49:488][999]LogFileHelpers: Saving map 'TestBoxLevel' took 0.053
+[2025.09.05-19.02.49:559][999]LogFileHelpers: InternalPromptForCheckoutAndSave took 312.996 ms (total: 12.3 sec)
+[2025.09.05-19.02.49:685][999]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.05-19.02.49:685][999]LogContentValidation: Enabled validators:
+[2025.09.05-19.02.49:685][999]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.05-19.02.49:685][999]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.05-19.02.49:685][999]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.05-19.02.49:685][999]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.05-19.02.49:685][999]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.05-19.02.49:685][999]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.05-19.02.49:685][999]AssetCheck: /Game/MyContent/Levels/TestBoxLevel Validating asset
