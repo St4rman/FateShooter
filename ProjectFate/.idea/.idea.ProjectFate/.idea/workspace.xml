@@ -13,10 +13,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcec5a1-d210-4a75-911d-ed9f7bcc681a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Content/MyContent/Levels/TestBoxLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/Levels/TestBoxLevel.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-0C7A172F472417B0B3C8BBB2A6B6C606/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-132FC6584C1551EC2CFC658CCD5783ED/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-1AFD07604F467A8A13E7CD8242476D9A/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-325726BC4B63AE35BEEBF7B944B8BAE5/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-3D05CA664D46A0B3BBC47CB27B587745/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-3D300E9B4461EB5BA10BF9997632A677/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-3EEAB20043EB600489E08880C740F96F/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-52B4A21345C547873F6E01BF9F738D72/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-5572D6B44F4AD50506F5488BF52DBE85/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-5DA3E00746B356D9B64D11BB3248450D/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-5EEFCA9147F1D4192306869EF10104F4/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-67FD7DF543CDB6D0DE02AAACA2B5C547/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-7AFC45554F6C7747FCB3968095065A9B/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-8757134D4994338B967675B94F96684C/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-9E6BC0D34245783EBE1268B370CD1482/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-A590067A4BA59E5D8157B1B764373C42/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-BEC02C9C40936CE5EC621B87CE68E39F/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-C76099504F4F99FE627BF9BB391AF5CD/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-D363BD584CDC6EE34A4CA49BC4735192/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-DDB164624794E08E01D9B7855A51EF83/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-E3FD5193451564E69613928C2DC5E812/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-E9BC9D79459146934648CB86A5843F23/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-EE32962F42ECCC2CEDF11FBBDBB8088D/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-EFEA846B4A00DB70332B289C4025D826/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-F0E5D31946EB0FB85C1DD7AE173C2A26/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-F83048EA4946E1C32AB4ECA0083A0FF1/CrashReportClient.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/WorldState/2410723257.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WorldState/2410723257.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/ProjectFate_2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/ProjectFate_2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/ProjectFate-backup-2025.09.05-17.02.41.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/ShaderDebugInfo/PCD3D_SM6/WorldGridMaterial_c1ff929ae6e37fb4/Default/DDCKey-Editor.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/ShaderDebugInfo/PCD3D_SM6/WorldGridMaterial_c1ff929ae6e37fb4/Default/DDCKey-Editor.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +74,7 @@
     "C/C++ Project.ProjectFate.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "visual",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -165,6 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757084969864</updated>
       <workItem from="1757084971641" duration="3183000" />
+      <workItem from="1757329504906" duration="1286000" />
     </task>
     <servers />
   </component>
