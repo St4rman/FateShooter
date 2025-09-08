@@ -1,5 +1,6 @@
 ﻿#include "FateWeaponBase.h"
 #include "EnhancedInputSubsystems.h"
+#include "ProjectFate/ProjectFateProjectile.h"
 
 class UEnhancedInputComponent;
 
@@ -12,13 +13,14 @@ AFateWeaponBase::AFateWeaponBase()
 	PickupComponent->SetupAttachment(WeaponMesh);
 	
 	PrimaryActorTick.bCanEverTick = true;
+
+	MuzzleOffset = FVector(100.0f, 0.0f, 10.0f);
 }
 
 
 void AFateWeaponBase::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 void AFateWeaponBase::EndPlay(const EEndPlayReason::Type EndPlayReason)
@@ -47,15 +49,29 @@ bool AFateWeaponBase::AttachWeapon(AProjectFateCharacter* TargetCharacter)
 	return true;
 }
 
-
-
-void AFateWeaponBase::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-}
-
 void AFateWeaponBase::Fire()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Fire"));
+
+	if (Character == nullptr || Character->GetController() == nullptr)
+    	{
+    		return;
+    	}
+    
+    	if (ProjectileClass != nullptr)
+    	{
+    		UWorld* const World = GetWorld();
+    		if (World != nullptr)
+    		{
+    			APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
+    			const FRotator SpawnRotation = PlayerController->PlayerCameraManager->GetCameraRotation();
+    			const FVector SpawnLocation = WeaponMesh->GetSocketLocation("Muzzle");
+    	  
+    			FActorSpawnParameters ActorSpawnParams;
+    			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+    			World->SpawnActor<AProjectFateProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+    			
+    		}
+    	}
 }
 
