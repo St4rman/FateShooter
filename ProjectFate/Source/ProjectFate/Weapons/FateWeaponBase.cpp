@@ -51,8 +51,6 @@ bool AFateWeaponBase::AttachWeapon(AProjectFateCharacter* TargetCharacter)
 
 void AFateWeaponBase::Fire()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Fire"));
-
 	if (Character == nullptr || Character->GetController() == nullptr)
     	{
     		return;
