@@ -84,7 +84,7 @@ void AProjectFateCharacter::TryWeaponFire()
 {
 	if (CurrentWeapon != nullptr)
 	{
-		CurrentWeapon->Fire();
+		CurrentWeapon->Fire(this);
 	}
 }
 

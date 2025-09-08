@@ -3,14 +3,16 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "ProjectFate/ProjectFatePickUpComponent.h"
+#include "ProjectFate/Interfaces/WeaponInterface.h"
 #include "InputMappingContext.h"
+#include "ProjectFate/Interfaces/WeaponInterface.h"
 #include "FateWeaponBase.generated.h"
 
 class AProjectFateProjectile;
 
 
 UCLASS()
-class PROJECTFATE_API AFateWeaponBase : public AActor
+class PROJECTFATE_API AFateWeaponBase : public AActor, public IWeaponInterface
 {
 	GENERATED_BODY()
 
@@ -38,6 +40,9 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="PickUpWeapon")
 	UProjectFatePickUpComponent* PickupComponent;
 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon")
+	TEnumAsByte<EWeaponType> WeaponType;
+
 protected:
 	virtual void BeginPlay() override;
 	
@@ -49,5 +54,12 @@ private:
 	AProjectFateCharacter* Character;
 
 public:
-	void Fire();
+
+	void Fire(AProjectFateCharacter* OwningCharacter);
+
+	UFUNCTION(Server, Reliable, WithValidation)
+	void Server_Fire();
+	bool Server_Fire_Validation();
+	void Server_Fire_Implemetation();
+	
 };

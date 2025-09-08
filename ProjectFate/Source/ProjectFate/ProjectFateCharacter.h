@@ -25,8 +25,7 @@ UCLASS(config=Game)
 class AProjectFateCharacter : public ACharacter
 {
 	GENERATED_BODY()
-
-
+	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Mesh, meta = (AllowPrivateAccess = "true"))
 	USkeletalMeshComponent* Mesh1P;
 
@@ -98,4 +97,10 @@ public:
 	
 	UFUNCTION(BlueprintCallable)
 	ELocomotionMode GetCurrentLocomotionMode() { return  CurrentLocomotionMode; }
+
+
+	UFUNCTION(Server, Reliable, WithValidation)
+	void ServerTest();
+	bool ServerTest_Validate(){return true;}
+	void ServerTest_Implementation(){ UE_LOG(LogTemp, Warning, TEXT("ServerTest Validate")); }
 };

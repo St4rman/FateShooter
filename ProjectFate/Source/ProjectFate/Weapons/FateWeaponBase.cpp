@@ -14,6 +14,7 @@ AFateWeaponBase::AFateWeaponBase()
 	PrimaryActorTick.bCanEverTick = true;
 
 	MuzzleOffset = FVector(100.0f, 0.0f, 10.0f);
+	
 }
 
 
@@ -30,7 +31,8 @@ void AFateWeaponBase::EndPlay(const EEndPlayReason::Type EndPlayReason)
 bool AFateWeaponBase::AttachWeapon(AProjectFateCharacter* TargetCharacter)
 {
 	Character = TargetCharacter;
-
+	SetOwner(Character);
+	
 	if (Character == nullptr || Character->GetInstanceComponents().FindItemByClass<AFateWeaponBase>())
 	{
 		return false;
@@ -48,13 +50,10 @@ bool AFateWeaponBase::AttachWeapon(AProjectFateCharacter* TargetCharacter)
 	return true;
 }
 
-void AFateWeaponBase::Fire()
+void AFateWeaponBase::Fire(AProjectFateCharacter* OwningCharacter)
 {
-	if (Character == nullptr || Character->GetController() == nullptr)
-    	{
-    		return;
-    	}
-    
+	Server_Fire();
+	
 	if (ProjectileClass != nullptr)
 	{
 		UWorld* const World = GetWorld();
@@ -67,8 +66,24 @@ void AFateWeaponBase::Fire()
 			FActorSpawnParameters ActorSpawnParams;
 			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
 			World->SpawnActor<AProjectFateProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
-    			
+	
+			if (!OwningCharacter->HasAuthority())
+			{
+				Server_Fire();
+			}
+			
 		}
 	}
+}
+
+bool AFateWeaponBase::Server_Fire_Validate()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Server_OnFire Validate"));
+	return true;
+}
+void AFateWeaponBase::Server_Fire_Implementation()
+{
+	//add implementation
+	UE_LOG(LogTemp, Warning, TEXT("Server_OnFire Implementation"));
 }
 
