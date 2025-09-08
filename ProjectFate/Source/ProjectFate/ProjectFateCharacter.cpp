@@ -6,6 +6,7 @@
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "Weapons/FateWeaponBase.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
@@ -79,6 +80,14 @@ void AProjectFateCharacter::PostInitializeComponents()
 	
 }
 
+void AProjectFateCharacter::TryWeaponFire()
+{
+	if (CurrentWeapon != nullptr)
+	{
+		CurrentWeapon->Fire();
+	}
+}
+
 void AProjectFateCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {	
 	// Set up action bindings
@@ -93,6 +102,8 @@ void AProjectFateCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 
 		// Looking
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AProjectFateCharacter::Look);
+
+		EnhancedInputComponent->BindAction(FireAction, ETriggerEvent::Triggered, this, &AProjectFateCharacter::TryWeaponFire);
 	}
 	else
 	{
