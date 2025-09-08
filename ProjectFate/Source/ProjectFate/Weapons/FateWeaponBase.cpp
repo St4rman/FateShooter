@@ -1,5 +1,4 @@
 ﻿#include "FateWeaponBase.h"
-#include "EnhancedInputSubsystems.h"
 #include "ProjectFate/ProjectFateProjectile.h"
 
 class UEnhancedInputComponent;
@@ -56,20 +55,20 @@ void AFateWeaponBase::Fire()
     		return;
     	}
     
-    	if (ProjectileClass != nullptr)
-    	{
-    		UWorld* const World = GetWorld();
-    		if (World != nullptr)
-    		{
-    			APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
-    			const FRotator SpawnRotation = PlayerController->PlayerCameraManager->GetCameraRotation();
-    			const FVector SpawnLocation = WeaponMesh->GetSocketLocation("Muzzle");
+	if (ProjectileClass != nullptr)
+	{
+		UWorld* const World = GetWorld();
+		if (World != nullptr)
+		{
+			APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
+			const FRotator SpawnRotation = PlayerController->PlayerCameraManager->GetCameraRotation();
+			const FVector SpawnLocation = WeaponMesh->GetSocketLocation("Muzzle");
     	  
-    			FActorSpawnParameters ActorSpawnParams;
-    			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
-    			World->SpawnActor<AProjectFateProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+			FActorSpawnParameters ActorSpawnParams;
+			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+			World->SpawnActor<AProjectFateProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
     			
-    		}
-    	}
+		}
+	}
 }
 

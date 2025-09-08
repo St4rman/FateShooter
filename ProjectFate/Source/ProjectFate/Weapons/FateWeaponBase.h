@@ -15,22 +15,19 @@ class PROJECTFATE_API AFateWeaponBase : public AActor
 	GENERATED_BODY()
 
 public:
+	AFateWeaponBase();
+	
 	UPROPERTY(EditDefaultsOnly, Category=Projectile)
 	TSubclassOf<class AProjectFateProjectile> ProjectileClass;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
 	USoundBase* FireSound;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
 	UAnimMontage* FireAnimation;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
 	FVector MuzzleOffset;
-	
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Input, meta=(AllowPrivateAccess = "true"))
-	class UInputAction* FireAction;
-	
-	AFateWeaponBase();
 	
 	UFUNCTION(BlueprintCallable, Category="Weapon")
 	bool AttachWeapon(AProjectFateCharacter* TargetCharacter);

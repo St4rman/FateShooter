@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "CoreHelpers/CoreHelper.h"
 #include "Logging/LogMacros.h"
 
 #include "ProjectFateCharacter.generated.h"
@@ -70,6 +71,8 @@ protected:
 	FVector2D MovementCache;
 	UCharacterMovementComponent* MovementComp;
 
+	ELocomotionMode CurrentLocomotionMode;
+
 protected:
 	
 	virtual void NotifyControllerChanged() override;
@@ -89,4 +92,10 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
 	void DoCamLean();
+
+	UFUNCTION(BlueprintCallable)
+	void SetLocomotionMode(ELocomotionMode To) { CurrentLocomotionMode = To; }
+	
+	UFUNCTION(BlueprintCallable)
+	ELocomotionMode GetCurrentLocomotionMode() { return  CurrentLocomotionMode; }
 };
