@@ -60,7 +60,7 @@ void UProjectFateWeaponComponent::Fire()
 bool UProjectFateWeaponComponent::AttachWeapon(AProjectFateCharacter* TargetCharacter)
 {
 	Character = TargetCharacter;
-
+	
 	if (Character == nullptr || Character->GetInstanceComponents().FindItemByClass<UProjectFateWeaponComponent>())
 	{
 		return false;

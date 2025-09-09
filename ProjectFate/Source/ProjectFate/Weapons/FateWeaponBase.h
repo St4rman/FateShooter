@@ -34,6 +34,8 @@ public:
 	UFUNCTION(BlueprintCallable, Category="Weapon")
 	bool AttachWeapon(AProjectFateCharacter* TargetCharacter);
 	
+	void SetOwningPawn(AProjectFateCharacter* NewPawn);
+
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon")
 	USkeletalMeshComponent* WeaponMesh;
 	
@@ -53,13 +55,13 @@ private:
 	
 	AProjectFateCharacter* Character;
 
+	FActorSpawnParameters ActorSpawnParams;
+	FRotator SpawnRCache;
+	FVector  SpawnLCache;
+
 public:
 
 	void Fire(AProjectFateCharacter* OwningCharacter);
-
-	UFUNCTION(Server, Reliable, WithValidation)
-	void Server_Fire();
-	bool Server_Fire_Validation();
-	void Server_Fire_Implemetation();
+	void DoServerFire();
 	
 };

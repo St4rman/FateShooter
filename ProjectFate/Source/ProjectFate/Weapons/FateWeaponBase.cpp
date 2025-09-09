@@ -14,6 +14,11 @@ AFateWeaponBase::AFateWeaponBase()
 	PrimaryActorTick.bCanEverTick = true;
 
 	MuzzleOffset = FVector(100.0f, 0.0f, 10.0f);
+
+
+	
+	ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+		
 	
 }
 
@@ -30,15 +35,16 @@ void AFateWeaponBase::EndPlay(const EEndPlayReason::Type EndPlayReason)
 
 bool AFateWeaponBase::AttachWeapon(AProjectFateCharacter* TargetCharacter)
 {
-	Character = TargetCharacter;
-	SetOwner(Character);
+	SetOwningPawn(TargetCharacter);
 	
 	if (Character == nullptr || Character->GetInstanceComponents().FindItemByClass<AFateWeaponBase>())
 	{
 		return false;
 	}
-
+	
 	const FAttachmentTransformRules AttachmentRules(EAttachmentRule::SnapToTarget, true);
+
+	//check what is what
 	if (Character->IsLocallyControlled())
 	{
 		AttachToComponent(Character->GetMesh1P(), AttachmentRules, FName(TEXT("GripPoint")));
@@ -50,40 +56,40 @@ bool AFateWeaponBase::AttachWeapon(AProjectFateCharacter* TargetCharacter)
 	return true;
 }
 
-void AFateWeaponBase::Fire(AProjectFateCharacter* OwningCharacter)
+void AFateWeaponBase::SetOwningPawn(AProjectFateCharacter* NewPawn)
 {
-	Server_Fire();
-	
-	if (ProjectileClass != nullptr)
+	if ( Character != NewPawn)
 	{
-		UWorld* const World = GetWorld();
-		if (World != nullptr)
-		{
-			APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
-			const FRotator SpawnRotation = PlayerController->PlayerCameraManager->GetCameraRotation();
-			const FVector SpawnLocation = WeaponMesh->GetSocketLocation("Muzzle");
-    	  
-			FActorSpawnParameters ActorSpawnParams;
-			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
-			World->SpawnActor<AProjectFateProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
-	
-			if (!OwningCharacter->HasAuthority())
-			{
-				Server_Fire();
-			}
-			
-		}
+		SetInstigator(NewPawn);
+		Character = NewPawn;
+
+		SetOwner(Character);
 	}
 }
 
-bool AFateWeaponBase::Server_Fire_Validate()
+void AFateWeaponBase::Fire(AProjectFateCharacter* OwningCharacter)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Server_OnFire Validate"));
-	return true;
-}
-void AFateWeaponBase::Server_Fire_Implementation()
-{
-	//add implementation
-	UE_LOG(LogTemp, Warning, TEXT("Server_OnFire Implementation"));
+	if (!HasAuthority())
+	{
+		UE_LOG(LogTemp, Warning, TEXT("client Code"));
+	}
+	else
+	{
+		if (ProjectileClass != nullptr)
+		{
+			UWorld* const World = GetWorld();
+			if (World != nullptr)
+			{
+				APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
+				const FRotator SpawnRotation = PlayerController->PlayerCameraManager->GetCameraRotation();
+				const FVector SpawnLocation = WeaponMesh->GetSocketLocation("Muzzle");
+		
+				SpawnLCache = SpawnLocation;
+				SpawnRCache = SpawnRotation;
+				
+				World->SpawnActor<AProjectFateProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+			}
+		}
+	}
 }
 

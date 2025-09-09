@@ -67,6 +67,7 @@ protected:
 
 	void TryWeaponFire();
 	
+
 	FVector2D MovementCache;
 	UCharacterMovementComponent* MovementComp;
 
@@ -100,7 +101,9 @@ public:
 
 
 	UFUNCTION(Server, Reliable, WithValidation)
-	void ServerTest();
-	bool ServerTest_Validate(){return true;}
-	void ServerTest_Implementation(){ UE_LOG(LogTemp, Warning, TEXT("ServerTest Validate")); }
+	void ServerWpnFire();
+	bool ServerWpnFire_Validate();
+	void ServerWpnFire_Implementation();
+
+	
 };

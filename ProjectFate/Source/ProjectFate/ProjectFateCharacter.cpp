@@ -84,8 +84,16 @@ void AProjectFateCharacter::TryWeaponFire()
 {
 	if (CurrentWeapon != nullptr)
 	{
-		CurrentWeapon->Fire(this);
+		
+		//server
+		
+		if (!HasAuthority())
+		{
+			CurrentWeapon->Fire(this);
+		}
+		ServerWpnFire();
 	}
+	
 }
 
 void AProjectFateCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -151,3 +159,24 @@ bool AProjectFateCharacter::ShouldCamLean()
 	bShouldLean = ! MovementComp->IsFalling() && CurrentVelocity > 200.0f && MovementCache.X != 0.0f;
 	return bShouldLean;
 }
+
+bool AProjectFateCharacter::ServerWpnFire_Validate()
+{
+	// UE_LOG(LogTemp, Warning, TEXT("Server_OnFire Validation called"));
+	if (CurrentWeapon)
+	{
+		return true;
+	}
+	return false;
+}
+
+
+void AProjectFateCharacter::ServerWpnFire_Implementation()
+{
+	
+	if (CurrentWeapon)
+	{
+		CurrentWeapon->Fire(this);
+	}
+}
+

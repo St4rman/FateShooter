@@ -57,4 +57,5 @@ protected:
 private:
 	/** The Character holding this weapon*/
 	AProjectFateCharacter* Character;
+
 };
