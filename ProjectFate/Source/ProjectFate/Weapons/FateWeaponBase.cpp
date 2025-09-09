@@ -1,4 +1,6 @@
 ﻿#include "FateWeaponBase.h"
+
+#include "Kismet/GameplayStatics.h"
 #include "ProjectFate/ProjectFateProjectile.h"
 
 class UEnhancedInputComponent;
@@ -72,6 +74,19 @@ void AFateWeaponBase::Fire(AProjectFateCharacter* OwningCharacter)
 	if (!HasAuthority())
 	{
 		UE_LOG(LogTemp, Warning, TEXT("client Code"));
+		if (FireSound != nullptr)
+		{
+			UGameplayStatics::PlaySoundAtLocation(this, FireSound, Character->GetActorLocation());
+		}
+	
+		if (FireAnimation != nullptr)
+		{
+			UAnimInstance* AnimInstance = Character->GetMesh1P()->GetAnimInstance();
+			if (AnimInstance != nullptr)
+			{
+				AnimInstance->Montage_Play(FireAnimation, 1.f);
+			}
+		}
 	}
 	else
 	{
