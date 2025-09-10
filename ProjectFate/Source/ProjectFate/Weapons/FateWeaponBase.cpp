@@ -1,0 +1,166 @@
+﻿#include "FateWeaponBase.h"
+#include "Kismet/GameplayStatics.h"
+#include "ProjectFate/ProjectFateProjectile.h"
+
+class UEnhancedInputComponent;
+
+AFateWeaponBase::AFateWeaponBase()
+{
+	WeaponMesh = CreateDefaultSubobject<USkeletalMeshComponent>("Weapon Mesh");
+	WeaponMesh->SetupAttachment(RootComponent);
+
+	PickupComponent = CreateDefaultSubobject<UProjectFatePickUpComponent>("PickupComponent");
+	PickupComponent->SetupAttachment(WeaponMesh);
+	PrimaryActorTick.bCanEverTick = true;
+	MuzzleOffset = FVector(100.0f, 0.0f, 10.0f);
+	
+	ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+	
+}
+
+void AFateWeaponBase::BeginPlay()
+{
+	Super::BeginPlay();
+}
+
+void AFateWeaponBase::EndPlay(const EEndPlayReason::Type EndPlayReason)
+{
+	Super::EndPlay(EndPlayReason);
+}
+
+/**
+ * Attach Weapon to player
+ * @param TargetCharacter Owner Player that's picking up the gun
+ * @return if they can attach the weapon or not
+ */
+bool AFateWeaponBase::AttachWeapon(AProjectFateCharacter* TargetCharacter)
+{
+	SetOwningPawn(TargetCharacter);
+	
+	if (Character == nullptr || Character->GetInstanceComponents().FindItemByClass<AFateWeaponBase>())
+	{
+		return false;
+	}
+	
+	const FAttachmentTransformRules AttachmentRules(EAttachmentRule::SnapToTarget, true);
+
+	//check what is what
+	if (Character->IsLocallyControlled())
+	{
+		AttachToComponent(Character->GetMesh1P(), AttachmentRules, FName(TEXT("GripPoint")));
+	}
+	else
+	{
+		AttachToComponent(Character->GetMesh3P(),AttachmentRules, FName(TEXT("hand_rSocket")));
+	}
+	return true;
+}
+
+/**
+ * Sets owning pawn for networking/RPC purposes
+ * @param NewPawn Parent to set owning pawn
+ */
+void AFateWeaponBase::SetOwningPawn(AProjectFateCharacter* NewPawn)
+{
+	if ( Character != NewPawn)
+	{
+		SetInstigator(NewPawn);
+		Character = NewPawn;
+
+		SetOwner(Character);
+	}
+}
+
+/**
+ * Fire method for weapons, do not override this method, override the projectile + hitscan methods
+ * @param OwningCharacter Fire method, that calls both the server and related switch case
+ */
+void AFateWeaponBase::Fire(const AProjectFateCharacter* OwningCharacter)
+{
+	//client code
+	if (!HasAuthority())
+	{
+		DoShootFlair();
+	}
+	//server code
+	else
+	{
+		switch (WeaponType)
+		{
+		case EWeaponType::L_Projectile:
+			FireProjectile();
+			break;
+		case EWeaponType::L_HitScan:
+			FireHitScan();
+			break;
+		default:
+				//default handling
+				break;
+		}
+		//if locally controlled then play sound Anim
+		if (OwningCharacter->IsLocallyControlled())
+		{
+			DoShootFlair();
+		}
+	}
+}
+
+void AFateWeaponBase::DoShootFlair() const
+{
+	if (FireSound != nullptr)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this, FireSound, Character->GetActorLocation());
+	}
+	
+	if (FireAnimation != nullptr)
+	{
+		UAnimInstance* AnimInstance = Character->GetMesh1P()->GetAnimInstance();
+		if (AnimInstance != nullptr)
+		{
+			AnimInstance->Montage_Play(FireAnimation, 1.f);
+		}
+	}
+}
+
+//can be overriden 
+void AFateWeaponBase::FireProjectile()
+{
+	if (ProjectileClass != nullptr)
+	{
+		UWorld* const World = GetWorld();
+		if (World != nullptr)
+		{
+			APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
+			const FRotator SpawnRotation = PlayerController->PlayerCameraManager->GetCameraRotation();
+			const FVector  SpawnLocation = WeaponMesh->GetSocketLocation("Muzzle");
+		
+			SpawnLCache = SpawnLocation;
+			SpawnRCache = SpawnRotation;
+				
+			World->SpawnActor<AProjectFateProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+		}
+	}
+}
+
+//can be overriden as well
+void AFateWeaponBase::FireHitScan()
+{
+	//hit a line trace to detect if it hits
+	FHitResult HitResult;
+
+	UWorld* const World = GetWorld();
+	if (World != nullptr)
+	{
+		APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
+		const FVector TraceStart = WeaponMesh->GetSocketLocation("Muzzle");
+		const FVector TraceEnd = TraceStart + Character->GetActorForwardVector() * 1000.0f;
+		
+		FCollisionQueryParams QueryParams;
+		QueryParams.AddIgnoredActor(this);
+		QueryParams.AddIgnoredActor(Character);
+
+		GetWorld()->LineTraceSingleByChannel(HitResult,TraceStart, TraceEnd, ECollisionChannel::ECC_WorldStatic, QueryParams);
+		DrawDebugLine(GetWorld(), TraceStart, TraceEnd, HitResult.bBlockingHit ? FColor::Blue : FColor::Red, false, 5.0f, 0, 1.0f);
+	}
+}
+
