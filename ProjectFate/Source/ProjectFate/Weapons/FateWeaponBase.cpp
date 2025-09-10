@@ -152,12 +152,11 @@ void AFateWeaponBase::FireProjectile()
 //can be overriden as well
 void AFateWeaponBase::FireHitScan()
 {
-	//hit a line trace to detect if it hits
-	FHitResult HitResult;
-
+	
 	UWorld* const World = GetWorld();
 	if (World != nullptr)
 	{
+		FHitResult HitResult;
 		APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
 		const FVector TraceStart = WeaponMesh->GetSocketLocation("Muzzle");
 		const FVector TraceEnd = TraceStart + Character->GetActorForwardVector() * 1000.0f;
