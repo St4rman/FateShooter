@@ -46,11 +46,6 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon")
 	TEnumAsByte<EWeaponType> WeaponType;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon")
-	FString ThirdPersonSocketName;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon")
-	FString FirstPersonSocketName;
 
 protected:
 	virtual void BeginPlay() override;

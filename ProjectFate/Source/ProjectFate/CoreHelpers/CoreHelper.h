@@ -25,4 +25,3 @@ enum EHitType : uint8
 	L_PlayerHit    = 1 UMETA(DisplayName = "Player",  ToolTip = "Player"),
 	L_SurfaceHit   = 2 UMETA(DisplayName = "Surface", ToolTip = "Surface in the environment"),
 };
-
