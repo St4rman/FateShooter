@@ -4,11 +4,6 @@
 
 class UEnhancedInputComponent;
 
-struct HitStruct
-{
-	
-};
-
 AFateWeaponBase::AFateWeaponBase()
 {
 	WeaponMesh = CreateDefaultSubobject<USkeletalMeshComponent>("Weapon Mesh");
@@ -165,9 +160,7 @@ void AFateWeaponBase::FireHitScan()
 		QueryParams.AddIgnoredActor(Character);
 
 		GetWorld()->LineTraceSingleByChannel(HitResult,TraceStart, TraceEnd, ECollisionChannel::ECC_WorldStatic, QueryParams);
-
 		DrawDebugLine(GetWorld(), TraceStart, TraceEnd, HitResult.bBlockingHit ? FColor::Blue : FColor::Red, false, 5.0f, 0, 1.0f);
-		
 	}
 }
 
