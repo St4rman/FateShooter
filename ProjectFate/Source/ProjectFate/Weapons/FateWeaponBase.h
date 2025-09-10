@@ -6,6 +6,7 @@
 #include "ProjectFate/Interfaces/WeaponInterface.h"
 #include "InputMappingContext.h"
 #include "ProjectFate/Interfaces/WeaponInterface.h"
+#include "ProjectFate/CoreHelpers/CoreHelper.h"
 #include "FateWeaponBase.generated.h"
 
 class AProjectFateProjectile;
@@ -61,7 +62,12 @@ private:
 
 public:
 
-	void Fire(AProjectFateCharacter* OwningCharacter);
-	void DoServerFire();
+	void Fire(const AProjectFateCharacter* OwningCharacter);
+	void DoShootFlair() const;
+
+	UFUNCTION()
+	virtual void FireProjectile();
 	
+	// UFUNCTION()
+	virtual void FireHitScan();
 };

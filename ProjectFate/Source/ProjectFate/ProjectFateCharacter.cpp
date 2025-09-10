@@ -173,7 +173,6 @@ bool AProjectFateCharacter::ServerWpnFire_Validate()
 
 void AProjectFateCharacter::ServerWpnFire_Implementation()
 {
-	
 	if (CurrentWeapon)
 	{
 		CurrentWeapon->Fire(this);
