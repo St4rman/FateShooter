@@ -84,9 +84,6 @@ void AProjectFateCharacter::TryWeaponFire()
 {
 	if (CurrentWeapon != nullptr)
 	{
-		
-		//server
-		
 		if (!HasAuthority())
 		{
 			CurrentWeapon->Fire(this);

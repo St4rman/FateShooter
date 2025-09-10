@@ -35,6 +35,13 @@ void AFateWeaponBase::EndPlay(const EEndPlayReason::Type EndPlayReason)
  */
 bool AFateWeaponBase::AttachWeapon(AProjectFateCharacter* TargetCharacter)
 {
+	if (TargetCharacter != nullptr)
+	{
+		if (TargetCharacter->CurrentWeapon != nullptr)
+		{
+			return false;
+		} 
+	}
 	SetOwningPawn(TargetCharacter);
 	
 	if (Character == nullptr || Character->GetInstanceComponents().FindItemByClass<AFateWeaponBase>())
