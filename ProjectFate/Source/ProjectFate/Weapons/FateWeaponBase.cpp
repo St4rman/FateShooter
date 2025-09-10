@@ -71,9 +71,9 @@ void AFateWeaponBase::SetOwningPawn(AProjectFateCharacter* NewPawn)
 
 void AFateWeaponBase::Fire(AProjectFateCharacter* OwningCharacter)
 {
+	//client code
 	if (!HasAuthority())
 	{
-		UE_LOG(LogTemp, Warning, TEXT("client Code"));
 		if (FireSound != nullptr)
 		{
 			UGameplayStatics::PlaySoundAtLocation(this, FireSound, Character->GetActorLocation());
@@ -88,6 +88,7 @@ void AFateWeaponBase::Fire(AProjectFateCharacter* OwningCharacter)
 			}
 		}
 	}
+	//server code
 	else
 	{
 		if (ProjectileClass != nullptr)
