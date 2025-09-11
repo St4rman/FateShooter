@@ -3211,3 +3211,20 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.09.11-14.50.23:299][377]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.09.11-14.50.23:299][377]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1774.464111, Update Interval: 302.464661
 [2025.09.11-14.50.23:876][392]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2025.09.11-14.50.41:274][522]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2025.09.11-14.50.41:285][522]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.11-14.50.41:438][522]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FPWeapon/Mesh/SK_Pistol] ([1] browsable assets)...
+[2025.09.11-14.50.41:438][522]OBJ SavePackage: Finished generating thumbnails for package [/Game/FPWeapon/Mesh/SK_Pistol]
+[2025.09.11-14.50.41:438][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FPWeapon/Mesh/SK_Pistol" FILE="E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/FPWeapon/Mesh/SK_Pistol.uasset" SILENT=true
+[2025.09.11-14.50.41:440][522]LogSavePackage: Moving output files for package: /Game/FPWeapon/Mesh/SK_Pistol
+[2025.09.11-14.50.41:440][522]LogSavePackage: Moving 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Saved/SK_Pistol3786A86B40352A52F7770197C3C96771.tmp' to 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/FPWeapon/Mesh/SK_Pistol.uasset'
+[2025.09.11-14.50.41:540][522]LogFileHelpers: InternalPromptForCheckoutAndSave took 254.076 ms (total: 4.27 sec)
+[2025.09.11-14.50.41:669][522]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.11-14.50.41:669][522]LogContentValidation: Enabled validators:
+[2025.09.11-14.50.41:669][522]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.11-14.50.41:669][522]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.11-14.50.41:669][522]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.11-14.50.41:669][522]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.11-14.50.41:669][522]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.11-14.50.41:669][522]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.11-14.50.41:669][522]AssetCheck: /Game/FPWeapon/Mesh/SK_Pistol Validating asset
