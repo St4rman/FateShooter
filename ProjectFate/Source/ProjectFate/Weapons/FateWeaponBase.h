@@ -47,7 +47,10 @@ public:
 	TEnumAsByte<EWeaponType> WeaponType;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon")
-	FName SocketName = TEXT("GripPoint"); 
+	FName SocketName = TEXT("GripPoint");
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="AnimBlueprint")
+	TEnumAsByte<EWeaponAnimType> WeaponAnimType;
 
 protected:
 	virtual void BeginPlay() override;
