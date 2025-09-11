@@ -54,7 +54,7 @@ bool AFateWeaponBase::AttachWeapon(AProjectFateCharacter* TargetCharacter)
 	//check what is what
 	if (Character->IsLocallyControlled())
 	{
-		AttachToComponent(Character->GetMesh1P(), AttachmentRules, FName(TEXT("GripPoint")));
+		AttachToComponent(Character->GetMesh1P(), AttachmentRules, SocketName);
 	}
 	else
 	{
