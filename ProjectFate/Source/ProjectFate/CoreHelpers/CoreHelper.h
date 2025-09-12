@@ -26,3 +26,10 @@ enum EHitType : uint8
 	L_SurfaceHit   = 2 UMETA(DisplayName = "Surface", ToolTip = "Surface in the environment"),
 };
 
+UENUM(BlueprintType)
+enum EWeaponAnimType: uint8
+{
+	GenericWpn	= 0 UMETA(DisplayName = "Generic"),
+	PistolWpn	= 1 UMETA(DisplayName = "Pistol Archtype"),
+	RifleWpn	= 2 UMETA(DisplayName = "Rifle Archtype"),
+};

@@ -54,7 +54,7 @@ bool AFateWeaponBase::AttachWeapon(AProjectFateCharacter* TargetCharacter)
 	//check what is what
 	if (Character->IsLocallyControlled())
 	{
-		AttachToComponent(Character->GetMesh1P(), AttachmentRules, FName(TEXT("GripPoint")));
+		AttachToComponent(Character->GetMesh1P(), AttachmentRules, SocketName);
 	}
 	else
 	{
@@ -152,7 +152,6 @@ void AFateWeaponBase::FireProjectile()
 //can be overriden as well
 void AFateWeaponBase::FireHitScan()
 {
-	
 	UWorld* const World = GetWorld();
 	if (World != nullptr)
 	{

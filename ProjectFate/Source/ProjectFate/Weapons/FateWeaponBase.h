@@ -47,10 +47,10 @@ public:
 	TEnumAsByte<EWeaponType> WeaponType;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon")
-	FString ThirdPersonSocketName;
+	FName SocketName = TEXT("GripPoint");
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon")
-	FString FirstPersonSocketName;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="AnimBlueprint")
+	TEnumAsByte<EWeaponAnimType> WeaponAnimType;
 
 protected:
 	virtual void BeginPlay() override;
@@ -66,6 +66,7 @@ private:
 	FRotator SpawnRCache;
 	FVector  SpawnLCache;
 
+	
 public:
 
 	void Fire(const AProjectFateCharacter* OwningCharacter);
