@@ -152,7 +152,6 @@ void AFateWeaponBase::FireProjectile()
 //can be overriden as well
 void AFateWeaponBase::FireHitScan()
 {
-	
 	UWorld* const World = GetWorld();
 	if (World != nullptr)
 	{
