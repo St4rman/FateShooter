@@ -10880,3 +10880,25 @@ Sampler Limit: 32
 [2025.09.15-14.36.52:484][388]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
 [2025.09.15-14.36.52:507][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
 [2025.09.15-14.36.52:620][389]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2025.09.15-14.37.20:484][475]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-14.37.20:484][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-14.37.20:686][475]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2025.09.15-14.37.22:331][483]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.09.15-14.37.22:332][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.15-14.37.22:814][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2025.09.15-14.37.26:993][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.09.15-14.37.27:000][505]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.15-14.37.27:810][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.09.15-14.37.27:837][505]LogSavePackage: Moving output files for package: /Game/MyContent/Levels/TestSandBoxLevel
+[2025.09.15-14.37.27:837][505]LogSavePackage: Moving 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Saved/TestSandBoxLevelF9A0C1BC4825D61972C4E5A0DE61D6F6.tmp' to 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyContent/Levels/TestSandBoxLevel.umap'
+[2025.09.15-14.37.27:858][505]LogFileHelpers: Saving map 'TestSandBoxLevel' took 0.090
+[2025.09.15-14.37.28:119][505]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.12 sec (total: 2:17 min)
+[2025.09.15-14.37.28:377][505]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.15-14.37.28:377][505]LogContentValidation: Enabled validators:
+[2025.09.15-14.37.28:377][505]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.15-14.37.28:377][505]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.15-14.37.28:377][505]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.15-14.37.28:377][505]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.15-14.37.28:377][505]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.15-14.37.28:377][505]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.15-14.37.28:377][505]AssetCheck: /Game/MyContent/Levels/TestSandBoxLevel Validating asset
