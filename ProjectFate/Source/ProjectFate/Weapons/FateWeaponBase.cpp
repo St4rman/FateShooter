@@ -136,7 +136,6 @@ void AFateWeaponBase::DoShootFlair() const
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
 	}
-
 	
 }
 

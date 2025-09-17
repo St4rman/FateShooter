@@ -144,8 +144,6 @@ void AProjectFateCharacter::Look(const FInputActionValue& Value)
 	}
 }
 
-
-
 /*
  * Quake like camera lean
  */

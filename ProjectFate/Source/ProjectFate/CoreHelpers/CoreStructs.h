@@ -3,7 +3,7 @@
 
 #include "CoreMinimal.h"
 #include "ProjectFate/ProjectFateCharacter.h"
-
+#include "CoreStructs.generated.h"
 /**
  * Class for all structs
  */
@@ -14,11 +14,16 @@ public:
 	~CoreStructs();
 };
 
-// USTRUCT(BlueprintType)
-// struct FHitData
-// {
-// 	GENERATED_BODY()
-// 	FVector HitLocation;
-// 	
-// 	AProjectFateCharacter* Shooter;
-// };
+USTRUCT(BlueprintType)
+struct FHitData
+{
+	GENERATED_USTRUCT_BODY()
+	FVector HitLocation;
+	AProjectFateCharacter* Shooter;
+
+	FHitData()
+	{
+		HitLocation = FVector(0, 0, 0);
+		Shooter = nullptr;
+	}
+};
