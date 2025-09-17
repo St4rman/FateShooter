@@ -20,8 +20,6 @@ class PROJECTFATE_API AFateWeaponBase : public AActor, public IWeaponInterface
 public:
 	AFateWeaponBase();
 	
-	UPROPERTY(EditDefaultsOnly, Category=Projectile)
-	TSubclassOf<class AProjectFateProjectile> ProjectileClass;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
 	USoundBase* FireSound;
@@ -32,28 +30,40 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
 	FVector MuzzleOffset;
 	
-	UFUNCTION(BlueprintCallable, Category="Weapon")
+	UFUNCTION(BlueprintCallable, Category="PickUpWeapon")
 	bool AttachWeapon(AProjectFateCharacter* TargetCharacter);
 	
 	void SetOwningPawn(AProjectFateCharacter* NewPawn);
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon")
-	USkeletalMeshComponent* WeaponMesh;
-	
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="PickUpWeapon")
 	UProjectFatePickUpComponent* PickupComponent;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon")
+	//PROPERTIES 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
+	USkeletalMeshComponent* WeaponMesh;
+	
+	UPROPERTY(EditDefaultsOnly, Category="Weapon Variables")
+	TSubclassOf<class AProjectFateProjectile> ProjectileClass;
+	
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
 	TEnumAsByte<EWeaponType> WeaponType;
+	
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
+	float WeaponRange;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon")
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
+	float WeaponRecoil;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
+	float WeaponFiringRate;
+	
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
+	UTexture2D* CrossHairTexture;
+	
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
 	FName SocketName = TEXT("GripPoint");
-
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="AnimBlueprint")
 	TEnumAsByte<EWeaponAnimType> WeaponAnimType;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "UI")
-	UTexture2D* CrossHairTexture;
 
 protected:
 	virtual void BeginPlay() override;
@@ -66,19 +76,13 @@ private:
 	AProjectFateCharacter* Character;
 
 	FActorSpawnParameters ActorSpawnParams;
-	FRotator SpawnRCache;
-	FVector  SpawnLCache;
-
-	
 public:
 
 	void Fire(const AProjectFateCharacter* OwningCharacter);
 	void DoShootFlair() const;
-
 	UFUNCTION()
 	virtual void FireProjectile();
-	
-	// UFUNCTION()
+
 	virtual void FireHitScan();
 
 	UFUNCTION(BlueprintNativeEvent)

@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Camera/CameraComponent.h"
 #include "GameFramework/Character.h"
 #include "CoreHelpers/CoreHelper.h"
 #include "Logging/LogMacros.h"
@@ -59,12 +60,8 @@ public:
 protected:
 	
 	void Move(const FInputActionValue& Value);
-
-	
 	void Look(const FInputActionValue& Value);
-	
 	void PostInitializeComponents() override;
-
 	void TryWeaponFire();
 	
 
@@ -87,6 +84,9 @@ public:
 	
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
+	FVector  GetCameraLocation()	const { return FirstPersonCameraComponent->GetComponentLocation();}
+	FRotator GetCameraRotation()	const { return FirstPersonCameraComponent->GetComponentRotation();}
+	
 	UFUNCTION(BlueprintCallable)
 	bool ShouldCamLean();
 
@@ -98,7 +98,7 @@ public:
 	
 	UFUNCTION(BlueprintCallable)
 	ELocomotionMode GetCurrentLocomotionMode() { return  CurrentLocomotionMode; }
-
+	
 
 	UFUNCTION(Server, Reliable, WithValidation)
 	void ServerWpnFire();

@@ -1,5 +1,6 @@
 ﻿#include "FateWeaponBase.h"
 #include "Kismet/GameplayStatics.h"
+#include "Kismet/KismetMathLibrary.h"
 #include "ProjectFate/ProjectFateProjectile.h"
 
 class UEnhancedInputComponent;
@@ -62,6 +63,8 @@ bool AFateWeaponBase::AttachWeapon(AProjectFateCharacter* TargetCharacter)
 	}
 	return true;
 }
+
+
 
 /**
  * Sets owning pawn for networking/RPC purposes
@@ -144,9 +147,6 @@ void AFateWeaponBase::FireProjectile()
 			APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
 			const FRotator SpawnRotation = PlayerController->PlayerCameraManager->GetCameraRotation();
 			const FVector  SpawnLocation = WeaponMesh->GetSocketLocation("Muzzle");
-		
-			SpawnLCache = SpawnLocation;
-			SpawnRCache = SpawnRotation;
 				
 			World->SpawnActor<AProjectFateProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
 		}
@@ -162,7 +162,7 @@ void AFateWeaponBase::FireHitScan()
 		FHitResult HitResult;
 		APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
 		const FVector TraceStart = WeaponMesh->GetSocketLocation("Muzzle");
-		const FVector TraceEnd = TraceStart + Character->GetActorForwardVector() * 1000.0f;
+		const FVector TraceEnd = TraceStart + UKismetMathLibrary::GetForwardVector( Character->GetCameraRotation()) * 1000.0f;
 		
 		FCollisionQueryParams QueryParams;
 		QueryParams.AddIgnoredActor(this);

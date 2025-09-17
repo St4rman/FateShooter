@@ -13,22 +13,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcec5a1-d210-4a75-911d-ed9f7bcc681a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateNullBlaster.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateNullBlaster.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FPWeapon/Materials/M_FPPistol.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FPWeapon/Materials/M_FPPistol.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/Core/BP_GM_Core.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/Core/BP_GM_Core.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/Gameplay/BP_GM_Gameplay.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/Gameplay/BP_GM_Gameplay.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/Player/BP_FateCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/Player/BP_FateCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/Weapon/BP_TestHS.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/Weapon/BP_TestHS.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyContent/CustomAnim/ExportedRTU/Arms/SK_Arms_PistolIdle.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/CustomAnim/ExportedRTU/Arms/SK_Arms_PistolIdle.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/Weapon/BP_TestProjectile.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/Weapon/BP_TestProjectile.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/MyContent/Levels/TestSandBoxLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/Levels/TestSandBoxLevel.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyContent/Materials/SkyBox.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyContent/Materials/sky_06_2k.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyContent/UI/Game/WBP_HUD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/UI/Game/WBP_HUD.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyContent/UI/Game/WBP_PlayerCount.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/UI/Game/WBP_PlayerCount.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSteamSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSteamSessions/UHT/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateWeaponBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateWeaponBase.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateWeaponBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateWeaponBase.h" afterDir="false" />
     </list>
@@ -45,6 +41,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Plugins/EnhancedInput/Source/EnhancedInput/Private/EnhancedPlayerInput.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/AIModule/Classes/EnvironmentQuery/EnvQueryTypes.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/AIModule/Private/BehaviorTree/Tasks/BTTask_RunEQSQuery.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Core/Private/ProfilingDebugging/TagTrace.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Core/Public/Containers/Array.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h" root0="FORCE_HIGHLIGHTING" />
@@ -53,6 +51,7 @@
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/CoreUObject/Private/UObject/ScriptCore.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectHandle.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectPtr.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Engine/Classes/GameFramework/Pawn.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Engine/Private/Actor.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/TraceLog/Public/Trace/Detail/Channel.inl" root0="FORCE_HIGHLIGHTING" />
@@ -76,7 +75,7 @@
     "C/C++ Project.ProjectFate.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "shooting",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
