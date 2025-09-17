@@ -1,6 +1,7 @@
 ﻿#include "FateWeaponBase.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetMathLibrary.h"
+#include "ProjectFate/CoreHelpers/CoreStructs.h"
 #include "ProjectFate/ProjectFateProjectile.h"
 
 class UEnhancedInputComponent;
@@ -16,6 +17,8 @@ AFateWeaponBase::AFateWeaponBase()
 	MuzzleOffset = FVector(100.0f, 0.0f, 10.0f);
 	
 	ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+	
+	QueryParams.AddIgnoredActor(this);
 	
 }
 
@@ -44,6 +47,7 @@ bool AFateWeaponBase::AttachWeapon(AProjectFateCharacter* TargetCharacter)
 		} 
 	}
 	SetOwningPawn(TargetCharacter);
+	QueryParams.AddIgnoredActor(Character);
 	
 	if (Character == nullptr || Character->GetInstanceComponents().FindItemByClass<AFateWeaponBase>())
 	{
@@ -156,21 +160,19 @@ void AFateWeaponBase::FireProjectile()
 //can be overriden as well
 void AFateWeaponBase::FireHitScan()
 {
-	UWorld* const World = GetWorld();
-	if (World != nullptr)
-	{
-		FHitResult HitResult;
-		APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
-		const FVector TraceStart = WeaponMesh->GetSocketLocation("Muzzle");
-		const FVector TraceEnd = TraceStart + UKismetMathLibrary::GetForwardVector( Character->GetCameraRotation()) * 1000.0f;
-		
-		FCollisionQueryParams QueryParams;
-		QueryParams.AddIgnoredActor(this);
-		QueryParams.AddIgnoredActor(Character);
-
-		GetWorld()->LineTraceSingleByChannel(HitResult,TraceStart, TraceEnd, ECollisionChannel::ECC_WorldStatic, QueryParams);
-		DrawDebugLine(GetWorld(), TraceStart, TraceEnd, HitResult.bBlockingHit ? FColor::Blue : FColor::Red, false, 5.0f, 0, 1.0f);
-	}
+	// UWorld* const World = GetWorld();
+	// if (World != nullptr)
+	// {
+	// 	FHitResult HitResult;
+	// 	APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
+	// 	const FVector TraceStart = WeaponMesh->GetSocketLocation("Muzzle");
+	// 	const FVector TraceEnd = TraceStart + UKismetMathLibrary::GetForwardVector( Character->GetCameraRotation()) * 1000.0f;
+	// 	
+	// 	GetWorld()->LineTraceSingleByChannel(HitResult,TraceStart, TraceEnd, ECollisionChannel::ECC_WorldStatic, QueryParams);
+	// 	DrawDebugLine(GetWorld(), TraceStart, TraceEnd, HitResult.bBlockingHit ? FColor::Blue : FColor::Red, false, 5.0f, 0, 1.0f);
+	//
+	// 	FHitData* CurrentHit = new FHitData(HitResult.Location, Character);
+	// }
 }
 
 void AFateWeaponBase::DoUIFlair_Implementation()

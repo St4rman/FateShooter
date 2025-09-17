@@ -70,12 +70,11 @@ protected:
 	
 	UFUNCTION()
 	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
-
-private:
-	
 	AProjectFateCharacter* Character;
-
+	FCollisionQueryParams QueryParams;
 	FActorSpawnParameters ActorSpawnParams;
+
+	
 public:
 
 	void Fire(const AProjectFateCharacter* OwningCharacter);
@@ -87,4 +86,6 @@ public:
 
 	UFUNCTION(BlueprintNativeEvent)
 	void DoUIFlair();
+
+	
 };
