@@ -88,6 +88,7 @@ void AFateWeaponBase::Fire(const AProjectFateCharacter* OwningCharacter)
 	if (!HasAuthority())
 	{
 		DoShootFlair();
+		DoUIFlair();
 	}
 	//server code
 	else
@@ -108,6 +109,7 @@ void AFateWeaponBase::Fire(const AProjectFateCharacter* OwningCharacter)
 		if (OwningCharacter->IsLocallyControlled())
 		{
 			DoShootFlair();
+			DoUIFlair();
 		}
 	}
 }
@@ -127,6 +129,8 @@ void AFateWeaponBase::DoShootFlair() const
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
 	}
+
+	
 }
 
 //can be overriden 
@@ -167,5 +171,9 @@ void AFateWeaponBase::FireHitScan()
 		GetWorld()->LineTraceSingleByChannel(HitResult,TraceStart, TraceEnd, ECollisionChannel::ECC_WorldStatic, QueryParams);
 		DrawDebugLine(GetWorld(), TraceStart, TraceEnd, HitResult.bBlockingHit ? FColor::Blue : FColor::Red, false, 5.0f, 0, 1.0f);
 	}
+}
+
+void AFateWeaponBase::DoUIFlair_Implementation()
+{
 }
 

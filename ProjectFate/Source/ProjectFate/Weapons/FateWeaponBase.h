@@ -52,6 +52,9 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="AnimBlueprint")
 	TEnumAsByte<EWeaponAnimType> WeaponAnimType;
 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "UI")
+	UTexture2D* CrossHairTexture;
+
 protected:
 	virtual void BeginPlay() override;
 	
@@ -77,4 +80,7 @@ public:
 	
 	// UFUNCTION()
 	virtual void FireHitScan();
+
+	UFUNCTION(BlueprintNativeEvent)
+	void DoUIFlair();
 };
