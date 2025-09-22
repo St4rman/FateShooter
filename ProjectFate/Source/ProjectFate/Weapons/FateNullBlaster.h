@@ -16,6 +16,10 @@ public:
 	virtual void FireHitScan() override;
 	void CreateBlackHole();
 
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AActor> GravityWell;
+	
+
 protected:
 	FHitData OutHitData;
 };
