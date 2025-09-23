@@ -42,8 +42,8 @@ protected:
 	TObjectPtr<AProjectFateCharacter> PlayerCharacter;
 
 	FVector GravityDirCache = FVector::DownVector;
-	FVector GravityDir		;
-	uint8 bIsActive:1; 
+	FVector GravityDir;
+	bool bIsActive = false; 
 
 	void ResetPlayer();
 
@@ -53,5 +53,7 @@ public:
 	
 	UFUNCTION()
 	void InGravityStar(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	UFUNCTION()
+	void OutGravityStar(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 };
 

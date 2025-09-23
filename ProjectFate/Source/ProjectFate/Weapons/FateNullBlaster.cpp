@@ -45,8 +45,6 @@ void AFateNullBlaster::CreateBlackHole()
 		SpawnParams.Instigator = Character;
 		GetWorld()->SpawnActor<AActor>(GravityWell, SpawnTM, SpawnParams);
 		
-		DrawDebugLine(GetWorld(), OutHitData.HitLocation, OutHitData.HitLocation + FVector(0, 0, 9000), FColor::Blue, false, 5.0f, 0, 1.0f);
-		
 	} else
 	{
 		//hvisual

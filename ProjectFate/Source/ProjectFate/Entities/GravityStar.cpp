@@ -33,6 +33,7 @@ void AGravityStar::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
 	SphereComponent->OnComponentBeginOverlap.AddDynamic(this, &AGravityStar::InGravityStar);
+	// SphereComponent->OnComponentEndOverlap.AddDynamic(this, &AGravityStar::OutGravityStar);
 }
 
 
@@ -40,13 +41,11 @@ void AGravityStar::PostInitializeComponents()
 void AGravityStar::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	// UE_LOG(LogTemp, Warning, TEXT("%f"), GetWorldTimerManager().GetTimerRemaining(TimerHandle_Lifetime));
 
-	if (PlayerCharacter != nullptr)
+	if (bIsActive)
 	{
-		UE_LOG(LogTemp, Log, TEXT("Gravity Star Movement"));
-		GravityDir = GetActorLocation() - PlayerCharacter->GetActorLocation();
-		GravityDir.Normalize();
-		PlayerCharacter->GetCharacterMovement()->SetGravityDirection(GravityDir);
+		PlayerCharacter->SetActorLocation(GetActorLocation());
 	}
 }
 
@@ -55,19 +54,24 @@ void AGravityStar::InGravityStar(UPrimitiveComponent* OverlappedComp, AActor* Ot
 	PlayerCharacter = Cast<AProjectFateCharacter>(OtherActor);
 	if( PlayerCharacter != nullptr)
 	{
-		GravityDir = GetActorLocation() - OtherActor->GetActorLocation();
+		GravityDir = GetActorLocation() - PlayerCharacter->GetActorLocation();
 		GravityDirCache = PlayerCharacter->GetCharacterMovement()->GetGravityDirection();
 		PlayerCharacter->GetCharacterMovement()->SetGravityDirection(GravityDir);
-		GetWorldTimerManager().SetTimer(TimerHandle_Lifetime, this, &AGravityStar::ResetPlayer, LifeTime);
+
+		GetWorldTimerManager().SetTimer(TimerHandle_Lifetime, this, &AGravityStar::ResetPlayer, 3.0f);
+		bIsActive = true;
+		DrawDebugLine(GetWorld(),  PlayerCharacter->GetActorLocation(), GetActorLocation(), FColor::Cyan, false, 5.0f, 0, 1.0f);
 	}
 }
+
 
 void AGravityStar::ResetPlayer()
 {
 	if (PlayerCharacter != nullptr)
 	{
+		bIsActive = false;
 		PlayerCharacter->GetCharacterMovement()->SetGravityDirection(GravityDirCache);
-		FVector Fwd = PlayerCharacter->GetFirstPersonCameraComponent()->GetForwardVector();
+		const FVector Fwd = PlayerCharacter->GetFirstPersonCameraComponent()->GetForwardVector();
 		PlayerCharacter->LaunchCharacter(Fwd * ExplodeForce, false, false);
 		Destroy();
 	}
