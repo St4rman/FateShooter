@@ -159,19 +159,7 @@ void AFateWeaponBase::FireProjectile()
 //can be overriden as well
 void AFateWeaponBase::FireHitScan()
 {
-	// UWorld* const World = GetWorld();
-	// if (World != nullptr)
-	// {
-	// 	FHitResult HitResult;
-	// 	APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
-	// 	const FVector TraceStart = WeaponMesh->GetSocketLocation("Muzzle");
-	// 	const FVector TraceEnd = TraceStart + UKismetMathLibrary::GetForwardVector( Character->GetCameraRotation()) * 1000.0f;
-	// 	
-	// 	GetWorld()->LineTraceSingleByChannel(HitResult,TraceStart, TraceEnd, ECollisionChannel::ECC_WorldStatic, QueryParams);
-	// 	DrawDebugLine(GetWorld(), TraceStart, TraceEnd, HitResult.bBlockingHit ? FColor::Blue : FColor::Red, false, 5.0f, 0, 1.0f);
-	//
-	// 	FHitData* CurrentHit = new FHitData(HitResult.Location, Character);
-	// }
+	
 }
 
 void AFateWeaponBase::DoUIFlair_Implementation()
