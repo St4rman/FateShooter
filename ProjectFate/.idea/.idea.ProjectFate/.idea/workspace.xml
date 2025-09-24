@@ -14,13 +14,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2bcec5a1-d210-4a75-911d-ed9f7bcc681a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyContent/Levels/TestSandBoxLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/Levels/TestSandBoxLevel.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSessions/Binaries/Win64/UnrealEditor-AdvancedSessions-Win64-DebugGame.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSessions/Binaries/Win64/UnrealEditor-AdvancedSessions-Win64-DebugGame.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSessions/Binaries/Win64/UnrealEditor-AdvancedSessions-Win64-DebugGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSessions/Binaries/Win64/UnrealEditor-AdvancedSessions-Win64-DebugGame.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Entities/GravityStar.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Entities/GravityStar.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Entities/GravityStar.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Entities/GravityStar.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateNullBlaster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateNullBlaster.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Binaries/Win64/UnrealEditor-AdvancedSteamSessions-Win64-DebugGame.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Binaries/Win64/UnrealEditor-AdvancedSteamSessions-Win64-DebugGame.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Binaries/Win64/UnrealEditor-AdvancedSteamSessions-Win64-DebugGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Binaries/Win64/UnrealEditor-AdvancedSteamSessions-Win64-DebugGame.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectFate.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectFate.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,9 @@
     <setting file="file://$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -79,6 +81,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -96,6 +99,18 @@
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/ProjectFate.vcxproj" />
       </configuration_1>
+      <configuration_2 setup="1">
+        <option name="CONFIGURATION" value="DebugGame_Editor" />
+        <option name="PLATFORM" value="x64" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/ProjectFate.vcxproj" />
+      </configuration_2>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/ProjectFate.vcxproj" />
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/ProjectFate.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="10010" />
@@ -203,6 +218,9 @@
       <workItem from="1758193506457" duration="6558000" />
       <workItem from="1758553647078" duration="15606000" />
       <workItem from="1758625102930" duration="5148000" />
+      <workItem from="1758730484678" duration="472000" />
+      <workItem from="1758731171429" duration="397000" />
+      <workItem from="1758731772153" duration="396000" />
     </task>
     <servers />
   </component>
@@ -213,5 +231,9 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
