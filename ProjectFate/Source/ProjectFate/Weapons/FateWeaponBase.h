@@ -6,6 +6,8 @@
 #include "ProjectFate/Interfaces/WeaponInterface.h"
 #include "InputMappingContext.h"
 #include "ProjectFate/Interfaces/WeaponInterface.h"
+#include "NiagaraFunctionLibrary.h"
+#include "NiagaraComponent.h"
 #include "ProjectFate/CoreHelpers/CoreHelper.h"
 #include "FateWeaponBase.generated.h"
 
@@ -62,8 +64,12 @@ public:
 	
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
 	FName SocketName = TEXT("GripPoint");
+	
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="AnimBlueprint")
 	TEnumAsByte<EWeaponAnimType> WeaponAnimType;
+	
+	UPROPERTY(EditAnywhere, Category="Firing")
+	UNiagaraSystem* FireEffectMuzzle;
 
 protected:
 	virtual void BeginPlay() override;

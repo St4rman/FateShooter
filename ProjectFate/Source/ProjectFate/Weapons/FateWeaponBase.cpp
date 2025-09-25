@@ -136,7 +136,14 @@ void AFateWeaponBase::DoShootFlair() const
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
 	}
-	
+
+	if (FireEffectMuzzle)
+	{
+		APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
+		const FRotator SpawnRotation = PlayerController->PlayerCameraManager->GetCameraRotation();
+		// UNiagaraComponent* NiagaraComponent = UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), FireEffectMuzzle, WeaponMesh->GetSocketLocation("Muzzle"), SpawnRotation);
+		UNiagaraComponent* NiagaraComp = UNiagaraFunctionLibrary::SpawnSystemAttached(FireEffectMuzzle,  WeaponMesh, "Muzzle", WeaponMesh->GetSocketLocation("Muzzle"), SpawnRotation, EAttachLocation::Type::KeepRelativeOffset, true);
+	}
 }
 
 //can be overriden 
