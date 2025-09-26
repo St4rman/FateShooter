@@ -25,7 +25,7 @@ void AFateNullBlaster::FireHitScan()
 		
 		GetWorld()->LineTraceSingleByChannel(HitResult,TraceStart, TraceEnd, ECC_WorldStatic, QueryParams);
 
-		DrawDebugLine(GetWorld(), TraceStart, TraceEnd, HitResult.bBlockingHit ? FColor::Blue : FColor::Red, false, 5.0f, 0, 1.0f);
+		// DrawDebugLine(GetWorld(), TraceStart, TraceEnd, HitResult.bBlockingHit ? FColor::Blue : FColor::Red, false, 5.0f, 0, 1.0f);
 
 		OutHitData.HitLocation = HitResult.Location;
 		OutHitData.Shooter	= Character;
