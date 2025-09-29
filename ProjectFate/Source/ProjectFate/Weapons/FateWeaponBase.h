@@ -84,7 +84,7 @@ protected:
 public:
 
 	void Fire(const AProjectFateCharacter* OwningCharacter);
-	void DoShootFlair() const;
+	void DoShootFlair();
 	UFUNCTION()
 	virtual void FireProjectile();
 
@@ -93,5 +93,6 @@ public:
 	UFUNCTION(BlueprintNativeEvent)
 	void DoUIFlair();
 
-	
+	UFUNCTION(BlueprintNativeEvent)
+	void DoNiagaraDebug();
 };
