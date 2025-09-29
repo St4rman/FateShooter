@@ -38,9 +38,7 @@ void AGravityStar::InGravityStar(UPrimitiveComponent* OverlappedComp, AActor* Ot
 		GravityDir = GetActorLocation() - PlayerCharacter->GetActorLocation();
 		GravityDir.Normalize();
 		PlayerCharacter->LaunchCharacter(GravityDir* ExplodeForce * 0.5f, false, false);
-
 		PlayerCharacter->SetLocomotionMode(L_Locked);
-		
 		DrawDebugLine(GetWorld(),  PlayerCharacter->GetActorLocation(), GetActorLocation(), FColor::Cyan, false, 5.0f, 0, 1.0f);
 	}
 }
