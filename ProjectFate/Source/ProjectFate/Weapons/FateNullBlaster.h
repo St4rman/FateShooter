@@ -16,8 +16,17 @@ public:
 	virtual void FireHitScan() override;
 	void CreateBlackHole();
 
+	UFUNCTION(Server, Reliable)
+	void CreateEffect();
+	
+	UFUNCTION(NetMulticast, Reliable)
+	void MultiCreateHitEffect();
+
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<AActor> GravityWell;
+
+	UPROPERTY(EditAnywhere)
+	int AmmoCounter;
 
 protected:
 	FHitData OutHitData;

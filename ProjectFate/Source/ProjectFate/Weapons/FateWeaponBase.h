@@ -71,6 +71,9 @@ public:
 	UPROPERTY(EditAnywhere, Category="Firing")
 	UNiagaraSystem* FireEffectMuzzle;
 
+	UPROPERTY(EditAnywhere, Category="Firing")
+	UNiagaraSystem* HitEffect;
+
 protected:
 	virtual void BeginPlay() override;
 	
