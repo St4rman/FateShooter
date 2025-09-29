@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Components/SphereComponent.h"
+#include "PhysicsEngine/PhysicsConstraintComponent.h"
 #include "ProjectFate/ProjectFateCharacter.h"
 #include "GravityStar.generated.h"
 
@@ -24,11 +25,17 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	TObjectPtr<USphereComponent> SphereComponent;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	TObjectPtr<UPhysicsConstraintComponent> SpringConstraint;
+
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float ExplodeForce = 8000;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float LifeTime = 3.0f;
+
+	
 	
 	// UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	// TObjectPtr<UProjectileMovementComponent> MovementComponent;
@@ -49,7 +56,6 @@ protected:
 
 public:
 	void PostInitializeComponents() override;
-	virtual void Tick(float DeltaTime) override;
 	
 	UFUNCTION()
 	void InGravityStar(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);

@@ -14,6 +14,18 @@
   <component name="ChangeListManager">
     <list default="true" id="2bcec5a1-d210-4a75-911d-ed9f7bcc681a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/Debug/BP_GravityStar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/Debug/BP_GravityStar.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/Levels/TestSandBoxLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/Levels/TestSandBoxLevel.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSteamSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSteamSessions/UHT/Timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/CoreHelpers/CoreHelper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/CoreHelpers/CoreHelper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Entities/GravityStar.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Entities/GravityStar.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Entities/GravityStar.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Entities/GravityStar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateNullBlaster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateNullBlaster.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +56,7 @@
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Engine/Private/Actor.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Engine/Private/Character.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Engine/Private/Components/SceneComponent.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Engine/Private/KismetSystemLibrary.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/TraceLog/Public/Trace/Detail/Channel.inl" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/ProjectFate/UHT/CoreHelper.gen.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/ProjectFate/UHT/CoreStructs.gen.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -69,7 +82,7 @@
     "C/C++ Project.ProjectFate.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "null-pistol",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -219,7 +232,7 @@
       <workItem from="1758795860583" duration="11048000" />
       <workItem from="1758887520360" duration="7932000" />
       <workItem from="1759142361423" duration="9090000" />
-      <workItem from="1759154727553" duration="617000" />
+      <workItem from="1759154727553" duration="4274000" />
     </task>
     <servers />
   </component>

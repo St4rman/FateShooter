@@ -41,7 +41,7 @@ void AFateNullBlaster::CreateBlackHole()
 		FActorSpawnParameters SpawnParams;
 		SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 		SpawnParams.Instigator = Character;
-		// GetWorld()->SpawnActor<AActor>(GravityWell, SpawnTM, SpawnParams);
+		GetWorld()->SpawnActor<AActor>(GravityWell, SpawnTM, SpawnParams);
 		
 	} else
 	{

@@ -19,8 +19,6 @@ public:
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<AActor> GravityWell;
 
-	
-
 protected:
 	FHitData OutHitData;
 };

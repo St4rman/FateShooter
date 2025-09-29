@@ -119,6 +119,11 @@ void AProjectFateCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 
 void AProjectFateCharacter::Move(const FInputActionValue& Value)
 {
+	if (CurrentLocomotionMode == L_Locked)
+	{
+		return;
+	}
+	
 	// input is a Vector2D
 	FVector2D MovementVector = Value.Get<FVector2D>();
 	MovementCache = MovementVector;
