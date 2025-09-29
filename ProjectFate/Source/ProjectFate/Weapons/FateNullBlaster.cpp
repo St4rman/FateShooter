@@ -9,6 +9,7 @@ AFateNullBlaster::AFateNullBlaster()
 	PrimaryActorTick.bCanEverTick = true;
 }
 
+//this should be running on the server
 void AFateNullBlaster::FireHitScan()
 {
 	Super::FireHitScan();
@@ -31,19 +32,18 @@ void AFateNullBlaster::FireHitScan()
 		if (bIsHit)
 		{
 			OutHitData.HitLocation = HitResult.Location;
-			OutHitData.Shooter	= Character;
-			CreateEffect();
-			
-			if (AmmoCounter == 4)
-			{
-				AmmoCounter = 0;
-				CreateBlackHole();
-			}
+			OutHitData.Shooter	= Character;		
 		}
 	}
 	
 	AmmoCounter +=1;
-	
+
+	if (AmmoCounter == 4)
+	{
+		AmmoCounter = 0;
+		CreateBlackHole();
+	}
+	Multi_OnFire();
 }
 
 void AFateNullBlaster::CreateBlackHole()
@@ -56,16 +56,18 @@ void AFateNullBlaster::CreateBlackHole()
 	
 }
 
-void AFateNullBlaster::CreateEffect_Implementation()
+bool AFateNullBlaster::Multi_OnFire_Validate()
 {
-	MultiCreateHitEffect();
-	UE_LOG(LogTemp, Warning, TEXT("Server called"));
+	return true;
 }
 
-void AFateNullBlaster::MultiCreateHitEffect_Implementation()
+void AFateNullBlaster::Multi_OnFire_Implementation()
 {
-	UNiagaraComponent* NiagaraComp = UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), HitEffect, OutHitData.HitLocation, FRotator::ZeroRotator, FVector(1), true, true);
-	// NiagaraComp->SetIsReplicated(true);
-	UE_LOG(LogTemp, Warning, TEXT("client multicast called"));
+	if (HitEffect != nullptr)
+	{
+		UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), HitEffect, GetActorLocation(), FRotator(0), FVector(1), false , true);
+	}
 }
+
+
 
