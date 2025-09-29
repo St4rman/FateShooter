@@ -41,7 +41,6 @@ void AGravityStar::PostInitializeComponents()
 void AGravityStar::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	// UE_LOG(LogTemp, Warning, TEXT("%f"), GetWorldTimerManager().GetTimerRemaining(TimerHandle_Lifetime));
 
 	if (bIsActive)
 	{

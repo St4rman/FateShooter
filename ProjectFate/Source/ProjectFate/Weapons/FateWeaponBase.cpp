@@ -121,7 +121,7 @@ void AFateWeaponBase::Fire(const AProjectFateCharacter* OwningCharacter)
 	}
 }
 
-void AFateWeaponBase::DoShootFlair() const
+void AFateWeaponBase::DoShootFlair() 
 {
 	if (FireSound != nullptr)
 	{
@@ -136,7 +136,15 @@ void AFateWeaponBase::DoShootFlair() const
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
 	}
-	
+
+	if (FireEffectMuzzle)
+	{
+	// 	const FVector Fwd = Character->GetFirstPersonCameraComponent()->GetForwardVector();
+	// 	const FRotator FwdRot = UKismetMathLibrary::MakeRotFromX(Fwd);
+	// 	const FVector TraceStart = WeaponMesh->GetSocketLocation("Muzzle");
+	// 	DoNiagaraDebug();
+	// 	UNiagaraComponent* NiagaraComp = UNiagaraFunctionLibrary::SpawnSystemAttached(FireEffectMuzzle,  WeaponMesh, "Muzzle", TraceStart, FwdRot, EAttachLocation::Type::KeepWorldPosition, true);
+	}
 }
 
 //can be overriden 
@@ -160,6 +168,10 @@ void AFateWeaponBase::FireProjectile()
 void AFateWeaponBase::FireHitScan()
 {
 	
+}
+
+void AFateWeaponBase::DoNiagaraDebug_Implementation()
+{
 }
 
 void AFateWeaponBase::DoUIFlair_Implementation()
