@@ -63,9 +63,11 @@ bool AFateNullBlaster::Multi_OnFire_Validate()
 
 void AFateNullBlaster::Multi_OnFire_Implementation()
 {
+	
 	if (HitEffect != nullptr)
 	{
-		UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), HitEffect, GetActorLocation(), FRotator(0), FVector(1), false , true);
+		UNiagaraComponent* temp = UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), HitEffect, GetActorLocation(), FRotator(0), FVector(1), false , true);
+		temp->SetIsReplicated(true);
 	}
 }
 
