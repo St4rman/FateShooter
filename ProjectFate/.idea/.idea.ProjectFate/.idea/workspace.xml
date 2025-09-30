@@ -14,35 +14,15 @@
   <component name="ChangeListManager">
     <list default="true" id="2bcec5a1-d210-4a75-911d-ed9f7bcc681a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/Debug/BP_GravityStar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/Debug/BP_GravityStar.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/Player/BP_FateCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/Player/BP_FateCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/Levels/TestSandBoxLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/Levels/TestSandBoxLevel.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/Materials/Debug/M_Debug.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/Materials/Debug/M_Debug.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSteamSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSteamSessions/UHT/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/cef3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/cef3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/webcache_4430/Cache/data_0" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/webcache_4430/Cache/data_0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/webcache_4430/Cache/data_1" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/webcache_4430/Cache/data_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/webcache_4430/Cache/data_2" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/webcache_4430/Cache/data_2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/webcache_4430/Cache/data_3" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/webcache_4430/Cache/data_3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/webcache_4430/Cache/f_000013" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/webcache_4430/Cache/f_000017" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/webcache_4430/Cache/f_000018" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/webcache_4430/Cache/f_00001a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/webcache_4430/Cache/f_000028" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/webcache_4430/Code Cache/js/333e3fa139382214_0" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/webcache_4430/Code Cache/js/333e3fa139382214_0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/webcache_4430/Code Cache/js/index-dir/the-real-index" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/webcache_4430/Code Cache/js/index-dir/the-real-index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/webcache_4430/Cookies" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/webcache_4430/Cookies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/webcache_4430/Network Persistent State" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/webcache_4430/Network Persistent State" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/webcache_4430/Session Storage/000003.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/webcache_4430/Session Storage/000003.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/webcache_4430/TransportSecurity" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/webcache_4430/TransportSecurity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/webcache_4430/Visited Links" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/webcache_4430/Visited Links" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Entities/GravityStar.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Entities/GravityStar.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Entities/GravityStar.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Entities/GravityStar.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateNullBlaster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateNullBlaster.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +126,7 @@
     "C/C++ Project.ProjectFate.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "null-pistol",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",

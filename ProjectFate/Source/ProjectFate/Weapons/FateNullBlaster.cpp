@@ -35,18 +35,24 @@ void AFateNullBlaster::FireHitScan()
 			OutHitData.HitDirection = HitResult.Location - TraceStart;
 			OutHitData.Shooter		= Character;
 			OutHitData.HitEffect	= HitEffect;
+			Cast<AProjectFateCharacter>(Character)->CreateHitEffect(OutHitData);
 		}
 		
-		Cast<AProjectFateCharacter>(Character)->CreateHitEffect(OutHitData);
+		
+		AmmoCounter +=1;
+
+		if (AmmoCounter == 4)
+		{
+			AmmoCounter = 0;
+			if (bIsHit)
+			{
+				// CreateBlackHole();
+			}
+			
+		}
 	}
 	
-	AmmoCounter +=1;
-
-	if (AmmoCounter == 4)
-	{
-		AmmoCounter = 0;
-		CreateBlackHole();
-	}
+	
 }
 
 void AFateNullBlaster::CreateBlackHole()

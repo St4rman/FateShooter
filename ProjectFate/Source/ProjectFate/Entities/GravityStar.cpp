@@ -63,7 +63,7 @@ void AGravityStar::ResetPlayer()
 	{
 		AProjectFateCharacter* Player = Cast<AProjectFateCharacter>(Hit.GetActor());
 		if (Player != nullptr)
-		{v
+		{
 			const FVector Fwd = Player->GetFirstPersonCameraComponent()->GetForwardVector();
 			Player->LaunchCharacter(Fwd *  ExplodeForce, false, false);
 		}
