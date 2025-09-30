@@ -2,6 +2,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "NiagaraSystem.h"
 // #include "ProjectFate/ProjectFateCharacter.h"
 #include "CoreStructs.generated.h"
 
@@ -25,9 +26,13 @@ struct FHitData
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "OutHit")
 	AProjectFateCharacter* Shooter;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "OutHit")
+	UNiagaraSystem* HitEffect;
+
 	FHitData()
 	{
 		HitLocation = FVector(0, 0, 0);
 		Shooter = nullptr;
+		HitEffect = nullptr;
 	}
 };

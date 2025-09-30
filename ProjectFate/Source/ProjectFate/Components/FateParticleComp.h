@@ -6,6 +6,8 @@
 #include "FateParticleComp.generated.h"
 
 
+class UNiagaraSystem;
+
 UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
 class PROJECTFATE_API UFateParticleComp : public UActorComponent
 {
@@ -24,5 +26,14 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UFUNCTION(BlueprintCallable)
-	void SpawnFateParticles(const FHitData InHit); 
+	void SpawnFateParticles(const FHitData InHit);
+
+	UFUNCTION(Server, Reliable)
+	void ServerFireParticles(const FHitData InHit);
+	void ServerFireParticles_Implementation(const FHitData InHit);
+
+	UFUNCTION(NetMulticast, Reliable)
+	void NMC_ServerFire(const FHitData InHit);
+	void NMC_ServerFire_Implementation(const FHitData InHit);
+	
 };
