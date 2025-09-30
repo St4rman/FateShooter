@@ -24,11 +24,15 @@ struct FHitData
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "OutHit")
 	FVector HitLocation;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "OutHit")
+	FVector HitDirection;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "OutHit")
 	AProjectFateCharacter* Shooter;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "OutHit")
 	UNiagaraSystem* HitEffect;
 
+	
 	FHitData()
 	{
 		HitLocation = FVector(0, 0, 0);

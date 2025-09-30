@@ -14,11 +14,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2bcec5a1-d210-4a75-911d-ed9f7bcc681a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/Debug/BP_GravityStar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/Debug/BP_GravityStar.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Components/FateParticleComp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Components/FateParticleComp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/CoreHelpers/CoreStructs.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/CoreHelpers/CoreStructs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateNullBlaster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateNullBlaster.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateWeaponBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateWeaponBase.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,7 +276,7 @@
       <workItem from="1759142361423" duration="9090000" />
       <workItem from="1759154727553" duration="12040000" />
       <workItem from="1759221754249" duration="2983000" />
-      <workItem from="1759225322863" duration="17063000" />
+      <workItem from="1759225322863" duration="18147000" />
     </task>
     <servers />
   </component>

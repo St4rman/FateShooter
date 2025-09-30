@@ -32,6 +32,7 @@ void AFateNullBlaster::FireHitScan()
 		if (bIsHit)
 		{
 			OutHitData.HitLocation	= HitResult.Location;
+			OutHitData.HitDirection = HitResult.Location - TraceStart;
 			OutHitData.Shooter		= Character;
 			OutHitData.HitEffect	= HitEffect;
 		}

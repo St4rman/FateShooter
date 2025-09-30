@@ -137,15 +137,6 @@ void AFateWeaponBase::DoShootFlair()
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
 	}
-
-	if (FireEffectMuzzle)
-	{
-	// 	const FVector Fwd = Character->GetFirstPersonCameraComponent()->GetForwardVector();
-	// 	const FRotator FwdRot = UKismetMathLibrary::MakeRotFromX(Fwd);
-	// 	const FVector TraceStart = WeaponMesh->GetSocketLocation("Muzzle");
-	// 	DoNiagaraDebug();
-	// 	UNiagaraComponent* NiagaraComp = UNiagaraFunctionLibrary::SpawnSystemAttached(FireEffectMuzzle,  WeaponMesh, "Muzzle", TraceStart, FwdRot, EAttachLocation::Type::KeepWorldPosition, true);
-	}
 }
 
 //can be overriden 
