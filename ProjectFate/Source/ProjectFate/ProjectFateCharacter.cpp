@@ -186,3 +186,13 @@ void AProjectFateCharacter::ServerWpnFire_Implementation()
 	}
 }
 
+void AProjectFateCharacter::LockForSeconds(float dur)
+{
+	SetLocomotionMode(L_Locked);
+	GetWorldTimerManager().SetTimer(LockedTimer, this, &AProjectFateCharacter::FreePlayer, dur);
+}
+
+void AProjectFateCharacter::FreePlayer()
+{
+	CurrentLocomotionMode = L_Movement;
+}

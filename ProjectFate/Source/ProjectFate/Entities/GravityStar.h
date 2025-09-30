@@ -34,14 +34,9 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float LifeTime = 3.0f;
-
 	
-	
-	// UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-	// TObjectPtr<UProjectileMovementComponent> MovementComponent;
-	//
-	// UPROPERTY(visibleAnywhere, BlueprintReadOnly)
-	// TObjectPtr<UParticleSystemComponent> ParticleComp;
+	UPROPERTY(visibleAnywhere, BlueprintReadOnly)
+	TObjectPtr<UNiagaraComponent> NiagaraComponent;
 
 	FTimerHandle TimerHandle_Lifetime;
 
@@ -50,7 +45,9 @@ protected:
 
 	FVector GravityDirCache = FVector::DownVector;
 	FVector GravityDir;
-	bool bIsActive = false; 
+	bool bIsActive = false;
+	
+	TArray<AProjectFateCharacter*> Players;
 
 	void ResetPlayer();
 

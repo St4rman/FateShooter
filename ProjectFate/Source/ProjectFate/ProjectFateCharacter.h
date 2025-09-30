@@ -115,5 +115,7 @@ public:
 	bool ServerWpnFire_Validate();
 	void ServerWpnFire_Implementation();
 
-	
+	void LockForSeconds(float dur);
+	void FreePlayer();
+	FTimerHandle LockedTimer;
 };

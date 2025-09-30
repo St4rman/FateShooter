@@ -15,6 +15,8 @@ AGravityStar::AGravityStar()
 	SphereComponent->SetCollisionObjectType(ECC_WorldDynamic);
 	SphereComponent->SetSphereRadius(500);
 	RootComponent = SphereComponent;
+
+	NiagaraComponent = CreateDefaultSubobject<UNiagaraComponent>("Viz NiagraComp");
 }
 
 void AGravityStar::BeginPlay()
@@ -38,33 +40,35 @@ void AGravityStar::InGravityStar(UPrimitiveComponent* OverlappedComp, AActor* Ot
 		GravityDir = GetActorLocation() - PlayerCharacter->GetActorLocation();
 		GravityDir.Normalize();
 		PlayerCharacter->LaunchCharacter(GravityDir* ExplodeForce * 0.5f, false, false);
-		PlayerCharacter->SetLocomotionMode(L_Locked);
-		DrawDebugLine(GetWorld(),  PlayerCharacter->GetActorLocation(), GetActorLocation(), FColor::Cyan, false, 5.0f, 0, 1.0f);
+		PlayerCharacter->LockForSeconds(2.0f);
+		Players.Add(PlayerCharacter);
+		
 	}
 }
 
 
 void AGravityStar::ResetPlayer()
 {
+	SphereComponent->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	
 	TArray<TEnumAsByte<EObjectTypeQuery>> ObjectTypesArray;
 	ObjectTypesArray.Add(UEngineTypes::ConvertToObjectType(ECollisionChannel::ECC_Pawn));
 	TArray<AActor*> ActorsToIgnore;
 	TArray<FHitResult> OutHits;
 	
 	bool bHasHit = UKismetSystemLibrary::SphereTraceMultiForObjects(GetWorld(), GetActorLocation(), GetActorLocation(), 500.f,
-		ObjectTypesArray,false, ActorsToIgnore, EDrawDebugTrace::ForOneFrame , OutHits, true);
+		ObjectTypesArray,false, ActorsToIgnore, EDrawDebugTrace::None , OutHits, true);
 
 	for (FHitResult Hit : OutHits)
 	{
 		AProjectFateCharacter* Player = Cast<AProjectFateCharacter>(Hit.GetActor());
 		if (Player != nullptr)
-		{
-			Player->SetLocomotionMode(L_Movement);
-			Player->GetCharacterMovement()->SetGravityDirection(GravityDirCache);
+		{v
 			const FVector Fwd = Player->GetFirstPersonCameraComponent()->GetForwardVector();
 			Player->LaunchCharacter(Fwd *  ExplodeForce, false, false);
 		}
 	}
+
 	
 	Destroy();
 }
