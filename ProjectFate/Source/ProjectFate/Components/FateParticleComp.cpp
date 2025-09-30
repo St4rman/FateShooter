@@ -38,7 +38,6 @@ void UFateParticleComp::ServerFireParticles_Implementation(const FHitData InHit)
 
 void UFateParticleComp::NMC_ServerFire_Implementation(const FHitData InHit)
 {
-	//ALL CLIENTS SHOULD FIRE THIS
 	//hit effect
 	UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), InHit.HitEffect , InHit.HitLocation);
 
