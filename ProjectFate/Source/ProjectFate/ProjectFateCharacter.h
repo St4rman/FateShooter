@@ -3,9 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "NiagaraComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Components/FateParticleComp.h"
 #include "GameFramework/Character.h"
 #include "CoreHelpers/CoreHelper.h"
+#include "CoreHelpers/CoreStructs.h"
 #include "Logging/LogMacros.h"
 
 #include "ProjectFateCharacter.generated.h"
@@ -50,6 +53,9 @@ class AProjectFateCharacter : public ACharacter
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* FireAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Visual, meta = (AllowPrivateAccess = "true"))
+	UFateParticleComp* PlayerParticleComp;
 	
 public:
 	AProjectFateCharacter();
@@ -83,7 +89,9 @@ public:
 
 	
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
-
+	UFateParticleComp* GetFateParticleComp()		  const { return PlayerParticleComp; }
+	AFateWeaponBase* GetCurrentWeapon()				  const { return CurrentWeapon; }
+	
 	FVector  GetCameraLocation()	const { return FirstPersonCameraComponent->GetComponentLocation();}
 	FRotator GetCameraRotation()	const { return FirstPersonCameraComponent->GetComponentRotation();}
 	
@@ -98,12 +106,16 @@ public:
 	
 	UFUNCTION(BlueprintCallable)
 	ELocomotionMode GetCurrentLocomotionMode() { return  CurrentLocomotionMode; }
-	
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	void CreateHitEffect(FHitData InHit);
 
 	UFUNCTION(Server, Reliable, WithValidation)
 	void ServerWpnFire();
 	bool ServerWpnFire_Validate();
 	void ServerWpnFire_Implementation();
 
-	
+	void LockForSeconds(float dur);
+	void FreePlayer();
+	FTimerHandle LockedTimer;
 };

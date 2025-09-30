@@ -22,7 +22,6 @@ class PROJECTFATE_API AFateWeaponBase : public AActor, public IWeaponInterface
 public:
 	AFateWeaponBase();
 	
-	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
 	USoundBase* FireSound;
 
@@ -71,6 +70,9 @@ public:
 	UPROPERTY(EditAnywhere, Category="Firing")
 	UNiagaraSystem* FireEffectMuzzle;
 
+	UPROPERTY(EditAnywhere, Category="Firing")
+	UNiagaraSystem* HitEffect;
+
 protected:
 	virtual void BeginPlay() override;
 	
@@ -95,4 +97,7 @@ public:
 
 	UFUNCTION(BlueprintNativeEvent)
 	void DoNiagaraDebug();
+
+	UNiagaraSystem* GetFireEffectMuzzle() const { return FireEffectMuzzle; }
+	USkeletalMeshComponent* GetMesh() const {return WeaponMesh; }
 };

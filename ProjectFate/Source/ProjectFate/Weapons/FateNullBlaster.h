@@ -15,12 +15,14 @@ public:
 	AFateNullBlaster();
 	virtual void FireHitScan() override;
 	void CreateBlackHole();
-
+	
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<AActor> GravityWell;
 
-	
+	UPROPERTY(EditAnywhere)
+	int AmmoCounter;
 
+	
 protected:
 	FHitData OutHitData;
 };

@@ -5,9 +5,11 @@ struct FHitData;
 
 AFateNullBlaster::AFateNullBlaster()
 {
+	AmmoCounter = 0;
 	PrimaryActorTick.bCanEverTick = true;
 }
 
+//this should be running on the server
 void AFateNullBlaster::FireHitScan()
 {
 	Super::FireHitScan();
@@ -22,30 +24,37 @@ void AFateNullBlaster::FireHitScan()
 		
 		const FVector TraceStart = WeaponMesh->GetSocketLocation("Muzzle");
 		const FVector TraceEnd = TraceStart + UKismetMathLibrary::GetForwardVector( SpawnRotation) * WeaponRange;
+
+		// DrawDebugLine(GetWorld(), TraceStart, TraceEnd, FColor::Red, true, 1, 0, 0);
+		bool bIsHit = GetWorld()->LineTraceSingleByChannel(HitResult,TraceStart, TraceEnd, ECC_WorldStatic, QueryParams);
+
+		//if hit populate data
+		if (bIsHit)
+		{
+			OutHitData.HitLocation	= HitResult.Location;
+			OutHitData.HitDirection = HitResult.Location - TraceStart;
+			OutHitData.Shooter		= Character;
+			OutHitData.HitEffect	= HitEffect;
+		}
 		
-		GetWorld()->LineTraceSingleByChannel(HitResult,TraceStart, TraceEnd, ECC_WorldStatic, QueryParams);
-		
-		OutHitData.HitLocation = HitResult.Location;
-		OutHitData.Shooter	= Character;
+		Cast<AProjectFateCharacter>(Character)->CreateHitEffect(OutHitData);
 	}
-	CreateBlackHole();
 	
+	AmmoCounter +=1;
+
+	if (AmmoCounter == 4)
+	{
+		AmmoCounter = 0;
+		CreateBlackHole();
+	}
 }
 
 void AFateNullBlaster::CreateBlackHole()
 {
-	if (Character->IsLocallyControlled() /**&& canShootBlackHole**/ )
-	{
-		//S
-		const FTransform SpawnTM = FTransform(FRotator::ZeroRotator, OutHitData.HitLocation);
-		FActorSpawnParameters SpawnParams;
-		SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-		SpawnParams.Instigator = Character;
-		// GetWorld()->SpawnActor<AActor>(GravityWell, SpawnTM, SpawnParams);
-		
-	} else
-	{
-		//hvisual
-		UE_LOG(LogTemp, Warning, TEXT("Client"));
-	}
+	const FTransform SpawnTM = FTransform(FRotator::ZeroRotator, OutHitData.HitLocation);
+	FActorSpawnParameters SpawnParams;
+	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	SpawnParams.Instigator = Character;
+	GetWorld()->SpawnActor<AActor>(GravityWell, SpawnTM, SpawnParams);
+	
 }

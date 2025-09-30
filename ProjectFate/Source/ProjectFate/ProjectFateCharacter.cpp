@@ -44,6 +44,8 @@ AProjectFateCharacter::AProjectFateCharacter()
 	Mesh3P->SetupAttachment(GetCapsuleComponent());
 	Mesh3P->SetRelativeLocation(FVector(0, 0, -90.0f));
 	Mesh3P->SetRelativeRotation(FRotator(0.f, -90.0f, 0.f));
+
+	PlayerParticleComp = CreateDefaultSubobject<UFateParticleComp>(TEXT("PlayerParticleComponent"));
 	
 }
 
@@ -119,6 +121,11 @@ void AProjectFateCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 
 void AProjectFateCharacter::Move(const FInputActionValue& Value)
 {
+	if (CurrentLocomotionMode == L_Locked)
+	{
+		return;
+	}
+	
 	// input is a Vector2D
 	FVector2D MovementVector = Value.Get<FVector2D>();
 	MovementCache = MovementVector;
@@ -155,6 +162,11 @@ bool AProjectFateCharacter::ShouldCamLean()
 	return bShouldLean;
 }
 
+void AProjectFateCharacter::CreateHitEffect_Implementation(FHitData InHit)
+{
+	PlayerParticleComp->SpawnFateParticles(InHit);
+}
+
 bool AProjectFateCharacter::ServerWpnFire_Validate()
 {
 	// UE_LOG(LogTemp, Warning, TEXT("Server_OnFire Validation called"));
@@ -174,3 +186,13 @@ void AProjectFateCharacter::ServerWpnFire_Implementation()
 	}
 }
 
+void AProjectFateCharacter::LockForSeconds(float dur)
+{
+	SetLocomotionMode(L_Locked);
+	GetWorldTimerManager().SetTimer(LockedTimer, this, &AProjectFateCharacter::FreePlayer, dur);
+}
+
+void AProjectFateCharacter::FreePlayer()
+{
+	CurrentLocomotionMode = L_Movement;
+}
