@@ -17,6 +17,9 @@ public:
 	
 	UFateParticleComp();
 
+	UPROPERTY(EditAnywhere)
+	UNiagaraComponent* NiagaraComponent;
+
 protected:
 	
 	virtual void BeginPlay() override;
@@ -35,5 +38,7 @@ public:
 	UFUNCTION(NetMulticast, Reliable)
 	void NMC_ServerFire(const FHitData InHit);
 	void NMC_ServerFire_Implementation(const FHitData InHit);
-	
+
+	UFUNCTION(BlueprintCallable)
+	UNiagaraComponent* GetNiagaraComponent(){ return NiagaraComponent; }
 };

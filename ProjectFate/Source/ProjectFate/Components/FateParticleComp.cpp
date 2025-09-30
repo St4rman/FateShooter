@@ -1,12 +1,16 @@
 ﻿#include "FateParticleComp.h"
 
 #include "NiagaraFunctionLibrary.h"
+#include "Kismet/KismetMathLibrary.h"
 #include "ProjectFate/ProjectFateCharacter.h"
+#include "ProjectFate/Weapons/FateWeaponBase.h"
 
 UFateParticleComp::UFateParticleComp()
 {
 	SetIsReplicatedByDefault(true);
 	PrimaryComponentTick.bCanEverTick = true;
+	
+	NiagaraComponent = CreateDefaultSubobject<UNiagaraComponent>("NiagaraComponent");
 }
 
 void UFateParticleComp::BeginPlay()
@@ -35,8 +39,21 @@ void UFateParticleComp::ServerFireParticles_Implementation(const FHitData InHit)
 void UFateParticleComp::NMC_ServerFire_Implementation(const FHitData InHit)
 {
 	//ALL CLIENTS SHOULD FIRE THIS
+	//hit effect
 	UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), InHit.HitEffect , InHit.HitLocation);
+
+	//fire barell
+	if (InHit.Shooter !=nullptr)
+	{
+		auto currentWeapon = InHit.Shooter->GetCurrentWeapon();
+		UNiagaraSystem* FireEffectMuzzle = currentWeapon->GetFireEffectMuzzle();
+		FVector SpawnLocation = currentWeapon->GetMesh()->GetSocketLocation("Muzzle");
+	
+		const FRotator SpawnRotation = UKismetMathLibrary::MakeRotFromX(InHit.Shooter->GetActorForwardVector());
+		if (FireEffectMuzzle != nullptr)
+		{
+			NiagaraComponent = UNiagaraFunctionLibrary::SpawnSystemAttached(FireEffectMuzzle,  currentWeapon->GetMesh(), "Muzzle", SpawnLocation, SpawnRotation, EAttachLocation::Type::KeepWorldPosition, true);
+		}
+	}
+	
 }
-
-
-

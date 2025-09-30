@@ -89,8 +89,9 @@ public:
 
 	
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
-	UFateParticleComp* GetFateParticleComp() const { return PlayerParticleComp; }
-
+	UFateParticleComp* GetFateParticleComp()		  const { return PlayerParticleComp; }
+	AFateWeaponBase* GetCurrentWeapon()				  const { return CurrentWeapon; }
+	
 	FVector  GetCameraLocation()	const { return FirstPersonCameraComponent->GetComponentLocation();}
 	FRotator GetCameraRotation()	const { return FirstPersonCameraComponent->GetComponentRotation();}
 	
