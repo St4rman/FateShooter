@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "NiagaraComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Components/FateParticleComp.h"
 #include "GameFramework/Character.h"
 #include "CoreHelpers/CoreHelper.h"
 #include "CoreHelpers/CoreStructs.h"
@@ -53,8 +54,8 @@ class AProjectFateCharacter : public ACharacter
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* FireAction;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Visual, meta = (AllowPrivateAccess = "true"))
-	UNiagaraComponent* PlayerParticleSystem;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Visual, meta = (AllowPrivateAccess = "true"))
+	UFateParticleComp* PlayerParticleComp;
 	
 public:
 	AProjectFateCharacter();
@@ -88,6 +89,7 @@ public:
 
 	
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
+	UFateParticleComp* GetFateParticleComp() const { return PlayerParticleComp; }
 
 	FVector  GetCameraLocation()	const { return FirstPersonCameraComponent->GetComponentLocation();}
 	FRotator GetCameraRotation()	const { return FirstPersonCameraComponent->GetComponentRotation();}

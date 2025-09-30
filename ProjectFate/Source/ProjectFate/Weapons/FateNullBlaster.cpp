@@ -34,6 +34,7 @@ void AFateNullBlaster::FireHitScan()
 			OutHitData.HitLocation = HitResult.Location;
 			OutHitData.Shooter	= Character;		
 		}
+		
 		Cast<AProjectFateCharacter>(Character)->CreateHitEffect(OutHitData);
 	}
 	
