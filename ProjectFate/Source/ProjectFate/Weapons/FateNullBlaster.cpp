@@ -34,6 +34,8 @@ void AFateNullBlaster::FireHitScan()
 			OutHitData.HitLocation = HitResult.Location;
 			OutHitData.Shooter	= Character;		
 		}
+
+		ShowSparks(OutHitData);
 	}
 	
 	AmmoCounter +=1;
@@ -43,7 +45,7 @@ void AFateNullBlaster::FireHitScan()
 		AmmoCounter = 0;
 		CreateBlackHole();
 	}
-	Multi_OnFire();
+	// Multi_OnFire();
 }
 
 void AFateNullBlaster::CreateBlackHole()
@@ -69,6 +71,10 @@ void AFateNullBlaster::Multi_OnFire_Implementation()
 		UNiagaraComponent* temp = UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), HitEffect, GetActorLocation(), FRotator(0), FVector(1), false , true);
 		temp->SetIsReplicated(true);
 	}
+}
+
+void AFateNullBlaster::ShowSparks_Implementation(FHitData HitData)
+{
 }
 
 

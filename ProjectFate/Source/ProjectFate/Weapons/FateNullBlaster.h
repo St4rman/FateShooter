@@ -27,6 +27,9 @@ public:
 	UPROPERTY(EditAnywhere)
 	int AmmoCounter;
 
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category="Firing")
+	void ShowSparks(FHitData HitData);
+	
 protected:
 	FHitData OutHitData;
 };

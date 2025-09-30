@@ -112,6 +112,7 @@ void AFateWeaponBase::Fire(const AProjectFateCharacter* OwningCharacter)
 				//default handling
 				break;
 		}
+		
 		//if locally controlled then play sound Anim
 		if (OwningCharacter->IsLocallyControlled())
 		{
