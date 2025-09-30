@@ -3,9 +3,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "NiagaraComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Character.h"
 #include "CoreHelpers/CoreHelper.h"
+#include "CoreHelpers/CoreStructs.h"
 #include "Logging/LogMacros.h"
 
 #include "ProjectFateCharacter.generated.h"
@@ -50,6 +52,9 @@ class AProjectFateCharacter : public ACharacter
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* FireAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Visual, meta = (AllowPrivateAccess = "true"))
+	UNiagaraComponent* PlayerParticleSystem;
 	
 public:
 	AProjectFateCharacter();
@@ -98,7 +103,9 @@ public:
 	
 	UFUNCTION(BlueprintCallable)
 	ELocomotionMode GetCurrentLocomotionMode() { return  CurrentLocomotionMode; }
-	
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	void CreateHitEffect(FHitData InHit);
 
 	UFUNCTION(Server, Reliable, WithValidation)
 	void ServerWpnFire();

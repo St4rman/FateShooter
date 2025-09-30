@@ -34,8 +34,7 @@ void AFateNullBlaster::FireHitScan()
 			OutHitData.HitLocation = HitResult.Location;
 			OutHitData.Shooter	= Character;		
 		}
-
-		ShowSparks(OutHitData);
+		Cast<AProjectFateCharacter>(Character)->CreateHitEffect(OutHitData);
 	}
 	
 	AmmoCounter +=1;
@@ -45,7 +44,6 @@ void AFateNullBlaster::FireHitScan()
 		AmmoCounter = 0;
 		CreateBlackHole();
 	}
-	// Multi_OnFire();
 }
 
 void AFateNullBlaster::CreateBlackHole()
@@ -57,25 +55,3 @@ void AFateNullBlaster::CreateBlackHole()
 	GetWorld()->SpawnActor<AActor>(GravityWell, SpawnTM, SpawnParams);
 	
 }
-
-bool AFateNullBlaster::Multi_OnFire_Validate()
-{
-	return true;
-}
-
-void AFateNullBlaster::Multi_OnFire_Implementation()
-{
-	
-	if (HitEffect != nullptr)
-	{
-		UNiagaraComponent* temp = UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), HitEffect, GetActorLocation(), FRotator(0), FVector(1), false , true);
-		temp->SetIsReplicated(true);
-	}
-}
-
-void AFateNullBlaster::ShowSparks_Implementation(FHitData HitData)
-{
-}
-
-
-

@@ -44,7 +44,9 @@ AProjectFateCharacter::AProjectFateCharacter()
 	Mesh3P->SetupAttachment(GetCapsuleComponent());
 	Mesh3P->SetRelativeLocation(FVector(0, 0, -90.0f));
 	Mesh3P->SetRelativeRotation(FRotator(0.f, -90.0f, 0.f));
-	
+
+	PlayerParticleSystem = CreateDefaultSubobject<UNiagaraComponent>(TEXT("PlayerParticleSystem"));
+	PlayerParticleSystem->SetupAttachment(RootComponent);
 }
 
 //////////////////////////////////////////////////////////////////////////// Input
@@ -158,6 +160,11 @@ bool AProjectFateCharacter::ShouldCamLean()
 	bool bShouldLean = false;
 	bShouldLean = ! MovementComp->IsFalling() && CurrentVelocity > 200.0f && MovementCache.X != 0.0f;
 	return bShouldLean;
+}
+
+void AProjectFateCharacter::CreateHitEffect_Implementation(FHitData InHit)
+{
+	
 }
 
 bool AProjectFateCharacter::ServerWpnFire_Validate()

@@ -2,8 +2,10 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "ProjectFate/ProjectFateCharacter.h"
+// #include "ProjectFate/ProjectFateCharacter.h"
 #include "CoreStructs.generated.h"
+
+class AProjectFateCharacter;
 /**
  * Class for all structs
  */
@@ -18,7 +20,9 @@ USTRUCT(BlueprintType)
 struct FHitData
 {
 	GENERATED_USTRUCT_BODY()
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "OutHit")
 	FVector HitLocation;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "OutHit")
 	AProjectFateCharacter* Shooter;
 
 	FHitData()
