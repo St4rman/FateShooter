@@ -1,0 +1,221 @@
+[25-10-01 16:45:14.238] [main] [info] log starting at 2025-10-01T15:45:14.238Z
+[25-10-01 16:45:14.238] [jupiter] [info] log starting at 2025-10-01T15:45:14.238Z
+[25-10-01 16:45:14.238] [zenclient] [info] log starting at 2025-10-01T15:45:14.238Z
+[25-10-01 16:45:14.238] [main] [info] server session id: 08eee68a61e69c332192ebe7
+[25-10-01 16:45:14.238] [jupiter] [info] server session id: 08eee68a61e69c332192ebe7
+[25-10-01 16:45:14.238] [zenclient] [info] server session id: 08eee68a61e69c332192ebe7
+[25-10-01 16:45:14.238] [main] [info] Command line: C:\Users\idhant\AppData\Local\UnrealEngine\Common\Zen\Install\zenserver.exe --port 8558 --data-dir E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --quiet --http-forceloopback --owner-pid 3972 --child-id Zen_3972_Startup
+[25-10-01 16:45:14.238] [main] [info] sentry initialized with anonymous reports
+[25-10-01 16:45:14.238] [main] [info] Unreal Zen Storage Server - using lock file at 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\.lock'
+[25-10-01 16:45:14.238] [main] [info] Unreal Zen Storage Server - starting on port 8558, version '5.6.6-202504241958-windows-x64-release-f090a03'
+[25-10-01 16:45:14.239] [main] [info] Using parent pid #3972 to control process lifetime
+[25-10-01 16:45:14.239] [main] [warning] Wiping state at 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache' - reason: 'No manifest present at 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\root_manifest''
+[25-10-01 16:45:14.239] [main] [info] Deleting 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\.sentry-native'
+[25-10-01 16:45:14.701] [main] [warning] Delete of 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\.sentry-native' returned error: 'The process cannot access the file because it is being used by another process.'
+[25-10-01 16:45:14.701] [main] [info] Wiped all directories in data root
+[25-10-01 16:45:14.703] [main] [info] using asio HTTP server implementation
+[25-10-01 16:45:14.703] [main] [info] any debug payloads will be written to 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\debug\08eee68a61e69c332192ebe7'
+[25-10-01 16:45:14.703] [asio] [info] starting asio http with 12 service threads
+[25-10-01 16:45:14.703] [asio] [info] Registered local-only handler 'http://localhost:8558/' - this is not accessible from remote hosts
+[25-10-01 16:45:14.703] [asio] [info] Started asio server at 'http://[::1]:8558'
+[25-10-01 16:45:14.704] [asio] [info] asio http started (port 8558)
+[25-10-01 16:45:14.704] [main] [warning] using default encryption key
+[25-10-01 16:45:14.704] [main] [warning] using default encryption initialization vector
+[25-10-01 16:45:14.704] [main] [info] initializing storage
+[25-10-01 16:45:14.704] [main] [info] initializing CAS pool at 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cas'
+[25-10-01 16:45:14.706] [main] [info] instantiating project service
+[25-10-01 16:45:14.706] [project] [info] initializing project store at 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\projects'
+[25-10-01 16:45:14.706] [fs] [info] Initializing Workspaces Service
+[25-10-01 16:45:14.706] [main] [info] instantiating structured cache service
+[25-10-01 16:45:14.707] [main] [info] initializing cache store at 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache'
+[25-10-01 16:45:14.707] [main] [info] Found 0 namespaces in 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache'
+[25-10-01 16:45:14.707] [main] [info] initializing structured cache at 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue4.ddc'
+[25-10-01 16:45:14.707] [main] [info] front-end is served from embedded zip
+[25-10-01 16:45:14.707] [main] [info] initializing GC, enabled 'true', interval 6h00m, lightweight interval 15m00s
+[25-10-01 16:45:14.709] [main] [info] added process with pid 3972 as a sponsor process
+[25-10-01 16:45:14.709] [main] [info] __________                _________ __                        
+                                      \____    /____   ____    /   _____//  |_  ___________   ____  
+                                        /     // __ \ /    \   \_____  \\   __\/  _ \_  __ \_/ __ \ 
+                                       /     /\  ___/|   |  \  /        \|  | (  <_> )  | \/\  ___/ 
+                                      /_______ \___  >___|  / /_______  /|__|  \____/|__|    \___  >
+                                              \/   \/     \/          \/                         \/ 
+[25-10-01 16:45:14.709] [main] [info] Unreal Zen Storage Server now running (pid: 23876)
+[25-10-01 16:45:14.709] [main] [info] sentry crash handler ENABLED
+[25-10-01 16:45:14.709] [main] [info] shutdown monitor thread waiting for shutdown signal 'Zen_8558_Shutdown' for process 23876
+[25-10-01 16:45:14.709] [gc] [info] 0B used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000000000000000000000], peak 0B/s. Full GC in 5h59m. Lightweight GC in 14m59s.
+[25-10-01 16:45:16.322] [main] [info] initializing structured cache at 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc'
+[25-10-01 16:45:16.325] [main] [info] Opened target process pid 3972 for session 96f4ee08e7721cdb00000000: success
+[25-10-01 16:45:44.714] [gc] [info] 2.37M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000000000000000000000], peak 0B/s. Full GC in 5h59m. Lightweight GC in 14m29s.
+[25-10-01 16:46:14.726] [gc] [info] 6.03M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000000000000000000090], peak 81.0K/s. Full GC in 5h58m. Lightweight GC in 13m59s.
+[25-10-01 16:46:44.735] [gc] [info] 8.62M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000000000000000000690], peak 125K/s. Full GC in 5h58m. Lightweight GC in 13m29s.
+[25-10-01 16:47:14.736] [gc] [info] 10.9M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000000000000000006970], peak 125K/s. Full GC in 5h57m. Lightweight GC in 12m59s.
+[25-10-01 16:47:44.744] [gc] [info] 12.3M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000000000000000069760], peak 125K/s. Full GC in 5h57m. Lightweight GC in 12m29s.
+[25-10-01 16:48:14.760] [gc] [info] 15.7M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000000000000000697640], peak 125K/s. Full GC in 5h56m. Lightweight GC in 11m59s.
+[25-10-01 16:48:44.764] [gc] [info] 21.1M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000000000000006976490], peak 125K/s. Full GC in 5h56m. Lightweight GC in 11m29s.
+[25-10-01 16:49:14.770] [gc] [info] 26.1M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000000000000047543690], peak 184K/s. Full GC in 5h55m. Lightweight GC in 10m59s.
+[25-10-01 16:49:44.777] [gc] [info] 33.4M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000000000000475436990], peak 184K/s. Full GC in 5h55m. Lightweight GC in 10m29s.
+[25-10-01 16:50:14.788] [gc] [info] 38.8M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000000000003543257790], peak 250K/s. Full GC in 5h54m. Lightweight GC in 9m59s.
+[25-10-01 16:50:44.800] [gc] [info] 43.9M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000000000035432577970], peak 250K/s. Full GC in 5h54m. Lightweight GC in 9m29s.
+[25-10-01 16:51:14.815] [gc] [info] 48.4M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000000000354325779770], peak 250K/s. Full GC in 5h53m. Lightweight GC in 8m59s.
+[25-10-01 16:51:44.819] [gc] [info] 52.6M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000000003543257797760], peak 250K/s. Full GC in 5h53m. Lightweight GC in 8m29s.
+[25-10-01 16:52:14.825] [gc] [info] 59.0M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000000035432577977660], peak 250K/s. Full GC in 5h52m. Lightweight GC in 7m59s.
+[25-10-01 16:52:44.839] [gc] [info] 64.8M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000000354325779776680], peak 250K/s. Full GC in 5h52m. Lightweight GC in 7m29s.
+[25-10-01 16:53:14.844] [gc] [info] 70.3M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000003543257797766880], peak 250K/s. Full GC in 5h51m. Lightweight GC in 6m59s.
+[25-10-01 16:53:44.857] [gc] [info] 74.8M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000035432577977668870], peak 250K/s. Full GC in 5h51m. Lightweight GC in 6m29s.
+[25-10-01 16:54:14.865] [gc] [info] 78.1M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000000354325779776688760], peak 250K/s. Full GC in 5h50m. Lightweight GC in 5m59s.
+[25-10-01 16:54:44.877] [gc] [info] 85.4M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000003543257797766887650], peak 250K/s. Full GC in 5h50m. Lightweight GC in 5m29s.
+[25-10-01 16:55:14.880] [gc] [info] 94.3M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000035432577977668876590], peak 250K/s. Full GC in 5h49m. Lightweight GC in 4m59s.
+[25-10-01 16:55:44.884] [gc] [info] 96.9M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000000343324668665576654890], peak 304K/s. Full GC in 5h49m. Lightweight GC in 4m29s.
+[25-10-01 16:56:14.888] [gc] [info] 98.0M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000003433246686655766548930], peak 304K/s. Full GC in 5h48m. Lightweight GC in 3m59s.
+[25-10-01 16:56:44.896] [gc] [info] 101M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000034332466866557665489320], peak 304K/s. Full GC in 5h48m. Lightweight GC in 3m29s.
+[25-10-01 16:57:14.905] [gc] [info] 104M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000000343324668665576654893230], peak 304K/s. Full GC in 5h47m. Lightweight GC in 2m59s.
+[25-10-01 16:57:44.918] [gc] [info] 108M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000003433246686655766548932340], peak 304K/s. Full GC in 5h47m. Lightweight GC in 2m29s.
+[25-10-01 16:58:14.930] [gc] [info] 133M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000034332466866557665489323440], peak 304K/s. Full GC in 5h46m. Lightweight GC in 1m59s.
+[25-10-01 16:58:44.942] [gc] [info] 207M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [000121112223222233322341122290], peak 845K/s. Full GC in 5h46m. Lightweight GC in 1m29s.
+[25-10-01 16:59:14.948] [gc] [info] 213M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [001111111111111111111211111490], peak 2.45M/s. Full GC in 5h45m. Lightweight GC in 59.0s.
+[25-10-01 16:59:44.957] [gc] [info] 213M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [011111111111111111112111114910], peak 2.45M/s. Full GC in 5h45m. Lightweight GC in 29.0s.
+[25-10-01 17:00:13.969] [gc] [info] 215M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [011111111111111111112111114911], peak 2.45M/s. Lightweight GC schedule triggered.
+[25-10-01 17:00:13.973] [gc] [info] GCV2: STARTING '08eeea0d61e69c6c2192ebe7'
+                                          GC small objects:            yes
+                                          GC Cid store:                no
+                                          Cache cutoff time:           2025-09-17T17:00:13
+                                          Project store cutoff time:   2025-09-17T17:00:13
+                                          Build store cutoff time:     2025-09-24T17:00:13
+[25-10-01 17:00:13.975] [gc] [info] GCV2: Removing expired data from 18 referencers
+[25-10-01 17:00:13.986] [gc] [info] GCV2: Compacting using 17 store compactors
+[25-10-01 17:00:13.991] [gc] [info] GCV2: COMPLETED '08eeea0d61e69c6c2192ebe7' in 17ms
+                                          GC small objects:            yes
+                                          GC Cid store:                no
+                                          Cache cutoff time:           2025-09-17T17:00:13
+                                          Project store cutoff time:   2025-09-17T17:00:13
+                                          Build store cutoff time:     2025-09-24T17:00:13
+                                    
+                                          Remove Expired Data:         11ms
+                                          Found 0 expired items out of 10474, deleted 0
+                                          Freed 0B on disk and 0B of memory
+[25-10-01 17:00:13.993] [gc] [info] garbage collection DONE in 21ms
+[25-10-01 17:00:13.994] [gc] [info] 215M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [011111111111111111112111114911], peak 2.45M/s. Full GC in 5h45m. Lightweight GC in 14m59s.
+[25-10-01 17:00:43.790] [main] [info] added process with pid 20548 as a sponsor process
+[25-10-01 17:00:44.008] [gc] [info] 215M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [111111111111111111121111149110], peak 2.45M/s. Full GC in 5h44m. Lightweight GC in 14m29s.
+[25-10-01 17:00:46.475] [main] [info] Opened target process pid 20548 for session 36f8ee08a874c1ce00000000: success
+[25-10-01 17:00:56.363] [project] [info] project 'ProjectFate.6642a2b9': creating project at 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\projects\ProjectFate.6642a2b9'
+[25-10-01 17:00:56.364] [project] [info] project 'ProjectFate.6642a2b9': persisting config to 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\projects\ProjectFate.6642a2b9\Project.zcb'
+[25-10-01 17:00:56.365] [project] [info] established project (id: 'ProjectFate.6642a2b9', roots: 'D:/Games/EpicGames/UE_5.5/', 'D:/Games/EpicGames/UE_5.5/Engine', 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate', 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/ProjectFate.uproject')
+[25-10-01 17:00:56.367] [project] [info] oplog 'ProjectFate.6642a2b9/EditorDomain': creating oplog at 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\projects\ProjectFate.6642a2b9\EditorDomain'
+[25-10-01 17:00:56.368] [project] [info] oplog 'ProjectFate.6642a2b9/EditorDomain': initializing storage at 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\projects\ProjectFate.6642a2b9\EditorDomain'
+[25-10-01 17:00:56.371] [project] [info] oplog 'ProjectFate.6642a2b9/EditorDomain': persisting config to 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\projects\ProjectFate.6642a2b9\EditorDomain\oplog.zcb'
+[25-10-01 17:00:56.373] [project] [info] established oplog 'ProjectFate.6642a2b9/EditorDomain', gc marker file at ''
+[25-10-01 17:01:14.018] [gc] [info] 215M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [111111111111111111211111491110], peak 2.45M/s. Full GC in 5h44m. Lightweight GC in 13m59s.
+[25-10-01 17:01:44.028] [gc] [info] 216M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [111111111111111112111114911110], peak 2.45M/s. Full GC in 5h43m. Lightweight GC in 13m29s.
+[25-10-01 17:02:14.033] [gc] [info] 216M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 755G in use, 177G free. Disk writes last 15m00s per 30.0s [111111111111111121111149111110], peak 2.45M/s. Full GC in 5h43m. Lightweight GC in 12m59s.
+[25-10-01 17:02:44.036] [gc] [info] 217M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [111111111111111211111491111110], peak 2.45M/s. Full GC in 5h42m. Lightweight GC in 12m29s.
+[25-10-01 17:03:14.038] [gc] [info] 217M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [111111111111112111114911111110], peak 2.45M/s. Full GC in 5h42m. Lightweight GC in 11m59s.
+[25-10-01 17:03:44.043] [gc] [info] 218M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [111111111111121111149111111110], peak 2.45M/s. Full GC in 5h41m. Lightweight GC in 11m29s.
+[25-10-01 17:04:14.055] [gc] [info] 218M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [111111111111211111491111111110], peak 2.45M/s. Full GC in 5h41m. Lightweight GC in 10m59s.
+[25-10-01 17:04:44.068] [gc] [info] 218M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [111111111112111114911111111110], peak 2.45M/s. Full GC in 5h40m. Lightweight GC in 10m29s.
+[25-10-01 17:05:14.072] [gc] [info] 219M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [111111111121111149111111111110], peak 2.45M/s. Full GC in 5h40m. Lightweight GC in 9m59s.
+[25-10-01 17:05:44.089] [gc] [info] 219M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [111111111211111491111111111110], peak 2.45M/s. Full GC in 5h39m. Lightweight GC in 9m29s.
+[25-10-01 17:06:14.094] [gc] [info] 219M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [111111112111114911111111111110], peak 2.45M/s. Full GC in 5h39m. Lightweight GC in 8m59s.
+[25-10-01 17:06:44.104] [gc] [info] 220M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [111111121111149111111111111110], peak 2.45M/s. Full GC in 5h38m. Lightweight GC in 8m29s.
+[25-10-01 17:07:14.120] [gc] [info] 220M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [111111211111491111111111111110], peak 2.45M/s. Full GC in 5h38m. Lightweight GC in 7m59s.
+[25-10-01 17:07:44.125] [gc] [info] 220M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [111112111114911111111111111110], peak 2.45M/s. Full GC in 5h37m. Lightweight GC in 7m29s.
+[25-10-01 17:08:14.135] [gc] [info] 221M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [111121111149111111111111111110], peak 2.45M/s. Full GC in 5h37m. Lightweight GC in 6m59s.
+[25-10-01 17:08:44.150] [gc] [info] 222M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [111211111491111111111111111110], peak 2.45M/s. Full GC in 5h36m. Lightweight GC in 6m29s.
+[25-10-01 17:09:14.157] [gc] [info] 222M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [112111114911111111111111111110], peak 2.45M/s. Full GC in 5h36m. Lightweight GC in 5m59s.
+[25-10-01 17:09:44.166] [gc] [info] 222M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [121111149111111111111111111110], peak 2.45M/s. Full GC in 5h35m. Lightweight GC in 5m29s.
+[25-10-01 17:10:14.177] [gc] [info] 223M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [211111491111111111111111111110], peak 2.45M/s. Full GC in 5h35m. Lightweight GC in 4m59s.
+[25-10-01 17:10:44.187] [gc] [info] 223M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [111114911111111111111111111110], peak 2.45M/s. Full GC in 5h34m. Lightweight GC in 4m29s.
+[25-10-01 17:11:14.194] [gc] [info] 223M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [111149111111111111111111111110], peak 2.45M/s. Full GC in 5h34m. Lightweight GC in 3m59s.
+[25-10-01 17:11:44.204] [gc] [info] 223M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [111491111111111111111111111110], peak 2.45M/s. Full GC in 5h33m. Lightweight GC in 3m29s.
+[25-10-01 17:12:14.211] [gc] [info] 223M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [114911111111111111111111111100], peak 2.45M/s. Full GC in 5h33m. Lightweight GC in 2m59s.
+[25-10-01 17:12:44.224] [gc] [info] 224M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [149111111111111111111111111010], peak 2.45M/s. Full GC in 5h32m. Lightweight GC in 2m29s.
+[25-10-01 17:13:14.232] [gc] [info] 224M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [491111111111111111111111110110], peak 2.45M/s. Full GC in 5h32m. Lightweight GC in 1m59s.
+[25-10-01 17:13:44.246] [gc] [info] 224M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [911111111111111111111111101110], peak 2.45M/s. Full GC in 5h31m. Lightweight GC in 1m29s.
+[25-10-01 17:14:14.251] [gc] [info] 225M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [941111111111111112111111011110], peak 201K/s. Full GC in 5h31m. Lightweight GC in 59.0s.
+[25-10-01 17:14:44.258] [gc] [info] 225M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [911333322222222333221210121220], peak 77.7K/s. Full GC in 5h30m. Lightweight GC in 29.0s.
+[25-10-01 17:15:13.270] [gc] [info] 225M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [911333322222222343221210122223], peak 70.5K/s. Lightweight GC schedule triggered.
+[25-10-01 17:15:13.275] [gc] [info] GCV2: STARTING '08eeed9161e69c742192ebe7'
+                                          GC small objects:            yes
+                                          GC Cid store:                no
+                                          Cache cutoff time:           2025-09-17T17:15:13
+                                          Project store cutoff time:   2025-09-17T17:15:13
+                                          Build store cutoff time:     2025-09-24T17:15:13
+[25-10-01 17:15:13.275] [gc] [info] GCV2: Removing expired data from 19 referencers
+[25-10-01 17:15:13.287] [gc] [info] GCV2: Compacting using 18 store compactors
+[25-10-01 17:15:13.292] [gc] [info] GCV2: COMPLETED '08eeed9161e69c742192ebe7' in 17ms
+                                          GC small objects:            yes
+                                          GC Cid store:                no
+                                          Cache cutoff time:           2025-09-17T17:15:13
+                                          Project store cutoff time:   2025-09-17T17:15:13
+                                          Build store cutoff time:     2025-09-24T17:15:13
+                                    
+                                          Remove Expired Data:         11ms
+                                          Found 0 expired items out of 13250, deleted 0
+                                          Freed 0B on disk and 0B of memory
+[25-10-01 17:15:13.296] [gc] [info] garbage collection DONE in 23ms
+[25-10-01 17:15:13.297] [gc] [info] 225M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [911333322222222343221210122225], peak 70.5K/s. Full GC in 5h30m. Lightweight GC in 14m59s.
+[25-10-01 17:15:43.306] [gc] [info] 226M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [117656443443445764323202434390], peak 32.5K/s. Full GC in 5h29m. Lightweight GC in 14m29s.
+[25-10-01 17:16:13.313] [gc] [info] 226M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [176564434434457643232024343940], peak 32.5K/s. Full GC in 5h29m. Lightweight GC in 13m59s.
+[25-10-01 17:16:43.318] [gc] [info] 227M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [765644344344576432320243439440], peak 32.5K/s. Full GC in 5h28m. Lightweight GC in 13m29s.
+[25-10-01 17:17:13.324] [gc] [info] 227M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [656443443445764323202434394450], peak 32.5K/s. Full GC in 5h28m. Lightweight GC in 12m59s.
+[25-10-01 17:17:43.331] [gc] [info] 228M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [564434434457643232024343944580], peak 32.5K/s. Full GC in 5h27m. Lightweight GC in 12m29s.
+[25-10-01 17:18:13.336] [gc] [info] 229M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [644344344576432320243439445850], peak 32.5K/s. Full GC in 5h27m. Lightweight GC in 11m59s.
+[25-10-01 17:18:43.341] [gc] [info] 230M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [443443445764323202434394458570], peak 32.5K/s. Full GC in 5h26m. Lightweight GC in 11m29s.
+[25-10-01 17:19:13.345] [gc] [info] 232M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [222222335422122022222632353490], peak 55.3K/s. Full GC in 5h26m. Lightweight GC in 10m59s.
+[25-10-01 17:19:43.353] [gc] [info] 233M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [222223343221210122225223434890], peak 63.2K/s. Full GC in 5h25m. Lightweight GC in 10m29s.
+[25-10-01 17:20:13.368] [gc] [info] 234M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [222233432212101222252234348960], peak 63.2K/s. Full GC in 5h25m. Lightweight GC in 9m59s.
+[25-10-01 17:20:43.371] [gc] [info] 234M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [222334322121012222522343489640], peak 63.2K/s. Full GC in 5h24m. Lightweight GC in 9m29s.
+[25-10-01 17:21:13.381] [gc] [info] 235M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 768G in use, 163G free. Disk writes last 15m00s per 30.0s [223343221210122225223434896430], peak 63.2K/s. Full GC in 5h24m. Lightweight GC in 8m59s.
+[25-10-01 17:21:43.391] [gc] [info] 237M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [233432212101222252234348964340], peak 63.2K/s. Full GC in 5h23m. Lightweight GC in 8m29s.
+[25-10-01 17:22:13.406] [gc] [info] 240M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [223322121012122422232367432390], peak 84.9K/s. Full GC in 5h23m. Lightweight GC in 7m59s.
+[25-10-01 17:22:43.421] [gc] [info] 241M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [233221210121224222323674323980], peak 84.9K/s. Full GC in 5h22m. Lightweight GC in 7m29s.
+[25-10-01 17:23:13.436] [gc] [info] 243M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [332212101212242223236743239870], peak 84.9K/s. Full GC in 5h22m. Lightweight GC in 6m59s.
+[25-10-01 17:23:43.447] [gc] [info] 244M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [322121012122422232367432398760], peak 84.9K/s. Full GC in 5h21m. Lightweight GC in 6m29s.
+[25-10-01 17:24:13.455] [gc] [info] 245M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [221210121224222323674323987640], peak 84.9K/s. Full GC in 5h21m. Lightweight GC in 5m59s.
+[25-10-01 17:24:43.461] [gc] [info] 246M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [212101212242223236743239876450], peak 84.9K/s. Full GC in 5h20m. Lightweight GC in 5m29s.
+[25-10-01 17:25:13.465] [gc] [info] 247M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [121012122422232367432398764540], peak 84.9K/s. Full GC in 5h20m. Lightweight GC in 4m59s.
+[25-10-01 17:25:43.478] [gc] [info] 248M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [210121224222323674323987645450], peak 84.9K/s. Full GC in 5h19m. Lightweight GC in 4m29s.
+[25-10-01 17:26:13.480] [gc] [info] 249M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [101212242223236743239876454520], peak 84.9K/s. Full GC in 5h19m. Lightweight GC in 3m59s.
+[25-10-01 17:26:43.497] [gc] [info] 250M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [012122422232367432398764545240], peak 84.9K/s. Full GC in 5h18m. Lightweight GC in 3m29s.
+[25-10-01 17:27:13.501] [gc] [info] 251M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [121224222323674323987645452460], peak 84.9K/s. Full GC in 5h18m. Lightweight GC in 2m59s.
+[25-10-01 17:27:43.506] [gc] [info] 252M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [212242223236743239876454524650], peak 84.9K/s. Full GC in 5h17m. Lightweight GC in 2m29s.
+[25-10-01 17:28:13.519] [gc] [info] 252M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [122422232367432398764545246530], peak 84.9K/s. Full GC in 5h17m. Lightweight GC in 1m59s.
+[25-10-01 17:28:43.533] [gc] [info] 252M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [224222323674323987645452465320], peak 84.9K/s. Full GC in 5h16m. Lightweight GC in 1m29s.
+[25-10-01 17:29:13.537] [gc] [info] 253M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [242223236743239876454524653210], peak 84.9K/s. Full GC in 5h16m. Lightweight GC in 59.0s.
+[25-10-01 17:29:43.540] [gc] [info] 253M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [422232367432398764545246532110], peak 84.9K/s. Full GC in 5h15m. Lightweight GC in 29.0s.
+[25-10-01 17:30:12.545] [gc] [info] 253M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [222232367432398764545246532111], peak 84.9K/s. Lightweight GC schedule triggered.
+[25-10-01 17:30:12.549] [gc] [info] GCV2: STARTING '08eef11461e69c7a2192ebe7'
+                                          GC small objects:            yes
+                                          GC Cid store:                no
+                                          Cache cutoff time:           2025-09-17T17:30:12
+                                          Project store cutoff time:   2025-09-17T17:30:12
+                                          Build store cutoff time:     2025-09-24T17:30:12
+[25-10-01 17:30:12.549] [gc] [info] GCV2: Removing expired data from 20 referencers
+[25-10-01 17:30:12.562] [gc] [info] GCV2: Compacting using 19 store compactors
+[25-10-01 17:30:12.569] [gc] [info] GCV2: COMPLETED '08eef11461e69c7a2192ebe7' in 19ms
+                                          GC small objects:            yes
+                                          GC Cid store:                no
+                                          Cache cutoff time:           2025-09-17T17:30:12
+                                          Project store cutoff time:   2025-09-17T17:30:12
+                                          Build store cutoff time:     2025-09-24T17:30:12
+                                    
+                                          Remove Expired Data:         12ms
+                                          Found 0 expired items out of 21010, deleted 0
+                                          Freed 0B on disk and 0B of memory
+[25-10-01 17:30:12.571] [gc] [info] garbage collection DONE in 24ms
+[25-10-01 17:30:12.573] [gc] [info] 253M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [222232367432398764545246532113], peak 84.9K/s. Full GC in 5h15m. Lightweight GC in 14m59s.
+[25-10-01 17:30:42.592] [gc] [info] 254M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [222323674323987645452465321130], peak 84.9K/s. Full GC in 5h14m. Lightweight GC in 14m29s.
+[25-10-01 17:31:12.596] [gc] [info] 254M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [223236743239876454524653211330], peak 84.9K/s. Full GC in 5h14m. Lightweight GC in 13m59s.
+[25-10-01 17:31:42.600] [gc] [info] 255M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [232367432398764545246532113320], peak 84.9K/s. Full GC in 5h13m. Lightweight GC in 13m29s.
+[25-10-01 17:32:12.610] [gc] [info] 255M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [323674323987645452465321133210], peak 84.9K/s. Full GC in 5h13m. Lightweight GC in 12m59s.
+[25-10-01 17:32:42.626] [gc] [info] 255M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [236743239876454524653211332110], peak 84.9K/s. Full GC in 5h12m. Lightweight GC in 12m29s.
+[25-10-01 17:33:12.631] [gc] [info] 256M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [367432398764545246532113321110], peak 84.9K/s. Full GC in 5h12m. Lightweight GC in 11m59s.
+[25-10-01 17:33:42.634] [gc] [info] 256M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [674323987645452465321133211130], peak 84.9K/s. Full GC in 5h11m. Lightweight GC in 11m29s.
+[25-10-01 17:34:12.648] [gc] [info] 257M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [743239876454524653211332111330], peak 84.9K/s. Full GC in 5h11m. Lightweight GC in 10m59s.
+[25-10-01 17:34:42.662] [gc] [info] 257M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [432398764545246532113321113320], peak 84.9K/s. Full GC in 5h10m. Lightweight GC in 10m29s.
+[25-10-01 17:35:12.675] [gc] [info] 258M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [323987645452465321133211133230], peak 84.9K/s. Full GC in 5h10m. Lightweight GC in 9m59s.
+[25-10-01 17:35:42.680] [gc] [info] 258M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [239876454524653211332111332320], peak 84.9K/s. Full GC in 5h09m. Lightweight GC in 9m29s.
+[25-10-01 17:36:12.693] [gc] [info] 259M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 769G in use, 163G free. Disk writes last 15m00s per 30.0s [398764545246532113321113323240], peak 84.9K/s. Full GC in 5h09m. Lightweight GC in 8m59s.
+[25-10-01 17:36:24.451] [main] [info] GC stale target process pid 20548 for session 36f8ee08a874c1ce00000000: 0x4bc
+[25-10-01 17:36:24.963] [main] [info] Purging stale target process cache for session: 36f8ee08a874c1ce00000000
+[25-10-01 17:36:42.704] [gc] [info] 259M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 771G in use, 161G free. Disk writes last 15m00s per 30.0s [987645452465321133211133232420], peak 84.9K/s. Full GC in 5h08m. Lightweight GC in 8m29s.

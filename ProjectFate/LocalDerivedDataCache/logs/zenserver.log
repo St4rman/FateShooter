@@ -1,0 +1,141 @@
+[25-10-01 18:01:57.477] [jupiter] [info] log starting at 2025-10-01T17:01:57.476Z
+[25-10-01 18:01:57.477] [zenclient] [info] log starting at 2025-10-01T17:01:57.476Z
+[25-10-01 18:01:57.477] [jupiter] [info] server session id: 08eef885b09590c044fdca4a
+[25-10-01 18:01:57.477] [zenclient] [info] server session id: 08eef885b09590c044fdca4a
+[25-10-01 18:01:57.477] [main] [info] log starting at 2025-10-01T17:01:57.476Z
+[25-10-01 18:01:57.477] [main] [info] server session id: 08eef885b09590c044fdca4a
+[25-10-01 18:01:57.477] [main] [info] Command line: C:\Users\idhant\AppData\Local\UnrealEngine\Common\Zen\Install\zenserver.exe --port 8558 --data-dir E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --quiet --http-forceloopback --owner-pid 6720 --child-id Zen_6720_Startup
+[25-10-01 18:01:57.477] [main] [info] sentry initialized with anonymous reports
+[25-10-01 18:01:57.477] [main] [info] Unreal Zen Storage Server - using lock file at 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\.lock'
+[25-10-01 18:01:57.477] [main] [info] Unreal Zen Storage Server - starting on port 8558, version '5.6.6-202504241958-windows-x64-release-f090a03'
+[25-10-01 18:01:57.486] [main] [info] Using parent pid #6720 to control process lifetime
+[25-10-01 18:01:57.489] [main] [info] using asio HTTP server implementation
+[25-10-01 18:01:57.489] [main] [info] any debug payloads will be written to 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\debug\08eef885b09590c044fdca4a'
+[25-10-01 18:01:57.489] [asio] [info] starting asio http with 12 service threads
+[25-10-01 18:01:57.490] [asio] [info] Registered local-only handler 'http://localhost:8558/' - this is not accessible from remote hosts
+[25-10-01 18:01:57.490] [asio] [info] Started asio server at 'http://[::1]:8558'
+[25-10-01 18:01:57.491] [asio] [info] asio http started (port 8558)
+[25-10-01 18:01:57.491] [main] [warning] using default encryption key
+[25-10-01 18:01:57.491] [main] [warning] using default encryption initialization vector
+[25-10-01 18:01:57.492] [main] [info] initializing storage
+[25-10-01 18:01:57.492] [main] [info] initializing CAS pool at 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cas'
+[25-10-01 18:01:57.494] [filecas] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cas\cas.ulog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.496] [containercas] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cas\sobs\sobs.uidx' index containing 14642 entries in 2ms
+[25-10-01 18:01:57.497] [containercas] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cas\tobs\tobs.uidx' index containing 20084 entries in 2ms
+[25-10-01 18:01:57.499] [containercas] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cas\sobs' log containing 0 entries in 0ms
+[25-10-01 18:01:57.499] [containercas] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cas\tobs' log containing 0 entries in 0ms
+[25-10-01 18:01:57.499] [main] [info] instantiating project service
+[25-10-01 18:01:57.499] [project] [info] initializing project store at 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\projects'
+[25-10-01 18:01:57.500] [fs] [info] Initializing Workspaces Service
+[25-10-01 18:01:57.500] [main] [info] instantiating structured cache service
+[25-10-01 18:01:57.500] [main] [info] initializing cache store at 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache'
+[25-10-01 18:01:57.500] [main] [info] Found 2 namespaces in 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache'
+[25-10-01 18:01:57.500] [main] [info] initializing structured cache at 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'animationsequence'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'bulkdatalist'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'bulkdatapayloadid'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'fshaderjobcacheshaders'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'globalshadermap'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'legacyaudio'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'legacycard'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'legacychaosgeometrydata'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'legacyckersm'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'legacydist'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'legacygeometrycollection'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'legacynavcollision'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'legacyniagarascriptderiveddata'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'legacyniagarasm'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'legacyskeletalmesh'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'legacystreamedaudio'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'legacytexture'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'materialshadermap'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'materialtranslation'
+[25-10-01 18:01:57.500] [main] [info] Discovered bucket 'staticmesh'
+[25-10-01 18:01:57.504] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacyckersm\legacyckersm.uidx' index containing 6 entries in 0ms
+[25-10-01 18:01:57.504] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacychaosgeometrydata\legacychaosgeometrydata.uidx' index containing 1 entries in 0ms
+[25-10-01 18:01:57.504] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\animationsequence\animationsequence.uidx' index containing 37 entries in 0ms
+[25-10-01 18:01:57.504] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacycard\legacycard.uidx' index containing 109 entries in 0ms
+[25-10-01 18:01:57.505] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacyckersm\legacyckersm.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.505] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacychaosgeometrydata\legacychaosgeometrydata.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.505] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacydist\legacydist.uidx' index containing 109 entries in 0ms
+[25-10-01 18:01:57.506] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\bulkdatalist\bulkdatalist.uidx' index containing 3315 entries in 2ms
+[25-10-01 18:01:57.509] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\bulkdatalist\bulkdatalist.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.509] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\globalshadermap\globalshadermap.uidx' index containing 1268 entries in 1ms
+[25-10-01 18:01:57.510] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\animationsequence\animationsequence.slog' log containing 0 entries in 4ms
+[25-10-01 18:01:57.510] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacydist\legacydist.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.511] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacycard\legacycard.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.511] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\globalshadermap\globalshadermap.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.512] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\bulkdatapayloadid\bulkdatapayloadid.uidx' index containing 23 entries in 0ms
+[25-10-01 18:01:57.514] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacyaudio\legacyaudio.uidx' index containing 11 entries in 0ms
+[25-10-01 18:01:57.514] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\bulkdatapayloadid\bulkdatapayloadid.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.515] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacyckersm' containing 6 entries in 9ms
+[25-10-01 18:01:57.515] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacyaudio\legacyaudio.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.515] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacygeometrycollection\legacygeometrycollection.uidx' index containing 7 entries in 0ms
+[25-10-01 18:01:57.515] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacychaosgeometrydata' containing 1 entries in 10ms
+[25-10-01 18:01:57.515] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacygeometrycollection\legacygeometrycollection.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.516] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\bulkdatalist' containing 3315 entries in 6ms
+[25-10-01 18:01:57.517] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\fshaderjobcacheshaders\fshaderjobcacheshaders.uidx' index containing 17248 entries in 7ms
+[25-10-01 18:01:57.518] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacyniagarascriptderiveddata\legacyniagarascriptderiveddata.uidx' index containing 61 entries in 0ms
+[25-10-01 18:01:57.518] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\animationsequence' containing 37 entries in 8ms
+[25-10-01 18:01:57.518] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\fshaderjobcacheshaders\fshaderjobcacheshaders.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.518] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacydist' containing 109 entries in 8ms
+[25-10-01 18:01:57.519] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacyskeletalmesh\legacyskeletalmesh.uidx' index containing 13 entries in 0ms
+[25-10-01 18:01:57.519] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacycard' containing 109 entries in 7ms
+[25-10-01 18:01:57.519] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacyskeletalmesh\legacyskeletalmesh.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.520] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacystreamedaudio\legacystreamedaudio.uidx' index containing 33 entries in 0ms
+[25-10-01 18:01:57.522] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacygeometrycollection' containing 7 entries in 6ms
+[25-10-01 18:01:57.522] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\globalshadermap' containing 1268 entries in 10ms
+[25-10-01 18:01:57.523] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacystreamedaudio\legacystreamedaudio.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.523] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacytexture\legacytexture.uidx' index containing 555 entries in 0ms
+[25-10-01 18:01:57.524] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacyniagarascriptderiveddata\legacyniagarascriptderiveddata.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.524] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacytexture\legacytexture.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.524] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacyaudio' containing 11 entries in 9ms
+[25-10-01 18:01:57.524] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\materialshadermap\materialshadermap.uidx' index containing 276 entries in 0ms
+[25-10-01 18:01:57.525] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\materialshadermap\materialshadermap.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.525] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\materialtranslation\materialtranslation.uidx' index containing 236 entries in 0ms
+[25-10-01 18:01:57.526] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\staticmesh\staticmesh.uidx' index containing 109 entries in 0ms
+[25-10-01 18:01:57.527] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\materialtranslation\materialtranslation.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.527] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacyskeletalmesh' containing 13 entries in 7ms
+[25-10-01 18:01:57.527] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacystreamedaudio' containing 33 entries in 4ms
+[25-10-01 18:01:57.529] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\materialshadermap' containing 276 entries in 4ms
+[25-10-01 18:01:57.530] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacyniagarasm\legacyniagarasm.uidx' index containing 20 entries in 0ms
+[25-10-01 18:01:57.531] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\staticmesh\staticmesh.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.531] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacyniagarasm\legacyniagarasm.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.536] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\fshaderjobcacheshaders' containing 17248 entries in 17ms
+[25-10-01 18:01:57.536] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacyniagarascriptderiveddata' containing 61 entries in 12ms
+[25-10-01 18:01:57.536] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\materialtranslation' containing 236 entries in 9ms
+[25-10-01 18:01:57.537] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacytexture' containing 555 entries in 13ms
+[25-10-01 18:01:57.538] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\bulkdatapayloadid' containing 23 entries in 23ms
+[25-10-01 18:01:57.539] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\staticmesh' containing 109 entries in 7ms
+[25-10-01 18:01:57.539] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacyniagarasm' containing 20 entries in 7ms
+[25-10-01 18:01:57.543] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacynavcollision\legacynavcollision.uidx' index containing 109 entries in 0ms
+[25-10-01 18:01:57.546] [main] [info] read store 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacynavcollision\legacynavcollision.slog' log containing 0 entries in 0ms
+[25-10-01 18:01:57.554] [main] [info] wrote store snapshot for 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue.ddc\legacynavcollision' containing 109 entries in 7ms
+[25-10-01 18:01:57.555] [main] [info] initializing structured cache at 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\cache\ns_ue4.ddc'
+[25-10-01 18:01:57.556] [main] [info] front-end is served from embedded zip
+[25-10-01 18:01:57.556] [main] [info] initializing GC, enabled 'true', interval 6h00m, lightweight interval 15m00s
+[25-10-01 18:01:57.558] [main] [info] added process with pid 6720 as a sponsor process
+[25-10-01 18:01:57.558] [main] [info] __________                _________ __                        
+                                      \____    /____   ____    /   _____//  |_  ___________   ____  
+                                        /     // __ \ /    \   \_____  \\   __\/  _ \_  __ \_/ __ \ 
+                                       /     /\  ___/|   |  \  /        \|  | (  <_> )  | \/\  ___/ 
+                                      /_______ \___  >___|  / /_______  /|__|  \____/|__|    \___  >
+                                              \/   \/     \/          \/                         \/ 
+[25-10-01 18:01:57.558] [main] [info] Unreal Zen Storage Server now running (pid: 7412)
+[25-10-01 18:01:57.558] [main] [info] sentry crash handler ENABLED
+[25-10-01 18:01:57.558] [main] [info] shutdown monitor thread waiting for shutdown signal 'Zen_8558_Shutdown' for process 7412
+[25-10-01 18:01:57.561] [gc] [info] 351M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 759G in use, 173G free. Disk writes last 15m00s per 30.0s [199110190090000009000000000000], peak 437K/s. Full GC in 4h43m. Lightweight GC in 14m59s.
+[25-10-01 18:02:00.207] [main] [info] Opened target process pid 6720 for session 8d06ef086a402fee00000000: success
+[25-10-01 18:02:27.570] [gc] [info] 351M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 759G in use, 173G free. Disk writes last 15m00s per 30.0s [991101900900000090000000000010], peak 437K/s. Full GC in 4h42m. Lightweight GC in 14m29s.
+[25-10-01 18:02:57.584] [gc] [info] 362M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 759G in use, 173G free. Disk writes last 15m00s per 30.0s [911019009000000900000000000110], peak 437K/s. Full GC in 4h42m. Lightweight GC in 13m59s.
+[25-10-01 18:03:27.590] [gc] [info] 393M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 759G in use, 173G free. Disk writes last 15m00s per 30.0s [110190090000009000000000001190], peak 402K/s. Full GC in 4h41m. Lightweight GC in 13m29s.
+[25-10-01 18:03:57.596] [gc] [info] 393M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 759G in use, 173G free. Disk writes last 15m00s per 30.0s [101400400000040000000000011490], peak 1.03M/s. Full GC in 4h41m. Lightweight GC in 12m59s.
+[25-10-01 18:04:27.608] [gc] [info] 393M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 759G in use, 173G free. Disk writes last 15m00s per 30.0s [014004000000400000000000114900], peak 1.03M/s. Full GC in 4h40m. Lightweight GC in 12m29s.
+[25-10-01 18:04:57.620] [gc] [info] 393M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 759G in use, 173G free. Disk writes last 15m00s per 30.0s [140040000004000000000001149000], peak 1.03M/s. Full GC in 4h40m. Lightweight GC in 11m59s.
+[25-10-01 18:05:27.633] [gc] [info] 393M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 759G in use, 173G free. Disk writes last 15m00s per 30.0s [400400000040000000000011490000], peak 1.03M/s. Full GC in 4h39m. Lightweight GC in 11m29s.
+[25-10-01 18:05:57.649] [gc] [info] 393M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 759G in use, 173G free. Disk writes last 15m00s per 30.0s [004000000400000000000114900000], peak 1.03M/s. Full GC in 4h39m. Lightweight GC in 10m59s.
+[25-10-01 18:06:27.657] [gc] [info] 393M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 759G in use, 173G free. Disk writes last 15m00s per 30.0s [040000004000000000001149000000], peak 1.03M/s. Full GC in 4h38m. Lightweight GC in 10m29s.
+[25-10-01 18:06:57.662] [gc] [info] 393M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 759G in use, 173G free. Disk writes last 15m00s per 30.0s [400000040000000000011490000000], peak 1.03M/s. Full GC in 4h38m. Lightweight GC in 9m59s.
+[25-10-01 18:07:27.676] [gc] [info] 393M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 759G in use, 173G free. Disk writes last 15m00s per 30.0s [000000400000000000114900000000], peak 1.03M/s. Full GC in 4h37m. Lightweight GC in 9m29s.
+[25-10-01 18:07:57.684] [gc] [info] 393M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 759G in use, 173G free. Disk writes last 15m00s per 30.0s [000004000000000001149000000000], peak 1.03M/s. Full GC in 4h37m. Lightweight GC in 8m59s.
+[25-10-01 18:08:27.693] [gc] [info] 393M used. 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\LocalDerivedDataCache\gc': 759G in use, 173G free. Disk writes last 15m00s per 30.0s [000040000000000011490000000000], peak 1.03M/s. Full GC in 4h36m. Lightweight GC in 8m29s.
