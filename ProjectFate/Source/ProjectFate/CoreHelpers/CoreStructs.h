@@ -35,8 +35,9 @@ struct FHitData
 	
 	FHitData()
 	{
-		HitLocation = FVector(0, 0, 0);
-		Shooter = nullptr;
-		HitEffect = nullptr;
+		HitLocation		= FVector::ZeroVector;
+		HitDirection	= FVector::ZeroVector;
+		Shooter			= nullptr;
+		HitEffect		= nullptr;
 	}
 };
