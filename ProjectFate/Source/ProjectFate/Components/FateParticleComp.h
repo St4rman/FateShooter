@@ -19,6 +19,9 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	UNiagaraComponent* NiagaraComponent;
+	
+	UPROPERTY(EditAnywhere)
+	UNiagaraSystem* Lazer;
 
 protected:
 	

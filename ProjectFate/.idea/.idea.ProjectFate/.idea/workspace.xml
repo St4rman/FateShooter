@@ -14,7 +14,94 @@
   <component name="ChangeListManager">
     <list default="true" id="2bcec5a1-d210-4a75-911d-ed9f7bcc681a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateNullBlaster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateNullBlaster.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/Player/BP_FateCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/Player/BP_FateCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/Weapon/BP_NullBlaster.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/Weapon/BP_NullBlaster.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/Weapon/BP_Projectile.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/Weapon/BP_Projectile.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/Levels/TestSandBoxLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/Levels/TestSandBoxLevel.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/Materials/postprocess/CurveShadowMap.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/Materials/postprocess/CurveShadowMap.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/NiagaraSystem/MI_Flash.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/NiagaraSystem/MI_muzzleCone.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/NiagaraSystem/M_Muzzle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/NiagaraSystem/NS_Muzzle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/NiagaraSystem/gunmuzzcir.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/NiagaraSystem/mf.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/NiagaraSystem/mflash.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/NiagaraSystem/muzplane.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/NiagaraSystem/muzzcone-origin.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/NiagaraSystem/muzzcone.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/.sentry-native/30c2b7cc-bbc2-46a8-84b0-01b9e67d4436.run.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/.sentry-native/30c2b7cc-bbc2-46a8-84b0-01b9e67d4436.run/__sentry-breadcrumb1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/.sentry-native/30c2b7cc-bbc2-46a8-84b0-01b9e67d4436.run/__sentry-breadcrumb2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/.sentry-native/30c2b7cc-bbc2-46a8-84b0-01b9e67d4436.run/__sentry-event" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/.sentry-native/30c2b7cc-bbc2-46a8-84b0-01b9e67d4436.run/session.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/bulkdatalist/blocks/0000/00000000.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/bulkdatalist/blocks/0000/00000001.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/bulkdatalist/blocks/0000/00000002.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/bulkdatalist/bulkdatalist.slog" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/bulkdatalist/bulkdatalist.slog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/bulkdatapayloadid/blocks/0000/00000000.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/bulkdatapayloadid/blocks/0000/00000001.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/bulkdatapayloadid/bulkdatapayloadid.slog" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/bulkdatapayloadid/bulkdatapayloadid.slog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/fshaderjobcacheshaders/blocks/0000/00000000.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/fshaderjobcacheshaders/blocks/0000/00000001.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/fshaderjobcacheshaders/fshaderjobcacheshaders.slog" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/fshaderjobcacheshaders/fshaderjobcacheshaders.slog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/globalshadermap/blocks/0000/00000000.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/globalshadermap/globalshadermap.slog" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/globalshadermap/globalshadermap.slog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacycard/blocks/0000/00000000.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacycard/blocks/0000/00000001.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacycard/legacycard.slog" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacycard/legacycard.slog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacydist/blocks/0000/00000000.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacydist/blocks/0000/00000001.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacydist/legacydist.slog" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacydist/legacydist.slog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacygeometrycollection/blocks/0000/00000000.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacygeometrycollection/blocks/0000/00000001.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacygeometrycollection/legacygeometrycollection.slog" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacygeometrycollection/legacygeometrycollection.slog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacynavcollision/blocks/0000/00000000.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacynavcollision/blocks/0000/00000001.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacynavcollision/legacynavcollision.slog" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacynavcollision/legacynavcollision.slog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacyniagarascriptderiveddata/blocks/0000/00000000.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacyniagarascriptderiveddata/legacyniagarascriptderiveddata.slog" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacyniagarascriptderiveddata/legacyniagarascriptderiveddata.slog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacyniagarasm/blocks/0000/00000000.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacyniagarasm/legacyniagarasm.slog" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacyniagarasm/legacyniagarasm.slog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacyskeletalmesh/blocks/0000/00000000.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacyskeletalmesh/blocks/0000/00000001.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacyskeletalmesh/blocks/0000/00000002.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacyskeletalmesh/legacyskeletalmesh.slog" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacyskeletalmesh/legacyskeletalmesh.slog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacytexture/blocks/0000/00000000.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacytexture/blocks/0000/00000001.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacytexture/blocks/0000/00000002.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacytexture/legacytexture.slog" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/legacytexture/legacytexture.slog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/materialshadermap/blocks/0000/00000000.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/materialshadermap/blocks/0000/00000001.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/materialshadermap/materialshadermap.slog" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/materialshadermap/materialshadermap.slog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/materialtranslation/blocks/0000/00000000.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/materialtranslation/blocks/0000/00000001.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/materialtranslation/blocks/0000/00000002.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/materialtranslation/materialtranslation.slog" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/materialtranslation/materialtranslation.slog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/staticmesh/blocks/0000/00000000.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/staticmesh/blocks/0000/00000001.ucas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/staticmesh/staticmesh.slog" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cache/ns_ue.ddc/staticmesh/staticmesh.slog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cas/sobs/sobs.uidx" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cas/sobs/sobs.uidx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cas/sobs/sobs.ulog" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cas/sobs/sobs.ulog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cas/tobs/tobs.uidx" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cas/tobs/tobs.uidx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/cas/tobs/tobs.ulog" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/cas/tobs/tobs.ulog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/gc/gc.dlog" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/gc/gc.dlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/gc/gc.log" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/gc/gc.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/gc/gc_state" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/gc/gc_state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/logs/http.1.log" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/logs/http.1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/logs/http.2.log" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/logs/http.2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/logs/http.log" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/logs/http.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/logs/z$.log" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/logs/z$.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/logs/zenserver.1.log" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/logs/zenserver.1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/logs/zenserver.2.log" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/logs/zenserver.2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalDerivedDataCache/logs/zenserver.log" beforeDir="false" afterPath="$PROJECT_DIR$/LocalDerivedDataCache/logs/zenserver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSteamSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSteamSessions/UHT/Timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Components/FateParticleComp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Components/FateParticleComp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Components/FateParticleComp.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Components/FateParticleComp.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,52 +115,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="cidr-memory-view://4" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Plugins/EnhancedInput/Source/EnhancedInput/Private/EnhancedPlayerInput.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Plugins/FX/Niagara/Source/Niagara/Private/NiagaraComponent.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/AIModule/Classes/EnvironmentQuery/EnvQueryTypes.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/AIModule/Private/BehaviorTree/Tasks/BTTask_RunEQSQuery.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Core/Private/ProfilingDebugging/TagTrace.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -113,22 +156,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C/C++ Project.ProjectFate.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ Project.ProjectFate.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="C/C++ Project.ProjectFate">
     <configuration name="ProjectFate" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
@@ -272,6 +315,7 @@
       <workItem from="1759221754249" duration="2983000" />
       <workItem from="1759225322863" duration="22658000" />
       <workItem from="1759324135279" duration="4196000" />
+      <workItem from="1759404626194" duration="10587000" />
     </task>
     <servers />
   </component>

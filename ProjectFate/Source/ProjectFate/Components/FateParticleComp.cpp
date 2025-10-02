@@ -44,7 +44,7 @@ void UFateParticleComp::NMC_ServerFire_Implementation(const FHitData InHit)
 	//fire barell
 	if (InHit.Shooter !=nullptr)
 	{
-		auto currentWeapon = InHit.Shooter->GetCurrentWeapon();
+		AFateWeaponBase* currentWeapon = InHit.Shooter->GetCurrentWeapon();
 		UNiagaraSystem* FireEffectMuzzle = currentWeapon->GetFireEffectMuzzle();
 		FVector SpawnLocation = currentWeapon->GetMesh()->GetSocketLocation("Muzzle");
 	
@@ -52,6 +52,21 @@ void UFateParticleComp::NMC_ServerFire_Implementation(const FHitData InHit)
 		if (FireEffectMuzzle != nullptr)
 		{
 			NiagaraComponent = UNiagaraFunctionLibrary::SpawnSystemAttached(FireEffectMuzzle,  currentWeapon->GetMesh(), "Muzzle", SpawnLocation, SpawnRotation, EAttachLocation::Type::KeepWorldPosition, true);
+			
+		}
+		if (Lazer != nullptr)
+		{
+			auto LazerEffect = UNiagaraFunctionLibrary::SpawnSystemAttached(Lazer,currentWeapon->GetMesh(), "Muzzle", SpawnLocation, SpawnRotation, EAttachLocation::Type::KeepWorldPosition, true);
+			FVector LocationCache;
+			if (InHit.HitLocation == FVector::ZeroVector)
+			{
+				LocationCache = SpawnLocation + InHit.HitDirection* currentWeapon->WeaponRange; 
+			}
+			else
+			{
+				LocationCache = InHit.HitLocation;
+			}
+			LazerEffect->SetVariableVec3("Location", LocationCache);
 		}
 	}
 	
