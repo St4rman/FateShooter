@@ -41,12 +41,12 @@ void AFateNullBlaster::FireHitScan()
 		
 		AmmoCounter +=1;
 
-		if (AmmoCounter == 4)
+		if (AmmoCounter == 5)
 		{
 			AmmoCounter = 0;
 			if (bIsHit)
 			{
-				// CreateBlackHole();
+				CreateBlackHole();
 			}
 			
 		}
