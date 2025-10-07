@@ -70,7 +70,6 @@ protected:
 	void PostInitializeComponents() override;
 	void TryWeaponFire();
 	
-
 	FVector2D MovementCache;
 	UCharacterMovementComponent* MovementComp;
 
@@ -94,6 +93,9 @@ public:
 	
 	FVector  GetCameraLocation()	const { return FirstPersonCameraComponent->GetComponentLocation();}
 	FRotator GetCameraRotation()	const { return FirstPersonCameraComponent->GetComponentRotation();}
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void DoRagdoll();
 	
 	UFUNCTION(BlueprintCallable)
 	bool ShouldCamLean();

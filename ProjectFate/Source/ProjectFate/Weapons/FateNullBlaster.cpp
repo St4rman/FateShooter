@@ -35,7 +35,16 @@ void AFateNullBlaster::FireHitScan()
 			OutHitData.HitDirection = HitResult.Location - TraceStart;
 			OutHitData.Shooter		= Character;
 			OutHitData.HitEffect	= HitEffect;
-			Cast<AProjectFateCharacter>(Character)->CreateHitEffect(OutHitData);
+			if (AProjectFateCharacter* HitActor = Cast<AProjectFateCharacter>(Character))
+			{
+				HitActor->CreateHitEffect(OutHitData);
+				
+			}
+			if (AProjectFateCharacter* ShotActor = Cast<AProjectFateCharacter>(HitResult.GetActor()))
+			{
+				ShotActor->DoRagdoll();
+			}
+			
 		}
 		
 		
