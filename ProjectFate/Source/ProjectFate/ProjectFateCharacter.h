@@ -101,9 +101,6 @@ public:
 	
 	FVector  GetCameraLocation()	const { return FirstPersonCameraComponent->GetComponentLocation();}
 	FRotator GetCameraRotation()	const { return FirstPersonCameraComponent->GetComponentRotation();}
-
-	UFUNCTION(BlueprintImplementableEvent)
-	void DoRagdoll();
 	
 	UFUNCTION(BlueprintCallable)
 	bool ShouldCamLean();
@@ -129,5 +126,7 @@ public:
 	void FreePlayer();
 	FTimerHandle LockedTimer;
 
+	UFUNCTION(BlueprintImplementableEvent)
+	void OnPlayerDeath();
 	
 };

@@ -1,5 +1,7 @@
 ﻿#include "FatePlayerStatComp.h"
 
+#include "ProjectFate/ProjectFateCharacter.h"
+
 
 UFatePlayerStatComp::UFatePlayerStatComp()
 {
@@ -23,33 +25,33 @@ void UFatePlayerStatComp::GetLifetimeReplicatedProps(TArray< FLifetimeProperty >
 }
 
 
-void UFatePlayerStatComp::ServerLowerHealth_Implementation(float InDmg)
+void UFatePlayerStatComp::ServerLowerHealth_Implementation(float InDmg, AProjectFateCharacter* Instigator)
 {
 	if (GetOwnerRole() == ROLE_Authority)
 	{
-		LowerHealth(InDmg);
+		LowerHealth(InDmg, Instigator);
 	}
 }
 
-bool UFatePlayerStatComp::ServerLowerHealth_Validate(float InDmg)
+bool UFatePlayerStatComp::ServerLowerHealth_Validate(float InDmg, AProjectFateCharacter* Instigator)
 {
 	return true;
 }
 
-void UFatePlayerStatComp::LowerHealth(float IncomingDamage)
+void UFatePlayerStatComp::LowerHealth(float IncomingDamage, AProjectFateCharacter* Instigator)
 {
 	
-	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Yellow, "UFatePlayerStatComp::LowerHealth");
 	if (GetOwnerRole() < ROLE_Authority)
 	{
-		ServerLowerHealth(IncomingDamage);
+		ServerLowerHealth(IncomingDamage, Instigator);
 	}
 	
 	else
 	{
 		if (Health - IncomingDamage <0 )
 		{
-			Health = 0;
+			Health = 0;	
+			Cast<AProjectFateCharacter>(GetOwner())->OnPlayerDeath();
 		}
 		Health -= IncomingDamage;	
 	}

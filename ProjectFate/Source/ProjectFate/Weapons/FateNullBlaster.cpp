@@ -35,7 +35,6 @@ void AFateNullBlaster::FireHitScan()
 			OutHitData.HitDirection = HitResult.Location - TraceStart;
 			OutHitData.Shooter		= Character;
 			OutHitData.HitEffect	= HitEffect;
-
 			
 			if (AProjectFateCharacter* Shooter = Cast<AProjectFateCharacter>(Character))
 			{
@@ -47,7 +46,7 @@ void AFateNullBlaster::FireHitScan()
 				//refactor this
 				if (ShotActor->GetStatComp())
 				{
-					ShotActor->GetStatComp()->LowerHealth(WeaponDamage);
+					ShotActor->GetStatComp()->LowerHealth(WeaponDamage, Character);
 				}
 			}
 		}
