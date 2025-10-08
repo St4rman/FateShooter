@@ -6,6 +6,7 @@
 #include "NiagaraComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Components/FateParticleComp.h"
+#include "Components/FatePlayerStatComp.h"
 #include "GameFramework/Character.h"
 #include "CoreHelpers/CoreHelper.h"
 #include "CoreHelpers/CoreStructs.h"
@@ -56,6 +57,9 @@ class AProjectFateCharacter : public ACharacter
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Visual, meta = (AllowPrivateAccess = "true"))
 	UFateParticleComp* PlayerParticleComp;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Visual, meta = (AllowPrivateAccess = "true"))
+	UFatePlayerStatComp* PlayerStatComp;
 	
 public:
 	AProjectFateCharacter();
@@ -67,10 +71,12 @@ protected:
 	
 	void Move(const FInputActionValue& Value);
 	void Look(const FInputActionValue& Value);
-	void PostInitializeComponents() override;
+	virtual void PostInitializeComponents() override;
 	void TryWeaponFire();
 	
 	FVector2D MovementCache;
+	
+	UPROPERTY()
 	UCharacterMovementComponent* MovementComp;
 
 	ELocomotionMode CurrentLocomotionMode;
@@ -85,11 +91,13 @@ public:
 	
 	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
 	USkeletalMeshComponent* GetMesh3P() const { return Mesh3P; }
-
 	
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 	UFateParticleComp* GetFateParticleComp()		  const { return PlayerParticleComp; }
 	AFateWeaponBase* GetCurrentWeapon()				  const { return CurrentWeapon; }
+	
+	UFUNCTION(BlueprintCallable)
+	UFatePlayerStatComp* GetStatComp()				  const {return PlayerStatComp; }
 	
 	FVector  GetCameraLocation()	const { return FirstPersonCameraComponent->GetComponentLocation();}
 	FRotator GetCameraRotation()	const { return FirstPersonCameraComponent->GetComponentRotation();}
@@ -120,4 +128,6 @@ public:
 	void LockForSeconds(float dur);
 	void FreePlayer();
 	FTimerHandle LockedTimer;
+
+	
 };

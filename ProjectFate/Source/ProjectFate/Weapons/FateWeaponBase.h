@@ -59,6 +59,9 @@ public:
 	float WeaponFiringRate;
 	
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
+	float WeaponDamage;
+	
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
 	UTexture2D* CrossHairTexture;
 	
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
@@ -78,10 +81,13 @@ protected:
 	
 	UFUNCTION()
 	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
+	
+	UPROPERTY()
 	AProjectFateCharacter* Character;
 	FCollisionQueryParams QueryParams;
 	FActorSpawnParameters ActorSpawnParams;
 
+	
 	
 public:
 

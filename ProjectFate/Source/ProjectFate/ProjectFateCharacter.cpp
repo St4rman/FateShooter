@@ -45,7 +45,8 @@ AProjectFateCharacter::AProjectFateCharacter()
 	Mesh3P->SetRelativeLocation(FVector(0, 0, -90.0f));
 	Mesh3P->SetRelativeRotation(FRotator(0.f, -90.0f, 0.f));
 
-	PlayerParticleComp = CreateDefaultSubobject<UFateParticleComp>(TEXT("PlayerParticleComponent"));
+	PlayerParticleComp  = CreateDefaultSubobject<UFateParticleComp>(TEXT("PlayerParticleComponent"));
+	PlayerStatComp		= CreateDefaultSubobject<UFatePlayerStatComp>(TEXT("PlayerStatComp"));
 	
 }
 
