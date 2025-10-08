@@ -14,12 +14,15 @@
   <component name="ChangeListManager">
     <list default="true" id="2bcec5a1-d210-4a75-911d-ed9f7bcc681a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/Gameplay/BP_GM_Gameplay.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/Gameplay/BP_GM_Gameplay.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/Gameplay/BP_PC_Gameplay.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/Gameplay/BP_PC_Gameplay.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/Player/BP_FateCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/Player/BP_FateCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/MainMenu/BP_GM_MainMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/MainMenu/BP_GM_MainMenu.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/MainMenu/BP_PC_MainMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/MainMenu/BP_PC_MainMenu.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/BP/Terrain/BP_MeshGen.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/BP/Terrain/BP_MeshGen.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/Levels/MainMenuLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/Levels/MainMenuLevel.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/UI/MainMenu/WBP_MainMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/UI/MainMenu/WBP_MainMenu.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +247,7 @@
       <workItem from="1759404626194" duration="10587000" />
       <workItem from="1759752592654" duration="5739000" />
       <workItem from="1759842720339" duration="9267000" />
-      <workItem from="1759920534405" duration="14268000" />
+      <workItem from="1759920534405" duration="16394000" />
     </task>
     <servers />
   </component>
