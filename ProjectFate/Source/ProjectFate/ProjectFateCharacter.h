@@ -122,6 +122,11 @@ public:
 	bool ServerWpnFire_Validate();
 	void ServerWpnFire_Implementation();
 
+	UFUNCTION(NetMulticast, Reliable, WithValidation, BlueprintCallable)
+	void ServerClearWeapons();
+	bool ServerClearWeapons_Validate();
+	void ServerClearWeapons_Implementation();
+
 	void LockForSeconds(float dur);
 	void FreePlayer();
 	FTimerHandle LockedTimer;

@@ -98,11 +98,7 @@ public:
 
 	virtual void FireHitScan();
 
-	UFUNCTION(BlueprintNativeEvent)
-	void DoUIFlair();
-
-	UFUNCTION(BlueprintNativeEvent)
-	void DoNiagaraDebug();
+	void OnWeaponDrop();
 
 	UNiagaraSystem* GetFireEffectMuzzle() const { return FireEffectMuzzle; }
 	USkeletalMeshComponent* GetMesh() const {return WeaponMesh; }

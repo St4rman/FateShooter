@@ -187,6 +187,16 @@ void AProjectFateCharacter::ServerWpnFire_Implementation()
 	}
 }
 
+bool AProjectFateCharacter::ServerClearWeapons_Validate()
+{
+	return (CurrentWeapon != nullptr);
+}
+
+void AProjectFateCharacter::ServerClearWeapons_Implementation()
+{
+	CurrentWeapon->Destroy();
+}
+
 void AProjectFateCharacter::LockForSeconds(float dur)
 {
 	SetLocomotionMode(L_Locked);

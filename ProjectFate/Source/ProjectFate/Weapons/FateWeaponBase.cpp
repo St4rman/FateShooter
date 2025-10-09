@@ -96,7 +96,7 @@ void AFateWeaponBase::Fire(const AProjectFateCharacter* OwningCharacter)
 	if (!HasAuthority())
 	{
 		DoShootFlair();
-		DoUIFlair();
+		// DoUIFlair();
 	}
 	//server code
 	else
@@ -118,9 +118,13 @@ void AFateWeaponBase::Fire(const AProjectFateCharacter* OwningCharacter)
 		if (OwningCharacter->IsLocallyControlled())
 		{
 			DoShootFlair();
-			DoUIFlair();
+			// DoUIFlair();
 		}
 	}
+}
+
+void AFateWeaponBase::FireHitScan()
+{
 }
 
 void AFateWeaponBase::DoShootFlair() 
@@ -157,17 +161,15 @@ void AFateWeaponBase::FireProjectile()
 	}
 }
 
-//can be overriden as well
-void AFateWeaponBase::FireHitScan()
+void AFateWeaponBase::OnWeaponDrop()
 {
-	
+	GEngine->AddOnScreenDebugMessage(1, 1, FColor::Green, "Fired ON Server");
+	Destroy();
+	if (!HasAuthority())
+	{
+		Destroy();
+		GEngine->AddOnScreenDebugMessage(1, 1, FColor::Green, "Fired ON client");
+	}
 }
 
-void AFateWeaponBase::DoNiagaraDebug_Implementation()
-{
-}
-
-void AFateWeaponBase::DoUIFlair_Implementation()
-{
-}
 
