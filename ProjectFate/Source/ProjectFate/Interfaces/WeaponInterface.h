@@ -4,6 +4,8 @@
 #include "UObject/Interface.h"
 #include "WeaponInterface.generated.h"
 
+class AProjectFateCharacter;
+
 UINTERFACE()
 class UWeaponInterface : public UInterface
 {

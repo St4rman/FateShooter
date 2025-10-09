@@ -35,18 +35,21 @@ void AFateNullBlaster::FireHitScan()
 			OutHitData.HitDirection = HitResult.Location - TraceStart;
 			OutHitData.Shooter		= Character;
 			OutHitData.HitEffect	= HitEffect;
-			if (AProjectFateCharacter* HitActor = Cast<AProjectFateCharacter>(Character))
+			
+			if (AProjectFateCharacter* Shooter = Cast<AProjectFateCharacter>(Character))
 			{
-				HitActor->CreateHitEffect(OutHitData);
+				Shooter->CreateHitEffect(OutHitData);
 				
 			}
 			if (AProjectFateCharacter* ShotActor = Cast<AProjectFateCharacter>(HitResult.GetActor()))
 			{
-				ShotActor->DoRagdoll();
+				//refactor this
+				if (ShotActor->GetStatComp())
+				{
+					ShotActor->GetStatComp()->LowerHealth(WeaponDamage, Character);
+				}
 			}
-			
 		}
-		
 		
 		AmmoCounter +=1;
 

@@ -6,6 +6,7 @@
 
 class UEnhancedInputComponent;
 
+
 AFateWeaponBase::AFateWeaponBase()
 {
 	WeaponMesh = CreateDefaultSubobject<USkeletalMeshComponent>("Weapon Mesh");
