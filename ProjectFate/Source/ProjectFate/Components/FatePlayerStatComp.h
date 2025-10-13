@@ -16,8 +16,8 @@ class PROJECTFATE_API UFatePlayerStatComp : public UActorComponent
 protected:
 	
 	UPROPERTY(Replicated, VisibleAnywhere)
-	float Health; 
-	
+	float Health;
+
 public:
 
 	UFatePlayerStatComp();

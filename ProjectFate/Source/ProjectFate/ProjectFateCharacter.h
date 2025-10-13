@@ -132,6 +132,6 @@ public:
 	FTimerHandle LockedTimer;
 
 	UFUNCTION(BlueprintImplementableEvent)
-	void OnPlayerDeath();
+	void OnPlayerDeath(APlayerState* InstigatorPlayer);
 	
 };
