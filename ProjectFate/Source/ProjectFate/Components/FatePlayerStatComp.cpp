@@ -1,6 +1,10 @@
 ﻿#include "FatePlayerStatComp.h"
 
+#include "GameFramework/GameMode.h"
+#include "GameFramework/GameModeBase.h"
+#include "Kismet/GameplayStatics.h"
 #include "ProjectFate/ProjectFateCharacter.h"
+#include "ProjectFate/Interfaces/FateGMInterface.h"
 
 
 UFatePlayerStatComp::UFatePlayerStatComp()
@@ -50,8 +54,9 @@ void UFatePlayerStatComp::LowerHealth(float IncomingDamage, AProjectFateCharacte
 	{
 		if (Health - IncomingDamage <0 )
 		{
-			Health = 0;	
-			Cast<AProjectFateCharacter>(GetOwner())->OnPlayerDeath();
+			Health = 0;
+			AProjectFateCharacter* Self = Cast<AProjectFateCharacter>(GetOwner());
+			Self->OnPlayerDeath(Instigator->GetPlayerState());
 		}
 		Health -= IncomingDamage;	
 	}

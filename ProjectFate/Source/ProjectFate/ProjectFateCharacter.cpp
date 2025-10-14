@@ -189,12 +189,15 @@ void AProjectFateCharacter::ServerWpnFire_Implementation()
 
 bool AProjectFateCharacter::ServerClearWeapons_Validate()
 {
-	return (CurrentWeapon != nullptr);
+	return true;
 }
 
 void AProjectFateCharacter::ServerClearWeapons_Implementation()
 {
-	CurrentWeapon->Destroy();
+	if (CurrentWeapon)
+	{
+		CurrentWeapon->Destroy();
+	}
 }
 
 void AProjectFateCharacter::LockForSeconds(float dur)
