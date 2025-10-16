@@ -15,7 +15,7 @@ AGunHolder::AGunHolder()
 void AGunHolder::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	 
 }
 
 // Called every frame

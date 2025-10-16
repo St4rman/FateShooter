@@ -18,6 +18,9 @@ protected:
 	UPROPERTY(Replicated, VisibleAnywhere)
 	float Health;
 
+	UPROPERTY(Replicated, VisibleAnywhere)
+	float MaxHealth = 100.0f;
+
 public:
 
 	UFatePlayerStatComp();
@@ -40,6 +43,9 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	float GetHealth() const {return Health;}
+
+	UFUNCTION(BlueprintCallable)
+	float GetMaxHealth() const {return MaxHealth;}
 };
 
 
