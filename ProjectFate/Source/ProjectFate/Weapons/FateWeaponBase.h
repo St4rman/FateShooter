@@ -14,11 +14,13 @@
 class AProjectFateProjectile;
 
 
+DECLARE_DELEGATE(FOnweaponPickupDelegate);
+
 UCLASS()
 class PROJECTFATE_API AFateWeaponBase : public AActor, public IWeaponInterface
 {
 	GENERATED_BODY()
-
+	
 public:
 	AFateWeaponBase();
 	
@@ -76,6 +78,7 @@ public:
 	UPROPERTY(EditAnywhere, Category="Firing")
 	UNiagaraSystem* HitEffect;
 
+	bool isEquipped = false;
 protected:
 	virtual void BeginPlay() override;
 	
@@ -99,7 +102,13 @@ public:
 	virtual void FireHitScan();
 
 	void OnWeaponDrop();
+	
+	
+	void OnweaponPickupEvent();
 
+	FOnweaponPickupDelegate OnWeaponPickupDel;
+	
+	
 	UNiagaraSystem* GetFireEffectMuzzle() const { return FireEffectMuzzle; }
 	USkeletalMeshComponent* GetMesh() const {return WeaponMesh; }
 };
