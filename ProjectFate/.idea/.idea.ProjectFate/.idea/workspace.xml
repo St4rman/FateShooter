@@ -14,15 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2bcec5a1-d210-4a75-911d-ed9f7bcc681a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyContent/UI/BOOT/WBP_BootScreen.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/UI/BOOT/WBP_BootScreen.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyContent/UI/MainMenu/Sessions/WBP_CreateGame.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/UI/MainMenu/Sessions/WBP_CreateGame.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyContent/UI/MainMenu/Sessions/WBP_ServerBrowser.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/UI/MainMenu/Sessions/WBP_ServerBrowser.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyContent/UI/MainMenu/Sessions/WBP_ServerBrowserItem.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/UI/MainMenu/Sessions/WBP_ServerBrowserItem.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyContent/UI/MainMenu/WBP_BaseButton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/UI/MainMenu/WBP_BaseButton.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyContent/UI/MainMenu/WBP_MainMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/UI/MainMenu/WBP_MainMenu.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +238,7 @@
       <workItem from="1760007717248" duration="4146000" />
       <workItem from="1760023082020" duration="1255000" />
       <workItem from="1760356789235" duration="8746000" />
-      <workItem from="1760634095606" duration="5602000" />
+      <workItem from="1760634095606" duration="6519000" />
     </task>
     <servers />
   </component>
