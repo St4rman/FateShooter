@@ -13,27 +13,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcec5a1-d210-4a75-911d-ed9f7bcc681a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/ProjectFate/Interfaces/FateGMInterface.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/ProjectFate/Interfaces/FateGMInterface.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/Gameplay/BP_GM_Gameplay.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/Gameplay/BP_GM_Gameplay.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/Gameplay/BP_GS_Gameplay.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/Gameplay/BP_GS_Gameplay.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/Interfaces/BPI_GameState.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/Interfaces/BPI_GameState.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/Player/BP_FateCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/Player/BP_FateCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyContent/Levels/MainArenaLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/Levels/MainArenaLevel.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/Gameplay/BP_PS_Gameplay.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/Gameplay/BP_PS_Gameplay.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/MyContent/UI/Game/WBP_HealthBar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/UI/Game/WBP_HealthBar.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyContent/UI/Game/WBP_PlayerCount.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/UI/Game/WBP_PlayerCount.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSteamSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSteamSessions/UHT/Timestamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Components/FatePlayerStatComp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Components/FatePlayerStatComp.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Components/FatePlayerStatComp.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Components/FatePlayerStatComp.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +67,7 @@
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -96,7 +84,7 @@
     &quot;C/C++ Project.ProjectFate.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;healthbar&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -258,6 +246,9 @@
       <workItem from="1760007717248" duration="4146000" />
       <workItem from="1760023082020" duration="1255000" />
       <workItem from="1760356789235" duration="8746000" />
+      <workItem from="1760634095606" duration="6519000" />
+      <workItem from="1760707714307" duration="14758000" />
+      <workItem from="1760962579305" duration="3827000" />
     </task>
     <servers />
   </component>

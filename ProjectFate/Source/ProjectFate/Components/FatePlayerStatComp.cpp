@@ -23,8 +23,6 @@ void UFatePlayerStatComp::BeginPlay()
 void UFatePlayerStatComp::GetLifetimeReplicatedProps(TArray< FLifetimeProperty > & OutLifetimeProps) const
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
-
-	//replicates it to everyone
 	DOREPLIFETIME(UFatePlayerStatComp, Health);
 }
 

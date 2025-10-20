@@ -44,6 +44,7 @@ bool AFateWeaponBase::AttachWeapon(AProjectFateCharacter* TargetCharacter)
 	{
 		if (TargetCharacter->CurrentWeapon != nullptr)
 		{
+			
 			return false;
 		} 
 	}
@@ -66,6 +67,8 @@ bool AFateWeaponBase::AttachWeapon(AProjectFateCharacter* TargetCharacter)
 	{
 		AttachToComponent(Character->GetMesh3P(),AttachmentRules, FName(TEXT("hand_rSocket")));
 	}
+	isEquipped = true;
+	OnweaponPickupEvent();
 	return true;
 }
 
@@ -171,5 +174,11 @@ void AFateWeaponBase::OnWeaponDrop()
 		GEngine->AddOnScreenDebugMessage(1, 1, FColor::Green, "Fired ON client");
 	}
 }
+
+void AFateWeaponBase::OnweaponPickupEvent()
+{
+	OnWeaponPickupDel.ExecuteIfBound();
+}
+
 
 
