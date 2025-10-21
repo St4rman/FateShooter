@@ -1,4 +1,6 @@
 ﻿#include "FateRocketL.h"
+
+#include "GameFramework/ProjectileMovementComponent.h"
 #include "ProjectFate/ProjectFateProjectile.h"
 #include "ProjectFate/Entities/FateRocket.h"
 
@@ -23,8 +25,10 @@ void AFateRocketL::FireProjectile()
 			const FVector  SpawnLocation = WeaponMesh->GetSocketLocation("Muzzle");
 			
 			AProjectFateProjectile* Rocket = World->SpawnActor<AProjectFateProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
-			Rocket->SetShooter(Cast<AProjectFateCharacter>(GetOwner()));
 
+			Rocket->SetShooter(Cast<AProjectFateCharacter>(GetOwner()));
+			Rocket->GetProjectileMovement()->InitialSpeed = RocketVelocity;
+			
 			OutHitData.Shooter		= Character;
 			
 			if (AProjectFateCharacter* Shooter = Cast<AProjectFateCharacter>(Character))

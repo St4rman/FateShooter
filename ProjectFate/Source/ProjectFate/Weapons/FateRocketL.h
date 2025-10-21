@@ -17,8 +17,8 @@ public:
 	AFateRocketL();
 	virtual void FireProjectile() override;
 
-	// UPROPERTY(EditAnywhere)
-	// TSubclassOf<class AProjectFateProjectile> ProjectileClass;
+	UPROPERTY(EditAnywhere)
+	float RocketVelocity;
 	
 protected:
 	// Called when the game starts or when spawned

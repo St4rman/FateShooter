@@ -1,14 +1,12 @@
 ﻿#include "FateRocket.h"
 
 #include "Components/SphereComponent.h"
+#include "GameFramework/ProjectileMovementComponent.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "ProjectFate/ProjectFateCharacter.h"
 
 AFateRocket::AFateRocket()
 {
-	StaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>("StaticMeshComponent");
-	StaticMeshComponent->SetupAttachment(GetRootComponent());
-	
 	GetCollisionComp()->SetSphereRadius(500.0f);
 	PrimaryActorTick.bCanEverTick = true;
 }
@@ -52,6 +50,7 @@ void AFateRocket::OnExplode(UPrimitiveComponent* HitComp, AActor* OtherActor, UP
 			return;
 		}
 		OActor->GetStatComp()->LowerHealth(DirectHitDamage, GetShooter());
+		Destroy();
 	}
 
 	else
