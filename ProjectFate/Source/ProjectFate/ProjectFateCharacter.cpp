@@ -165,7 +165,12 @@ bool AProjectFateCharacter::ShouldCamLean()
 
 void AProjectFateCharacter::CreateHitEffect_Implementation(FHitData InHit)
 {
-	PlayerParticleComp->SpawnFateParticles(InHit);
+	if (CurrentWeapon->WeaponType == L_HitScan)
+	{
+		PlayerParticleComp->SpawnFateParticles(InHit, true);
+	}
+	PlayerParticleComp->SpawnFateParticles(InHit, false);
+	
 }
 
 bool AProjectFateCharacter::ServerWpnFire_Validate()

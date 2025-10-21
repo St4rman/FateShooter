@@ -47,6 +47,10 @@ void AFateRocket::OnExplode(UPrimitiveComponent* HitComp, AActor* OtherActor, UP
 	}
 	if (AProjectFateCharacter* OActor =Cast<AProjectFateCharacter>(OtherActor))
 	{
+		if (OActor == GetShooter())
+		{
+			return;
+		}
 		OActor->GetStatComp()->LowerHealth(DirectHitDamage, GetShooter());
 	}
 

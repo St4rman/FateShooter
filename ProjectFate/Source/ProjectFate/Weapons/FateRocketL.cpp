@@ -24,6 +24,14 @@ void AFateRocketL::FireProjectile()
 			
 			AProjectFateProjectile* Rocket = World->SpawnActor<AProjectFateProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
 			Rocket->SetShooter(Cast<AProjectFateCharacter>(GetOwner()));
+
+			OutHitData.Shooter		= Character;
+			
+			if (AProjectFateCharacter* Shooter = Cast<AProjectFateCharacter>(Character))
+			{
+				Shooter->CreateHitEffect(OutHitData);
+			}
+			
 		}
 	}
 }

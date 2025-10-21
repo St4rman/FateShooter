@@ -17,8 +17,6 @@ AFateWeaponBase::AFateWeaponBase()
 	PrimaryActorTick.bCanEverTick = true;
 	MuzzleOffset = FVector(100.0f, 0.0f, 10.0f);
 	
-	
-	
 	QueryParams.AddIgnoredActor(this);
 	
 }

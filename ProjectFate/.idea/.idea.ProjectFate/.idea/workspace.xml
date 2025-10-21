@@ -13,10 +13,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcec5a1-d210-4a75-911d-ed9f7bcc681a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/Player/BP_FateCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/Player/BP_FateCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/Weapon/BP_Launcher.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/Weapon/BP_Launcher.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/Weapon/BP_NullBlaster.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/Weapon/BP_NullBlaster.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/Weapon/BP_Projectile.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/Weapon/BP_Projectile.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/MyContent/Levels/TestSandBoxLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/Levels/TestSandBoxLevel.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/NiagaraSystem/MuzzleFlash/NS_Muzzle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/WeaponModels/FBX_format/SKM_blaster-j1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/WeaponModels/FBX_format/SKM_blaster-j1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/WeaponModels/FBX_format/SK_blaster-jNew.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/WeaponModels/FBX_format/SK_blaster-jNew.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSteamSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSteamSessions/UHT/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Components/FateParticleComp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Components/FateParticleComp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Components/FateParticleComp.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Components/FateParticleComp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Entities/FateRocket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Entities/FateRocket.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateRocketL.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateRocketL.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateRocketL.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateRocketL.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateWeaponBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateWeaponBase.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +102,7 @@
     "C/C++ Project.ProjectFate.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "projectile-vfx",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -249,7 +267,7 @@
       <workItem from="1760634095606" duration="6519000" />
       <workItem from="1760707714307" duration="14758000" />
       <workItem from="1760962579305" duration="3827000" />
-      <workItem from="1761052987906" duration="5299000" />
+      <workItem from="1761052987906" duration="7333000" />
     </task>
     <servers />
   </component>
