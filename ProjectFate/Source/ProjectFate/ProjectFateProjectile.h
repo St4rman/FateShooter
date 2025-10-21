@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "ProjectFateProjectile.generated.h"
 
+class AProjectFateCharacter;
 class USphereComponent;
 class UProjectileMovementComponent;
 
@@ -22,6 +23,9 @@ class AProjectFateProjectile : public AActor
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement, meta = (AllowPrivateAccess = "true"))
 	UProjectileMovementComponent* ProjectileMovement;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement, meta = (AllowPrivateAccess = "true"))
+	AProjectFateCharacter* Shooter;
+
 public:
 	AProjectFateProjectile();
 
@@ -33,5 +37,9 @@ public:
 	USphereComponent* GetCollisionComp() const { return CollisionComp; }
 	/** Returns ProjectileMovement subobject **/
 	UProjectileMovementComponent* GetProjectileMovement() const { return ProjectileMovement; }
+	
+	void SetShooter(AProjectFateCharacter* InShooter){Shooter = InShooter; };
+	AProjectFateCharacter* GetShooter() const { return Shooter; };
+	
 };
 

@@ -14,14 +14,16 @@
   <component name="ChangeListManager">
     <list default="true" id="2bcec5a1-d210-4a75-911d-ed9f7bcc681a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/Gameplay/BP_GM_Gameplay.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/Gameplay/BP_GM_Gameplay.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/Gameplay/BP_PS_Gameplay.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/GameModes/Gameplay/BP_PS_Gameplay.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyContent/UI/Game/WBP_HealthBar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/UI/Game/WBP_HealthBar.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyBlueprints/Entities/BP_Rocket.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyBlueprints/Entities/BP_Rocket.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyContent/Levels/TestSandBoxLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/Levels/TestSandBoxLevel.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSteamSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSteamSessions/UHT/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Components/FatePlayerStatComp.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Components/FatePlayerStatComp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Entities/FateRocket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Entities/FateRocket.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateRocketL.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateRocketL.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +39,21 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Plugins/EnhancedInput/Source/EnhancedInput/Private/EnhancedPlayerInput.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Plugins/FX/Niagara/Source/Niagara/Private/NiagaraComponent.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Plugins/Online/OnlineSubsystemEOS/Source/OnlineSubsystemEOSPlus/Private/OnlineExternalUIEOSPlus.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Programs/AutomationTool/BuildGraph/Tasks/OnExitTask.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/AIModule/Classes/EnvironmentQuery/EnvQueryTypes.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/AIModule/Private/BehaviorTree/Tasks/BTTask_RunEQSQuery.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Core/Private/ProfilingDebugging/TagTrace.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Core/Public/Containers/Array.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Core/Public/Delegates/Delegate.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Core/Public/HAL/LowLevelMemTracker.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/CoreUObject/Private/UObject/Class.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/CoreUObject/Private/UObject/ScriptCore.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectHandle.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectPtr.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Engine/Classes/Components/PrimitiveComponent.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Engine/Classes/Engine/World.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Engine/Classes/GameFramework/Pawn.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Engine/Classes/Kismet/KismetMathLibrary.inl" root0="FORCE_HIGHLIGHTING" />
@@ -62,7 +69,7 @@
     <setting file="file://$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/ProjectFate/UHT/CoreStructs.gen.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/ProjectFate/UHT/FateParticleComp.gen.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/ProjectFate/UHT/FateWeaponBase.gen.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/ProjectFate/UHT/ProjectFateCharacter.gen.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/ProjectFate/UHT/ProjectFateCharacter.gen.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -79,22 +86,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C/C++ Project.ProjectFate.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;healthbar&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ Project.ProjectFate.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "projectile-wpn",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="C/C++ Project.ProjectFate">
     <configuration name="ProjectFate" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
@@ -249,6 +256,7 @@
       <workItem from="1760634095606" duration="6519000" />
       <workItem from="1760707714307" duration="14758000" />
       <workItem from="1760962579305" duration="3827000" />
+      <workItem from="1761052987906" duration="4185000" />
     </task>
     <servers />
   </component>
@@ -257,6 +265,17 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

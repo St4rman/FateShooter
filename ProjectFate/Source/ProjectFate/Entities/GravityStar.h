@@ -28,7 +28,6 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	TObjectPtr<UPhysicsConstraintComponent> SpringConstraint;
 
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float ExplodeForce = 8000;
 

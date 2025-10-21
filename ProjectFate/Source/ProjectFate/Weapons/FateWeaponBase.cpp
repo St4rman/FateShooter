@@ -17,7 +17,7 @@ AFateWeaponBase::AFateWeaponBase()
 	PrimaryActorTick.bCanEverTick = true;
 	MuzzleOffset = FVector(100.0f, 0.0f, 10.0f);
 	
-	ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+	
 	
 	QueryParams.AddIgnoredActor(this);
 	
@@ -150,18 +150,7 @@ void AFateWeaponBase::DoShootFlair()
 //can be overriden 
 void AFateWeaponBase::FireProjectile()
 {
-	if (ProjectileClass != nullptr)
-	{
-		UWorld* const World = GetWorld();
-		if (World != nullptr)
-		{
-			APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
-			const FRotator SpawnRotation = PlayerController->PlayerCameraManager->GetCameraRotation();
-			const FVector  SpawnLocation = WeaponMesh->GetSocketLocation("Muzzle");
-				
-			World->SpawnActor<AProjectFateProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
-		}
-	}
+	
 }
 
 void AFateWeaponBase::OnWeaponDrop()

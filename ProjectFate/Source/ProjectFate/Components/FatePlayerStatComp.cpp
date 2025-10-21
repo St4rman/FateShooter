@@ -42,7 +42,6 @@ bool UFatePlayerStatComp::ServerLowerHealth_Validate(float InDmg, AProjectFateCh
 
 void UFatePlayerStatComp::LowerHealth(float IncomingDamage, AProjectFateCharacter* Instigator)
 {
-	
 	if (GetOwnerRole() < ROLE_Authority)
 	{
 		ServerLowerHealth(IncomingDamage, Instigator);
@@ -50,13 +49,17 @@ void UFatePlayerStatComp::LowerHealth(float IncomingDamage, AProjectFateCharacte
 	
 	else
 	{
-		if (Health - IncomingDamage <0 )
+		if (Health - IncomingDamage <=0 )
 		{
 			Health = 0;
 			AProjectFateCharacter* Self = Cast<AProjectFateCharacter>(GetOwner());
 			Self->OnPlayerDeath(Instigator->GetPlayerState());
 		}
-		Health -= IncomingDamage;	
+		else
+		{
+			Health -= IncomingDamage;	
+		}
+		
 	}
 }
 
