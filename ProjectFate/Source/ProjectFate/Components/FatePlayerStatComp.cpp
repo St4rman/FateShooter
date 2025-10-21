@@ -57,7 +57,7 @@ void UFatePlayerStatComp::LowerHealth(float IncomingDamage, AProjectFateCharacte
 		}
 		else
 		{
-			Health -= IncomingDamage;	
+			Health -= IncomingDamage;
 		}
 		
 	}
