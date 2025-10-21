@@ -16,12 +16,15 @@ AFateRocket::AFateRocket()
 void AFateRocket::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
-	
 	GetCollisionComp()->OnComponentHit.AddDynamic(this, &AFateRocket::OnExplode);
 }
 void AFateRocket::BeginPlay()
 {
 	Super::BeginPlay();
+	if (!HasAuthority())
+	{
+		Destroy();
+	}
 	GetWorldTimerManager().SetTimer(TimerHandle_Lifetime, this, &AFateRocket::PostLifeTimeExpired, 2.0f);
 }
 
@@ -38,10 +41,13 @@ void AFateRocket::PostLifeTimeExpired()
 
 void AFateRocket::OnExplode(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
+	if (!HasAuthority())
+	{
+		return;
+	}
 	if (AProjectFateCharacter* OActor =Cast<AProjectFateCharacter>(OtherActor))
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Red, "OnExpl");
-		// OActor->GetStatComp()->LowerHealth(DirectHitDamage, GetShooter());
+		OActor->GetStatComp()->LowerHealth(DirectHitDamage, GetShooter());
 	}
 
 	else

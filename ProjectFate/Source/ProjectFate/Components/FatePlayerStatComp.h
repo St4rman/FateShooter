@@ -35,8 +35,6 @@ protected:
 	bool ServerLowerHealth_Validate(float InDmg, AProjectFateCharacter* Instigator);
 	void ServerLowerHealth_Implementation(float InDmg, AProjectFateCharacter* Instigator);
 
-	
-
 public:
 	UFUNCTION(BlueprintCallable)
 	void LowerHealth(float IncomingDamage, AProjectFateCharacter* Instigator);

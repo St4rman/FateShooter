@@ -11,9 +11,8 @@ AFateRocketL::AFateRocketL()
 
 void AFateRocketL::FireProjectile()
 {
-	Super::FireProjectile();
-
-  	
+	// Super::FireProjectile();
+	
 	if (ProjectileClass != nullptr)
 	{
 		UWorld* const World = GetWorld();
@@ -22,7 +21,7 @@ void AFateRocketL::FireProjectile()
 			APlayerController* PlayerController = Cast<APlayerController>(Character->GetController());
 			const FRotator SpawnRotation = PlayerController->PlayerCameraManager->GetCameraRotation();
 			const FVector  SpawnLocation = WeaponMesh->GetSocketLocation("Muzzle");
-				
+			
 			AProjectFateProjectile* Rocket = World->SpawnActor<AProjectFateProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
 			Rocket->SetShooter(Cast<AProjectFateCharacter>(GetOwner()));
 		}
@@ -32,5 +31,4 @@ void AFateRocketL::FireProjectile()
 void AFateRocketL::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
