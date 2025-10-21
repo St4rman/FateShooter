@@ -39,6 +39,7 @@ void UFateParticleComp::ServerFireParticles_Implementation(const FHitData InHit,
 void UFateParticleComp::NMC_ServerFire_Implementation(const FHitData InHit, bool HasLaser)
 {
 	//hit effect
+	
 	UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), InHit.HitEffect , InHit.HitLocation, UKismetMathLibrary::MakeRotFromX(- InHit.HitDirection));
 
 	//fire barell
