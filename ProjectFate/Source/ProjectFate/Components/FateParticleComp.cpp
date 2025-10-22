@@ -38,11 +38,7 @@ void UFateParticleComp::ServerFireParticles_Implementation(const FHitData InHit,
 
 void UFateParticleComp::NMC_ServerFire_Implementation(const FHitData InHit, bool HasLaser)
 {
-	//hit effect
 	
-	UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), InHit.HitEffect , InHit.HitLocation, UKismetMathLibrary::MakeRotFromX(- InHit.HitDirection));
-
-	//fire barell
 	if (InHit.Shooter !=nullptr)
 	{
 		AFateWeaponBase* currentWeapon = InHit.Shooter->GetCurrentWeapon();
@@ -71,3 +67,24 @@ void UFateParticleComp::NMC_ServerFire_Implementation(const FHitData InHit, bool
 	}
 	
 }
+
+void UFateParticleComp::SpawnEffectAtPosition(const FVector Location, const FRotator Rotation, UNiagaraSystem* EffectToSpawn, const int Scale)
+{
+	//tell the server to fire off a netmulticast to the players
+	SeverSpawnAtLocation(Location, Rotation, EffectToSpawn, Scale);
+}
+
+void UFateParticleComp::SeverSpawnAtLocation_Implementation(const FVector Location, const FRotator Rotation, UNiagaraSystem* EffectToSpawn, const int Scale)
+{
+	//multicast to clients to spawn the shit
+	Nmc_ServerSpawnAtLocation(Location, Rotation, EffectToSpawn, Scale);
+}
+
+void UFateParticleComp::Nmc_ServerSpawnAtLocation_Implementation(const FVector Location,  const FRotator Rotation, UNiagaraSystem* EffectToSpawn, const int Scale)
+{
+	if (EffectToSpawn != nullptr)
+	{
+		UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), EffectToSpawn , Location, Rotation, FVector(Scale));
+	}
+}
+

@@ -34,6 +34,9 @@ protected:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float DirectHitDamage = 40;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UNiagaraSystem* ExplosionEffect;
 	
 public:
 	virtual void PostInitializeComponents() override;

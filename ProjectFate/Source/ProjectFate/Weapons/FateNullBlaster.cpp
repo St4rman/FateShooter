@@ -39,7 +39,7 @@ void AFateNullBlaster::FireHitScan()
 			if (AProjectFateCharacter* Shooter = Cast<AProjectFateCharacter>(Character))
 			{
 				Shooter->CreateHitEffect(OutHitData);
-				
+				Shooter->GetFateParticleComp()->SpawnEffectAtPosition(HitResult.Location, UKismetMathLibrary::MakeRotFromX(- OutHitData.HitDirection), HitEffect, 1);
 			}
 			if (AProjectFateCharacter* ShotActor = Cast<AProjectFateCharacter>(HitResult.GetActor()))
 			{

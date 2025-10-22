@@ -55,6 +55,8 @@ void AFateRocket::OnExplode(UPrimitiveComponent* HitComp, AActor* OtherActor, UP
 
 	else
 	{
+		GetShooter()->GetFateParticleComp()->SpawnEffectAtPosition(Hit.Location, FRotator::ZeroRotator, ExplosionEffect , 4);
+		
 		TArray<TEnumAsByte<EObjectTypeQuery>> ObjectTypesArray;
 		ObjectTypesArray.Add(UEngineTypes::ConvertToObjectType(ECollisionChannel::ECC_Pawn));
 		TArray<AActor*> ActorsToIgnore;
