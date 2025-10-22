@@ -25,20 +25,21 @@ void UFateParticleComp::TickComponent(float DeltaTime, ELevelTick TickType,  FAc
 	
 }
 
-void UFateParticleComp::SpawnFateParticles(const FHitData InHit)
+void UFateParticleComp::SpawnFateParticles(const FHitData InHit,  bool HasLaser)
 {
-	ServerFireParticles(InHit);
+	ServerFireParticles(InHit, HasLaser);
 }
 
-void UFateParticleComp::ServerFireParticles_Implementation(const FHitData InHit)
+void UFateParticleComp::ServerFireParticles_Implementation(const FHitData InHit, bool HasLaser)
 {
 	//do rpc here
-	NMC_ServerFire(InHit);
+	NMC_ServerFire(InHit, HasLaser);
 }
 
-void UFateParticleComp::NMC_ServerFire_Implementation(const FHitData InHit)
+void UFateParticleComp::NMC_ServerFire_Implementation(const FHitData InHit, bool HasLaser)
 {
 	//hit effect
+	
 	UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), InHit.HitEffect , InHit.HitLocation, UKismetMathLibrary::MakeRotFromX(- InHit.HitDirection));
 
 	//fire barell
@@ -52,9 +53,8 @@ void UFateParticleComp::NMC_ServerFire_Implementation(const FHitData InHit)
 		if (FireEffectMuzzle != nullptr)
 		{
 			NiagaraComponent = UNiagaraFunctionLibrary::SpawnSystemAttached(FireEffectMuzzle,  currentWeapon->GetMesh(), "Muzzle", SpawnLocation, SpawnRotation, EAttachLocation::Type::KeepWorldPosition, true);
-			
 		}
-		if (Lazer != nullptr)
+		if (Lazer != nullptr && HasLaser)
 		{
 			auto LazerEffect = UNiagaraFunctionLibrary::SpawnSystemAttached(Lazer,currentWeapon->GetMesh(), "Muzzle", SpawnLocation, SpawnRotation, EAttachLocation::Type::KeepWorldPosition, true);
 			FVector LocationCache;

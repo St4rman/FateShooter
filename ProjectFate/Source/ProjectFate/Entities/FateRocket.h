@@ -16,9 +16,6 @@ public:
 	
 	AFateRocket();
 
-	UPROPERTY(EditAnywhere)
-	class UStaticMeshComponent* StaticMeshComponent;
-	
 protected:
 	
 	virtual void BeginPlay() override;

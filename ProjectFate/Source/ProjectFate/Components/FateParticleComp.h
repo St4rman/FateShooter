@@ -32,15 +32,15 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UFUNCTION(BlueprintCallable)
-	void SpawnFateParticles(const FHitData InHit);
+	void SpawnFateParticles(const FHitData InHit, bool HasLaser);
 
 	UFUNCTION(Server, Reliable)
-	void ServerFireParticles(const FHitData InHit);
-	void ServerFireParticles_Implementation(const FHitData InHit);
+	void ServerFireParticles(const FHitData InHit ,bool HasLaser);
+	void ServerFireParticles_Implementation(const FHitData InHit,bool HasLaser);
 
 	UFUNCTION(NetMulticast, Reliable)
-	void NMC_ServerFire(const FHitData InHit);
-	void NMC_ServerFire_Implementation(const FHitData InHit);
+	void NMC_ServerFire(const FHitData InHit, bool HasLaser);
+	void NMC_ServerFire_Implementation(const FHitData InHit, bool HasLaser);
 
 	UFUNCTION(BlueprintCallable)
 	UNiagaraComponent* GetNiagaraComponent(){ return NiagaraComponent; }
