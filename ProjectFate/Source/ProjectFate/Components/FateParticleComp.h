@@ -44,4 +44,17 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	UNiagaraComponent* GetNiagaraComponent(){ return NiagaraComponent; }
+
+	UFUNCTION(BlueprintCallable)
+	void SpawnEffectAtPosition(const FVector Location, const FRotator Rotation, UNiagaraSystem* EffectToSpawn, const int Scale); 
+
+	UFUNCTION(Server, Reliable)
+	void SeverSpawnAtLocation(const FVector Location, const FRotator Rotation, UNiagaraSystem* EffectToSpawn, const int Scale);
+	void SeverSpawnAtLocation_Implementation(const FVector Location, const FRotator Rotation, UNiagaraSystem* EffectToSpawn, const int Scale);
+
+	UFUNCTION(NetMulticast, Unreliable)
+	void Nmc_ServerSpawnAtLocation(const FVector Location, const FRotator Rotation, UNiagaraSystem* EffectToSpawn, const int Scale);
+	void Nmc_ServerSpawnAtLocation_Implementation(const FVector Location, const FRotator Rotation, UNiagaraSystem* EffectToSpawn, const int Scale);
+	
+	
 };
