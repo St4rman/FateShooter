@@ -87,11 +87,16 @@ void AProjectFateCharacter::TryWeaponFire()
 {
 	if (CurrentWeapon != nullptr)
 	{
-		if (!HasAuthority())
+		if (HasAuthority())
 		{
+			GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Green, TEXT("this is on the SERVER"));
 			CurrentWeapon->Fire(this);
 		}
-		ServerWpnFire();
+		if (!HasAuthority())
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Blue, TEXT("this is on the client"));
+			ServerWpnFire();
+		}
 	}
 	
 }

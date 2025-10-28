@@ -38,18 +38,19 @@ void UFateParticleComp::ServerFireParticles_Implementation(const FHitData InHit,
 
 void UFateParticleComp::NMC_ServerFire_Implementation(const FHitData InHit, bool HasLaser)
 {
-	
 	if (InHit.Shooter !=nullptr)
 	{
 		AFateWeaponBase* currentWeapon = InHit.Shooter->GetCurrentWeapon();
 		UNiagaraSystem* FireEffectMuzzle = currentWeapon->GetFireEffectMuzzle();
 		FVector SpawnLocation = currentWeapon->GetMesh()->GetSocketLocation("Muzzle");
-	
+
+		//muzzle flash
 		const FRotator SpawnRotation = UKismetMathLibrary::MakeRotFromX(InHit.Shooter->GetActorForwardVector());
 		if (FireEffectMuzzle != nullptr)
 		{
 			NiagaraComponent = UNiagaraFunctionLibrary::SpawnSystemAttached(FireEffectMuzzle,  currentWeapon->GetMesh(), "Muzzle", SpawnLocation, SpawnRotation, EAttachLocation::Type::KeepWorldPosition, true);
 		}
+		
 		if (Lazer != nullptr && HasLaser)
 		{
 			auto LazerEffect = UNiagaraFunctionLibrary::SpawnSystemAttached(Lazer,currentWeapon->GetMesh(), "Muzzle", SpawnLocation, SpawnRotation, EAttachLocation::Type::KeepWorldPosition, true);

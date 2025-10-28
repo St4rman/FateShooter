@@ -24,8 +24,7 @@ void AFateNullBlaster::FireHitScan()
 		
 		const FVector TraceStart = WeaponMesh->GetSocketLocation("Muzzle");
 		const FVector TraceEnd = TraceStart + UKismetMathLibrary::GetForwardVector( SpawnRotation) * WeaponRange;
-
-		// DrawDebugLine(GetWorld(), TraceStart, TraceEnd, FColor::Red, true, 1, 0, 0);
+		
 		bool bIsHit = GetWorld()->LineTraceSingleByChannel(HitResult,TraceStart, TraceEnd, ECC_WorldStatic, QueryParams);
 
 		//if hit populate data
@@ -38,6 +37,7 @@ void AFateNullBlaster::FireHitScan()
 			
 			if (AProjectFateCharacter* Shooter = Cast<AProjectFateCharacter>(Character))
 			{
+				
 				Shooter->CreateHitEffect(OutHitData);
 				Shooter->GetFateParticleComp()->SpawnEffectAtPosition(HitResult.Location, UKismetMathLibrary::MakeRotFromX(- OutHitData.HitDirection), HitEffect, 1);
 			}
