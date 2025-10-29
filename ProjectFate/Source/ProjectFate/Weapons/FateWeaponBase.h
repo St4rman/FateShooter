@@ -53,10 +53,7 @@ public:
 	
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
 	float WeaponRange;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
-	float WeaponRecoil;
-
+	
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
 	float WeaponFiringRate;
 	
@@ -96,6 +93,7 @@ public:
 
 	void Fire(const AProjectFateCharacter* OwningCharacter);
 	void DoShootFlair();
+	
 	UFUNCTION()
 	virtual void FireProjectile();
 

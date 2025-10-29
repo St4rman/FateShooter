@@ -124,6 +124,12 @@ void AProjectFateCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 	}
 }
 
+void AProjectFateCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	
+}
+
 
 void AProjectFateCharacter::Move(const FInputActionValue& Value)
 {
@@ -180,7 +186,6 @@ void AProjectFateCharacter::CreateHitEffect_Implementation(FHitData InHit)
 
 bool AProjectFateCharacter::ServerWpnFire_Validate()
 {
-	// UE_LOG(LogTemp, Warning, TEXT("Server_OnFire Validation called"));
 	if (CurrentWeapon)
 	{
 		return true;
@@ -220,3 +225,4 @@ void AProjectFateCharacter::FreePlayer()
 {
 	CurrentLocomotionMode = L_Movement;
 }
+

@@ -85,8 +85,8 @@ protected:
 	
 	virtual void NotifyControllerChanged() override;
 	virtual void SetupPlayerInputComponent(UInputComponent* InputComponent) override;
+	void Tick(float DeltaTime) override;
 	
-
 public:
 	
 	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
@@ -133,5 +133,4 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnPlayerDeath(APlayerState* InstigatorPlayer);
-	
 };

@@ -134,7 +134,8 @@ void AFateWeaponBase::DoShootFlair()
 	{
 		UGameplayStatics::PlaySoundAtLocation(this, FireSound, Character->GetActorLocation());
 	}
-	
+
+	//weapon recoil
 	if (FireAnimation != nullptr)
 	{
 		UAnimInstance* AnimInstance = Character->GetMesh1P()->GetAnimInstance();
@@ -166,6 +167,3 @@ void AFateWeaponBase::OnweaponPickupEvent()
 {
 	OnWeaponPickupDel.ExecuteIfBound();
 }
-
-
-
