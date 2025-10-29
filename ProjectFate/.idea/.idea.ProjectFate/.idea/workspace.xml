@@ -14,14 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2bcec5a1-d210-4a75-911d-ed9f7bcc681a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSteamSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSteamSessions/UHT/Timestamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Components/FateParticleComp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Components/FateParticleComp.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateNullBlaster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateNullBlaster.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
