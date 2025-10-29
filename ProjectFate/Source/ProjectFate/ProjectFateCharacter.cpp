@@ -47,6 +47,7 @@ AProjectFateCharacter::AProjectFateCharacter()
 
 	PlayerParticleComp  = CreateDefaultSubobject<UFateParticleComp>(TEXT("PlayerParticleComponent"));
 	PlayerStatComp		= CreateDefaultSubobject<UFatePlayerStatComp>(TEXT("PlayerStatComp"));
+	FateSoundComp		= CreateDefaultSubobject<UFateSoundComp>(TEXT("PlayerSoundComp"));
 	
 }
 

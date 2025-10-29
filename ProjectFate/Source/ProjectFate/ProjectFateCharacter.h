@@ -7,6 +7,7 @@
 #include "Camera/CameraComponent.h"
 #include "Components/FateParticleComp.h"
 #include "Components/FatePlayerStatComp.h"
+#include "Components/FateSoundComp.h"
 #include "GameFramework/Character.h"
 #include "CoreHelpers/CoreHelper.h"
 #include "CoreHelpers/CoreStructs.h"
@@ -60,6 +61,9 @@ class AProjectFateCharacter : public ACharacter
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Visual, meta = (AllowPrivateAccess = "true"))
 	UFatePlayerStatComp* PlayerStatComp;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Visual, meta = (AllowPrivateAccess = "true"))
+	UFateSoundComp* FateSoundComp;
 	
 public:
 	AProjectFateCharacter();
@@ -98,6 +102,7 @@ public:
 	
 	UFUNCTION(BlueprintCallable)
 	UFatePlayerStatComp* GetStatComp()				  const {return PlayerStatComp; }
+	UFateSoundComp* GetFateSoundComp()				  const { return FateSoundComp; }
 	
 	FVector  GetCameraLocation()	const { return FirstPersonCameraComponent->GetComponentLocation();}
 	FRotator GetCameraRotation()	const { return FirstPersonCameraComponent->GetComponentRotation();}

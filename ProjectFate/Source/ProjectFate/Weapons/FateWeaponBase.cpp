@@ -121,6 +121,7 @@ void AFateWeaponBase::Fire(const AProjectFateCharacter* OwningCharacter)
 			DoShootFlair();
 			// DoUIFlair();
 		}
+		DoShootSound();
 	}
 }
 
@@ -130,11 +131,6 @@ void AFateWeaponBase::FireHitScan()
 
 void AFateWeaponBase::DoShootFlair() 
 {
-	if (FireSound != nullptr)
-	{
-		UGameplayStatics::PlaySoundAtLocation(this, FireSound, Character->GetActorLocation());
-	}
-
 	//weapon recoil
 	if (FireAnimation != nullptr)
 	{
@@ -144,6 +140,13 @@ void AFateWeaponBase::DoShootFlair()
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
 	}
+
+	
+}
+
+void AFateWeaponBase::DoShootSound()
+{
+	Character->GetFateSoundComp()->PlaySoundAtLocation(FireSound, Character->GetActorLocation());
 }
 
 //can be overriden 

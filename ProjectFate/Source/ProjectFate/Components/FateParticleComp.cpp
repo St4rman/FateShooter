@@ -68,7 +68,7 @@ void UFateParticleComp::NMC_ServerFire_Implementation(const FHitData InHit, bool
 	}
 	
 }
-
+ 
 void UFateParticleComp::SpawnEffectAtPosition(const FVector Location, const FRotator Rotation, UNiagaraSystem* EffectToSpawn, const int Scale)
 {
 	//tell the server to fire off a netmulticast to the players
