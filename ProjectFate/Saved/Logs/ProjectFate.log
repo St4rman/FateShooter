@@ -3092,3 +3092,1027 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.29-19.47.27:329][752]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.10.29-19.47.27:329][752]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.10.29-19.47.27:329][752]AssetCheck: /Game/MyContent/Levels/MainArenaLevel Validating asset
+[2025.10.29-19.49.19:383][155]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.29-19.49.19:758][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.10.29-19.49.19:806][155]LogSavePackage: Moving output files for package: /Game/MyContent/Levels/MainArenaLevel
+[2025.10.29-19.49.19:807][155]LogSavePackage: Moving 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Saved/MainArenaLevelE8C2099544159586356269912E68630D.tmp' to 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyContent/Levels/MainArenaLevel.umap'
+[2025.10.29-19.49.19:839][155]LogFileHelpers: Saving map 'MainArenaLevel' took 0.157
+[2025.10.29-19.49.19:998][155]LogFileHelpers: InternalPromptForCheckoutAndSave took 614.796 ms (total: 10.9 sec)
+[2025.10.29-19.49.20:192][155]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.29-19.49.20:192][155]LogContentValidation: Enabled validators:
+[2025.10.29-19.49.20:192][155]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.29-19.49.20:192][155]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.29-19.49.20:192][155]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.29-19.49.20:192][155]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.29-19.49.20:192][155]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.29-19.49.20:192][155]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.29-19.49.20:193][155]AssetCheck: /Game/MyContent/Levels/MainArenaLevel Validating asset
+[2025.10.29-19.49.23:081][206]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.29-19.49.23:304][206]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.10.29-19.49.23:343][206]LogSavePackage: Moving output files for package: /Game/MyContent/Levels/MainArenaLevel
+[2025.10.29-19.49.23:343][206]LogSavePackage: Moving 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Saved/MainArenaLevelE464E62140FB5E9631D521BE677D1727.tmp' to 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyContent/Levels/MainArenaLevel.umap'
+[2025.10.29-19.49.23:365][206]LogFileHelpers: Saving map 'MainArenaLevel' took 0.109
+[2025.10.29-19.49.23:445][206]LogFileHelpers: InternalPromptForCheckoutAndSave took 363.686 ms (total: 11.2 sec)
+[2025.10.29-19.49.23:600][206]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.29-19.49.23:600][206]LogContentValidation: Enabled validators:
+[2025.10.29-19.49.23:600][206]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.29-19.49.23:601][206]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.29-19.49.23:601][206]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.29-19.49.23:601][206]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.29-19.49.23:601][206]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.29-19.49.23:601][206]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.29-19.49.23:601][206]AssetCheck: /Game/MyContent/Levels/MainArenaLevel Validating asset
+[2025.10.29-19.49.39:573][353]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2025.10.29-19.49.55:086][353]LogTurnkeySupport: Selected target: ProjectFate
+[2025.10.29-19.49.55:092][353]LogLauncherProfile: Unable to use promoted target - receipt E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Binaries/Win64/ProjectFate.target is not for a promoted target
+[2025.10.29-19.49.55:289][353]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""D:/Games/EpicGames/UE_5.5/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/ProjectFate.uproject" Turnkey -command=VerifySdk -platform=Win64 -UpdateIfNeeded -EditorIO -EditorIOPort=5215  -project="E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/ProjectFate.uproject" BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook  -project="E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/ProjectFate.uproject" -target=ProjectFate  -unrealexe="D:\Games\EpicGames\UE_5.5\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Win64 -installed -stage -archive -package -build -pak -iostore -compressed -prereqs -archivedirectory="E:/Projects/UNREAL/Builds/EOO" -clientconfig=Development" -nocompile -nocompileuat ]
+[2025.10.29-19.49.55:310][353]LogStreaming: Display: FlushAsyncLoading(510): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.29-19.49.55:397][353]UATHelper: Packaging (Windows): Running AutomationTool...
+[2025.10.29-19.49.55:523][354]UATHelper: Packaging (Windows): Using bundled DotNet SDK version: 8.0.300
+[2025.10.29-19.49.55:744][357]UATHelper: Packaging (Windows): Starting AutomationTool...
+[2025.10.29-19.49.55:776][358]UATHelper: Packaging (Windows): Parsing command line: -ScriptsForProject=E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/ProjectFate.uproject Turnkey -command=VerifySdk -platform=Win64 -UpdateIfNeeded -EditorIO -EditorIOPort=5215 -project=E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/ProjectFate.uproject BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook -project=E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/ProjectFate.uproject -target=ProjectFate -unrealexe=D:\Games\EpicGames\UE_5.5\Engine\Binaries\Win64\UnrealEditor-Cmd.exe -platform=Win64 -installed -stage -archive -package -build -pak -iostore -compressed -prereqs -archivedirectory=E:/Projects/UNREAL/Builds/EOO -clientconfig=Development -nocompile -nocompileuat
+[2025.10.29-19.49.55:966][360]UATHelper: Packaging (Windows): Initializing script modules...
+[2025.10.29-19.49.56:615][365]UATHelper: Packaging (Windows): Total script module initialization time: 0.65 s.
+[2025.10.29-19.49.56:744][367]UATHelper: Packaging (Windows): Using C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\MSBuild.exe
+[2025.10.29-19.49.57:316][369]UATHelper: Packaging (Windows): Executing commands...
+[2025.10.29-19.49.57:464][370]UATHelper: Packaging (Windows): Installed Sdk validity:
+[2025.10.29-19.49.57:464][370]UATHelper: Packaging (Windows): Win64: (Status=Valid, MinAllowed_Sdk=10.0.19041.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.22621.0, Allowed_AutoSdk=10.0.22621.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists, Sdk_HasBestVersion")
+[2025.10.29-19.49.57:476][370]UATHelper: Packaging (Windows): Scanning for envvar changes...
+[2025.10.29-19.49.57:476][370]UATHelper: Packaging (Windows): ... done! 
+[2025.10.29-19.49.57:476][370]UATHelper: Packaging (Windows): Cleaning Temp Paths...
+[2025.10.29-19.49.57:476][370]UATHelper: Packaging (Windows): BUILD SUCCESSFUL
+[2025.10.29-19.49.57:476][370]UATHelper: Packaging (Windows): Setting up ProjectParams for E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\ProjectFate.uproject
+[2025.10.29-19.50.00:869][380]UATHelper: Packaging (Windows): ********** BUILD COMMAND STARTED **********
+[2025.10.29-19.50.00:890][380]UATHelper: Packaging (Windows): Running: D:\Games\EpicGames\UE_5.5\Engine\Binaries\ThirdParty\DotNet\8.0.300\win-x64\dotnet.exe "D:\Games\EpicGames\UE_5.5\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" ProjectFate Win64 Development -Project=E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\ProjectFate.uproject -Manifest=E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Intermediate\Build\Manifest.xml  -remoteini="E:\Projects\UNREAL\Fate\FateShooter\ProjectFate"  -skipdeploy  -log="C:\Users\idhant\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Games+EpicGames+UE_5.5\UBA-ProjectFate-Win64-Development.txt"
+[2025.10.29-19.50.01:449][382]UATHelper: Packaging (Windows): Log file: C:\Users\idhant\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Games+EpicGames+UE_5.5\UBA-ProjectFate-Win64-Development.txt
+[2025.10.29-19.50.01:826][383]UATHelper: Packaging (Windows): Using 'git status' to determine working set for adaptive non-unity build (E:\Projects\UNREAL\Fate\FateShooter).
+[2025.10.29-19.50.01:993][383]UATHelper: Packaging (Windows): Creating makefile for ProjectFate (manifest 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Intermediate\Build\Manifest.xml' not found)
+[2025.10.29-19.50.04:888][392]UATHelper: Packaging (Windows): Parsing headers for ProjectFate
+[2025.10.29-19.50.04:888][392]UATHelper: Packaging (Windows):   Running Internal UnrealHeaderTool E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\ProjectFate.uproject E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Intermediate\Build\Win64\ProjectFate\Development\ProjectFate.uhtmanifest -WarningsAsErrors -installed
+[2025.10.29-19.50.15:137][423]UATHelper: Packaging (Windows): Total of 15 written
+[2025.10.29-19.50.15:147][423]UATHelper: Packaging (Windows): Reflection code generated for ProjectFate in 10.2561742 seconds
+[2025.10.29-19.50.19:260][435]UATHelper: Packaging (Windows): Writing manifest to E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Intermediate\Build\Manifest.xml
+[2025.10.29-19.50.19:355][435]UATHelper: Packaging (Windows): Building ProjectFate...
+[2025.10.29-19.50.19:355][435]UATHelper: Packaging (Windows): Using Visual Studio 2022 14.38.33139 toolchain (D:\Programs\VS\Cache\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2025.10.29-19.50.19:365][435]UATHelper: Packaging (Windows): Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+[2025.10.29-19.50.19:365][435]UATHelper: Packaging (Windows):   Executing up to 6 processes, one per physical core
+[2025.10.29-19.50.19:365][435]UATHelper: Packaging (Windows):   Requested 1.5 GB memory per action, 1.57 GB available: limiting max parallel actions to 1
+[2025.10.29-19.50.19:386][435]UATHelper: Packaging (Windows): Using Unreal Build Accelerator local executor to run 3 action(s)
+[2025.10.29-19.50.19:386][435]UATHelper: Packaging (Windows):   Storage capacity 40Gb
+[2025.10.29-19.50.19:428][435]UATHelper: Packaging (Windows): ---- Starting trace: 251029_195019 ----
+[2025.10.29-19.50.19:428][435]UATHelper: Packaging (Windows): UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2025.10.29-19.50.19:438][435]UATHelper: Packaging (Windows): ------ Building 3 action(s) started ------
+[2025.10.29-19.51.08:693][583]UATHelper: Packaging (Windows): [1/3] Compile [x64] Module.ProjectFate.cpp
+[2025.10.29-19.51.08:697][583]UATHelper: Packaging (Windows): E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Source\ProjectFate\Entities\FateRocket.cpp(68): warning C4457: declaration of 'Hit' hides function parameter
+[2025.10.29-19.51.08:697][583]UATHelper: Packaging (Windows): E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Source\ProjectFate\Entities\FateRocket.cpp(40): note: see declaration of 'Hit'
+[2025.10.29-19.51.08:698][583]UATHelper: Packaging (Windows): [2/3] Link [x64] ProjectFate.exe
+[2025.10.29-19.51.08:698][583]UATHelper: Packaging (Windows): [3/3] WriteMetadata ProjectFate.target (UBA disabled)
+[2025.10.29-19.51.08:698][583]UATHelper: Packaging (Windows): Trace file written to C:/Users/idhant/AppData/Roaming/Unreal Engine/AutomationTool/Logs/D+Games+EpicGames+UE_5.5/UBA-ProjectFate-Win64-Development.uba with size 5.4kb
+[2025.10.29-19.51.08:705][583]UATHelper: Packaging (Windows): Total time in Unreal Build Accelerator local executor: 49.31 seconds
+[2025.10.29-19.51.08:855][584]UATHelper: Packaging (Windows): Total execution time: 67.86 seconds
+[2025.10.29-19.51.08:886][584]UATHelper: Packaging (Windows): Took 68.00s to run dotnet.exe, ExitCode=0
+[2025.10.29-19.51.08:929][584]UATHelper: Packaging (Windows): Build command time: 68.05 s
+[2025.10.29-19.51.08:929][584]UATHelper: Packaging (Windows): ********** BUILD COMMAND COMPLETED **********
+[2025.10.29-19.51.08:929][584]UATHelper: Packaging (Windows): ********** COOK COMMAND STARTED **********
+[2025.10.29-19.51.08:940][584]UATHelper: Packaging (Windows): Running UnrealEditor Cook for project E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\ProjectFate.uproject
+[2025.10.29-19.51.08:943][584]UATHelper: Packaging (Windows): Commandlet log file is D:\Games\EpicGames\UE_5.5\Engine\Programs\AutomationTool\Saved\Cook-2025.10.29-19.51.08.txt
+[2025.10.29-19.51.08:951][584]UATHelper: Packaging (Windows): Running: D:\Games\EpicGames\UE_5.5\Engine\Binaries\Win64\UnrealEditor-Cmd.exe "E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\ProjectFate.uproject" -run=Cook  -TargetPlatform=Windows  -unversioned -fileopenlog -abslog="D:\Games\EpicGames\UE_5.5\Engine\Programs\AutomationTool\Saved\Cook-2025.10.29-19.51.08.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2025.10.29-19.51.11:315][591]UATHelper: Packaging (Windows): LogWindows: Warning: Failed to set completion port for job object "UE.ShaderCompileWorker.JobGroup": The parameter is incorrect.
+[2025.10.29-19.51.11:316][591]UATHelper: Packaging (Windows): LogInit: Display: Running engine for game: ProjectFate
+[2025.10.29-19.51.11:316][591]UATHelper: Packaging (Windows): LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2025.10.29-19.51.11:316][591]UATHelper: Packaging (Windows): LogTrace: Display: Display Control listening on port 38989
+[2025.10.29-19.51.11:316][591]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2025.10.29-19.51.11:316][591]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : config="Development"
+[2025.10.29-19.51.11:316][591]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.5-CL-40574608"
+[2025.10.29-19.51.11:316][591]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : engineversion="5.5.4-40574608+++UE5+Release-5.5"
+[2025.10.29-19.51.11:316][591]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.6901] "
+[2025.10.29-19.51.11:316][591]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz"
+[2025.10.29-19.51.11:316][591]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2025.10.29-19.51.11:316][591]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2025.10.29-19.51.11:316][591]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2025.10.29-19.51.11:316][591]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : asan="0"
+[2025.10.29-19.51.11:316][591]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : commandline="" E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\ProjectFate.uproject -run=Cook -TargetPlatform=Windows -unversioned -fileopenlog -abslog=D:\Games\EpicGames\UE_5.5\Engine\Programs\AutomationTool\Saved\Cook-2025.10.29-19.51.08.txt -stdout -CrashForUAT -unattended -NoLogTimes -UTF8Output""
+[2025.10.29-19.51.11:317][591]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : loginid="d73222c045027a62f03e4097778dc872"
+[2025.10.29-19.51.11:457][591]PackagingResults: Warning: Failed to set completion port for job object "UE.ShaderCompileWorker.JobGroup": The parameter is incorrect.
+[2025.10.29-19.51.11:817][593]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : llm="0"
+[2025.10.29-19.51.11:817][593]UATHelper: Packaging (Windows): LogConfig: Display: Loading Android ini files took 0.09 seconds
+[2025.10.29-19.51.11:817][593]UATHelper: Packaging (Windows): LogConfig: Display: Loading IOS ini files took 0.09 seconds
+[2025.10.29-19.51.11:817][593]UATHelper: Packaging (Windows): LogConfig: Display: Loading Mac ini files took 0.09 seconds
+[2025.10.29-19.51.11:817][593]UATHelper: Packaging (Windows): LogConfig: Display: Loading VulkanPC ini files took 0.09 seconds
+[2025.10.29-19.51.11:817][593]UATHelper: Packaging (Windows): LogConfig: Display: Loading Unix ini files took 0.10 seconds
+[2025.10.29-19.51.11:828][593]UATHelper: Packaging (Windows): LogConfig: Display: Loading TVOS ini files took 0.11 seconds
+[2025.10.29-19.51.11:828][593]UATHelper: Packaging (Windows): LogConfig: Display: Loading LinuxArm64 ini files took 0.13 seconds
+[2025.10.29-19.51.11:828][593]UATHelper: Packaging (Windows): LogConfig: Display: Loading Linux ini files took 0.13 seconds
+[2025.10.29-19.51.11:828][593]UATHelper: Packaging (Windows): LogAssetRegistry: Display: Asset registry cache read as 40.8 MiB from E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Intermediate/CachedAssetRegistry_0.bin
+[2025.10.29-19.51.11:892][593]UATHelper: Packaging (Windows): LogConfig: Display: Loading Windows ini files took 0.06 seconds
+[2025.10.29-19.51.12:295][594]UATHelper: Packaging (Windows): LogConfig: Display: Loading VisionOS ini files took 0.07 seconds
+[2025.10.29-19.51.12:326][594]UATHelper: Packaging (Windows): RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2025.10.29-19.51.12:600][595]UATHelper: Packaging (Windows): LogStudioTelemetry: Display: Starting StudioTelemetry Module
+[2025.10.29-19.51.12:600][595]UATHelper: Packaging (Windows): LogSteamShared: Display: Loading Steam SDK 1.57
+[2025.10.29-19.51.12:809][596]UATHelper: Packaging (Windows): LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2025.10.29-19.51.12:809][596]UATHelper: Packaging (Windows): LogStreaming: Display: AsyncLoading2 - Created: Event Driven Loader: false, Async Loading Thread: false, Async Post Load: false
+[2025.10.29-19.51.12:852][596]UATHelper: Packaging (Windows): LogStreaming: Display: AsyncLoading2 - Initialized
+[2025.10.29-19.51.13:033][596]UATHelper: Packaging (Windows): LogHAL: Display: Platform has ~ 16 GB [16905105408 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.10.29-19.51.13:096][596]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2025.10.29-19.51.13:096][596]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2025.10.29-19.51.13:096][596]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2025.10.29-19.51.13:096][596]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2025.10.29-19.51.13:096][596]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2025.10.29-19.51.13:096][596]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2025.10.29-19.51.13:096][596]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.12
+[2025.10.29-19.51.13:096][596]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2025.10.29-19.51.13:107][596]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2025.10.29-19.51.13:149][597]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2025.10.29-19.51.13:149][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2025.10.29-19.51.13:149][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2025.10.29-19.51.13:149][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2025.10.29-19.51.13:159][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2025.10.29-19.51.13:159][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2025.10.29-19.51.13:159][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2025.10.29-19.51.13:159][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2025.10.29-19.51.13:159][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2025.10.29-19.51.13:159][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2025.10.29-19.51.13:181][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2025.10.29-19.51.13:192][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2025.10.29-19.51.13:224][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2025.10.29-19.51.13:224][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2025.10.29-19.51.13:224][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2025.10.29-19.51.13:224][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2025.10.29-19.51.13:244][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2025.10.29-19.51.13:244][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2025.10.29-19.51.13:244][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2025.10.29-19.51.13:276][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2025.10.29-19.51.13:276][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2025.10.29-19.51.13:276][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2025.10.29-19.51.13:276][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2025.10.29-19.51.13:319][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2025.10.29-19.51.13:319][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2025.10.29-19.51.13:362][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2025.10.29-19.51.13:362][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2025.10.29-19.51.13:362][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2025.10.29-19.51.13:362][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2025.10.29-19.51.13:362][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2025.10.29-19.51.13:383][597]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Building Assets For Windows
+[2025.10.29-19.51.14:788][601]UATHelper: Packaging (Windows): LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2025.10.29-19.51.14:810][602]UATHelper: Packaging (Windows): LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2025.10.29-19.51.14:832][602]UATHelper: Packaging (Windows): LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2025.10.29-19.51.14:864][602]UATHelper: Packaging (Windows): LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2025.10.29-19.51.14:874][602]UATHelper: Packaging (Windows): LogDerivedDataCache: Display: C:/Users/idhant/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.23ms. RandomReadSpeed=170.50MBs, RandomWriteSpeed=63.98MBs. Assigned SpeedClass 'Local'
+[2025.10.29-19.51.14:874][602]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Using Local Shader Compiler with 9 workers.
+[2025.10.29-19.51.14:874][602]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Compiling shader autogen file: E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2025.10.29-19.51.16:398][606]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2025.10.29-19.51.16:398][606]UATHelper: Packaging (Windows): LogAssetRegistry: Display: AssetDataGatherer spent 0.001s loading caches E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Intermediate/CachedAssetRegistry_*.bin.
+[2025.10.29-19.51.16:784][607]UATHelper: Packaging (Windows): LogEditorDomain: Display: EditorDomain is Disabled
+[2025.10.29-19.51.16:816][608]UATHelper: Packaging (Windows): LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.29-19.51.16:816][608]UATHelper: Packaging (Windows): LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2025.10.29-19.51.16:859][608]UATHelper: Packaging (Windows): LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2025.10.29-19.51.16:913][608]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2025.10.29-19.51.16:913][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:913][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 8 to allow recursive sync load to finish
+[2025.10.29-19.51.16:913][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.10.29-19.51.16:913][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:913][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 9 to allow recursive sync load to finish
+[2025.10.29-19.51.16:924][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.10.29-19.51.16:924][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:924][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 10 to allow recursive sync load to finish
+[2025.10.29-19.51.16:924][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.10.29-19.51.16:924][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:924][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 11 to allow recursive sync load to finish
+[2025.10.29-19.51.16:924][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.10.29-19.51.16:924][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:924][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:924][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 13 to allow recursive sync load to finish
+[2025.10.29-19.51.16:924][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.10.29-19.51.16:924][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:924][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 14 to allow recursive sync load to finish
+[2025.10.29-19.51.16:924][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.10.29-19.51.16:924][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:924][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:924][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 16 to allow recursive sync load to finish
+[2025.10.29-19.51.16:935][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.10.29-19.51.16:935][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:935][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 17 to allow recursive sync load to finish
+[2025.10.29-19.51.16:935][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.10.29-19.51.16:935][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:935][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:935][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 19 to allow recursive sync load to finish
+[2025.10.29-19.51.16:935][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.10.29-19.51.16:935][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:935][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 20 to allow recursive sync load to finish
+[2025.10.29-19.51.16:935][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.10.29-19.51.16:936][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:936][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDiffuse with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.10.29-19.51.16:936][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:936][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 22 to allow recursive sync load to finish
+[2025.10.29-19.51.16:936][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultPostProcessMaterial
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 23 to allow recursive sync load to finish
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultPostProcessMaterial
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/DefaultPostProcessMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 21 to allow recursive sync load to finish
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultPostProcessMaterial with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/DefaultPostProcessMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 24 to allow recursive sync load to finish
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultPostProcessMaterial with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 18 to allow recursive sync load to finish
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultLightFunctionMaterial with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 25 to allow recursive sync load to finish
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultLightFunctionMaterial with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 15 to allow recursive sync load to finish
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDeferredDecalMaterial with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 26 to allow recursive sync load to finish
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDeferredDecalMaterial with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.10.29-19.51.16:945][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/T_Default_Material_Grid_M with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.10.29-19.51.16:956][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/T_Default_Material_Grid_N with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.10.29-19.51.16:956][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 12 to allow recursive sync load to finish
+[2025.10.29-19.51.16:956][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/WorldGridMaterial with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.10.29-19.51.16:956][608]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.10.29-19.51.16:956][608]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 27 to allow recursive sync load to finish
+[2025.10.29-19.51.16:956][608]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/WorldGridMaterial with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.10.29-19.51.16:956][608]UATHelper: Packaging (Windows): LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2025.10.29-19.51.16:956][608]UATHelper: Packaging (Windows): LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2025.10.29-19.51.17:168][609]UATHelper: Packaging (Windows): LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2025.10.29-19.51.17:168][609]UATHelper: Packaging (Windows): LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.10.29-19.51.17:168][609]UATHelper: Packaging (Windows): LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.10.29-19.51.17:168][609]UATHelper: Packaging (Windows): LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.10.29-19.51.17:692][610]UATHelper: Packaging (Windows): LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.10.29-19.51.17:692][610]UATHelper: Packaging (Windows): LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.10.29-19.51.18:098][611]UATHelper: Packaging (Windows): LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.10.29-19.51.18:109][611]UATHelper: Packaging (Windows): LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.10.29-19.51.20:601][619]UATHelper: Packaging (Windows): LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 9.232 ms
+[2025.10.29-19.51.20:601][619]UATHelper: Packaging (Windows): LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.10.29-19.51.22:859][626]UATHelper: Packaging (Windows): LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.10.29-19.51.22:859][626]UATHelper: Packaging (Windows): LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.10.29-19.51.23:329][627]UATHelper: Packaging (Windows): LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.10.29-19.51.23:329][627]UATHelper: Packaging (Windows): LogStreaming: Display: AsyncLoading2 - NotifyRegistrationComplete: Registered 36593 public script object entries (991.21 KB)
+[2025.10.29-19.51.23:425][627]UATHelper: Packaging (Windows): LogStreaming: Display: AsyncLoading2 - Thread Started: false, IsInitialLoad: false
+[2025.10.29-19.51.24:791][631]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.10.29-19.51.25:214][633]UATHelper: Packaging (Windows): LogPython: Display: No enabled plugins with python dependencies found, skipping
+[2025.10.29-19.51.25:214][633]UATHelper: Packaging (Windows): LogCook: Display: CookProcessCount=1. CookMultiprocess is disabled and the cooker is running as a single process.
+[2025.10.29-19.51.25:214][633]UATHelper: Packaging (Windows): LogCook: Display: CookSettings for Memory:
+[2025.10.29-19.51.25:214][633]UATHelper: Packaging (Windows): 	MemoryMaxUsedVirtual 0MiB
+[2025.10.29-19.51.25:214][633]UATHelper: Packaging (Windows): 	MemoryMaxUsedPhysical 0MiB
+[2025.10.29-19.51.25:214][633]UATHelper: Packaging (Windows): 	MemoryMinFreeVirtual 2048MiB
+[2025.10.29-19.51.25:214][633]UATHelper: Packaging (Windows): 	MemoryMinFreePhysical 2048MiB
+[2025.10.29-19.51.25:214][633]UATHelper: Packaging (Windows): 	MemoryTriggerGCAtPressureLevel None
+[2025.10.29-19.51.25:214][633]UATHelper: Packaging (Windows): 	UseSoftGC true (5/10)
+[2025.10.29-19.51.25:288][633]UATHelper: Packaging (Windows): LogCook: Display: SkipOnlyEditorOnly is enabled, unsolicited packages will not be cooked unless they are referenced from the cooked version of the instigator package.
+[2025.10.29-19.51.25:522][634]UATHelper: Packaging (Windows): LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.10.29-19.51.25:576][634]UATHelper: Packaging (Windows): LogEditorDomain: Display: Cycle detected in parents of class /Script/RigVMDeveloper.RigVMUnitNode. Allow flags for editordomain and iterative cooking will be invalid.
+[2025.10.29-19.51.25:586][634]UATHelper: Packaging (Windows): LogEditorDomain: Display: Cycle detected in parents of class /Script/LiveLinkGraphNode.K2Node_EvaluateLiveLinkFrameWithSpecificRole. Allow flags for editordomain and iterative cooking will be invalid.
+[2025.10.29-19.51.25:586][634]UATHelper: Packaging (Windows): LogZenStore: Display: Establishing oplog 'ProjectFate.6642a2b9/EditorDomain'
+[2025.10.29-19.51.25:597][634]UATHelper: Packaging (Windows): LogZenStore: Display: Zen project 'ProjectFate.6642a2b9' already exists
+[2025.10.29-19.51.25:597][634]UATHelper: Packaging (Windows): LogZenStore: Display: Zen oplog 'ProjectFate.6642a2b9/EditorDomain' already exists
+[2025.10.29-19.51.25:787][634]UATHelper: Packaging (Windows): LogCook: Display: Waiting for Asset Registry
+[2025.10.29-19.51.25:809][635]UATHelper: Packaging (Windows): LogAssetRegistry: Display: Asset registry cache written as 0.0 MiB to E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Intermediate/CachedAssetRegistry_*.bin
+[2025.10.29-19.51.25:978][635]UATHelper: Packaging (Windows): LogCook: Display: FULL COOK: Neither -iterative nor -cookincremental were specified. Deleting previously cooked packages for platform Windows and recooking all packages discovered in the current cook.
+[2025.10.29-19.51.25:978][635]UATHelper: Packaging (Windows): LogCook: Display: Sandbox cleanup took 0.086 seconds for platforms Windows
+[2025.10.29-19.51.29:411][645]UATHelper: Packaging (Windows): LogCook: Display: Compiling global changed shaders for platform 'Windows'
+[2025.10.29-19.51.29:411][645]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Compiling shader autogen file: E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2025.10.29-19.51.30:575][649]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2025.10.29-19.51.30:575][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display:
+[2025.10.29-19.51.30:575][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM6-PCD3D_SM6) Stats:
+[2025.10.29-19.51.30:575][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2025.10.29-19.51.30:575][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 473 (47300.00%)
+[2025.10.29-19.51.30:575][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shaders: 7584, Unique Shaders: 7584 (100.00%)
+[2025.10.29-19.51.30:575][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shader Size: 83.86mb, Unique Shaders Size: 83.86mb (100.00%)
+[2025.10.29-19.51.30:575][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: === Extended info:
+[2025.10.29-19.51.30:575][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2025.10.29-19.51.30:575][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+[2025.10.29-19.51.30:575][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Maximum number of shaders in shadermap: 583
+[2025.10.29-19.51.30:575][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2025.10.29-19.51.30:576][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display:     1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+[2025.10.29-19.51.30:576][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+[2025.10.29-19.51.30:576][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_Compute: 5124 shaders (67.56%), compressed size: 55.29 MB (11.05 KB avg per shader), uncompressed size: 72.08 MB (14.41 KB avg per shader)
+[2025.10.29-19.51.30:576][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_Pixel: 1879 shaders (24.78%), compressed size: 20.46 MB (11.15 KB avg per shader), uncompressed size: 26.97 MB (14.70 KB avg per shader)
+[2025.10.29-19.51.30:576][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_RayGen: 427 shaders (5.63%), compressed size: 7.67 MB (18.40 KB avg per shader), uncompressed size: 9.97 MB (23.90 KB avg per shader)
+[2025.10.29-19.51.30:576][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_Vertex: 124 shaders (1.64%), compressed size: 0.32 MB (2.67 KB avg per shader), uncompressed size: 0.40 MB (3.31 KB avg per shader)
+[2025.10.29-19.51.30:576][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_RayHitGroup: 17 shaders (0.22%), compressed size: 0.05 MB (3.31 KB avg per shader), uncompressed size: 0.06 MB (3.87 KB avg per shader)
+[2025.10.29-19.51.30:576][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_RayMiss: 8 shaders (0.11%), compressed size: 0.04 MB (5.71 KB avg per shader), uncompressed size: 0.06 MB (7.72 KB avg per shader)
+[2025.10.29-19.51.30:576][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_Geometry: 3 shaders (0.04%), compressed size: 0.01 MB (2.15 KB avg per shader), uncompressed size: 0.01 MB (3.31 KB avg per shader)
+[2025.10.29-19.51.30:576][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_WorkGraphRoot: 1 shaders (0.01%), compressed size: 0.00 MB (2.73 KB avg per shader), uncompressed size: 0.00 MB (3.35 KB avg per shader)
+[2025.10.29-19.51.30:585][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_RayCallable: 1 shaders (0.01%), compressed size: 0.00 MB (1.40 KB avg per shader), uncompressed size: 0.00 MB (1.56 KB avg per shader)
+[2025.10.29-19.51.30:585][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Textual dump saved to 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderDebug-Global-PCD3D_SM6-PCD3D_SM6/Dump.txt'
+[2025.10.29-19.51.30:618][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2025.10.29-19.51.30:618][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display:
+[2025.10.29-19.51.30:618][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM5-PCD3D_SM5) Stats:
+[2025.10.29-19.51.30:628][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2025.10.29-19.51.30:628][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 320 (32000.00%)
+[2025.10.29-19.51.30:628][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shaders: 3926, Unique Shaders: 3915 (99.72%)
+[2025.10.29-19.51.30:628][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shader Size: 12.35mb, Unique Shaders Size: 12.35mb (99.97%)
+[2025.10.29-19.51.30:628][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: === Extended info:
+[2025.10.29-19.51.30:628][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2025.10.29-19.51.30:628][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+[2025.10.29-19.51.30:628][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Maximum number of shaders in shadermap: 303
+[2025.10.29-19.51.30:628][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2025.10.29-19.51.30:628][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display:     3, 3, 2, 2, 2, 2, 2, 2, 2, 1
+[2025.10.29-19.51.30:628][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+[2025.10.29-19.51.30:628][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_Pixel: 1636 shaders (41.79%), compressed size: 6.29 MB (3.94 KB avg per shader), uncompressed size: 30.59 MB (19.15 KB avg per shader)
+[2025.10.29-19.51.30:628][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_Compute: 2177 shaders (55.61%), compressed size: 6.00 MB (2.82 KB avg per shader), uncompressed size: 22.91 MB (10.78 KB avg per shader)
+[2025.10.29-19.51.30:628][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_Vertex: 100 shaders (2.55%), compressed size: 0.06 MB (0.58 KB avg per shader), uncompressed size: 0.12 MB (1.26 KB avg per shader)
+[2025.10.29-19.51.30:628][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_Geometry: 2 shaders (0.05%), compressed size: 0.00 MB (0.49 KB avg per shader), uncompressed size: 0.00 MB (1.55 KB avg per shader)
+[2025.10.29-19.51.30:628][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Textual dump saved to 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-Global-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+[2025.10.29-19.51.30:661][649]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2025.10.29-19.51.30:661][649]UATHelper: Packaging (Windows): LogCook: Display: Discovering localized assets for cultures: en
+[2025.10.29-19.51.30:661][649]UATHelper: Packaging (Windows): LogCook: Display: Found 0 localized assets
+[2025.10.29-19.51.30:661][649]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 0 Packages Remain 498 Total 498
+[2025.10.29-19.51.30:704][649]UATHelper: Packaging (Windows): LogCook: Display: Cook Diagnostics: OpenFileHandles=329, VirtualMemory=1676MiB, VirtualMemoryAvailable=8751MiB
+[2025.10.29-19.51.30:704][649]UATHelper: Packaging (Windows): LogCook: Display: Garbage collection triggered (Soft). Triggered by conditions:
+[2025.10.29-19.51.30:704][649]UATHelper: Packaging (Windows):   CookSettings.bUseSoftGC: Available physical memory 3415MiB is less than the current target for SoftGC 8060MiB.
+[2025.10.29-19.51.30:791][649]UATHelper: Packaging (Windows): LogCookCommandlet: Display: GarbageCollection... (Soft GC)
+[2025.10.29-19.51.31:282][651]UATHelper: Packaging (Windows): LogCook: Display: GarbageCollection Results:
+[2025.10.29-19.51.31:282][651]UATHelper: Packaging (Windows): 	Type: Soft
+[2025.10.29-19.51.31:282][651]UATHelper: Packaging (Windows): 	NumObjects:
+[2025.10.29-19.51.31:282][651]UATHelper: Packaging (Windows): 		Capacity:           25231360
+[2025.10.29-19.51.31:282][651]UATHelper: Packaging (Windows): 		Before GC:             48439
+[2025.10.29-19.51.31:282][651]UATHelper: Packaging (Windows): 		After GC:              48320
+[2025.10.29-19.51.31:282][651]UATHelper: Packaging (Windows): 		Freed by GC:             119
+[2025.10.29-19.51.31:282][651]UATHelper: Packaging (Windows): 	Virtual Memory:
+[2025.10.29-19.51.31:282][651]UATHelper: Packaging (Windows): 		Before GC:              1758 MB
+[2025.10.29-19.51.31:282][651]UATHelper: Packaging (Windows): 		After GC:               1758 MB
+[2025.10.29-19.51.31:282][651]UATHelper: Packaging (Windows): 		Freed by GC:               0 MB
+[2025.10.29-19.51.31:408][651]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2025.10.29-19.51.31:408][651]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/Black_1x1_EXR_Texture_VT.Black_1x1_EXR_Texture_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.10.29-19.51.31:408][651]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/Black_1x1_EXR_Texture_VT.Black_1x1_EXR_Texture_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.10.29-19.51.31:408][651]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenNormalMap_VT.BaseFlattenNormalMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.10.29-19.51.31:408][651]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenNormalMap_VT.BaseFlattenNormalMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.10.29-19.51.31:408][651]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenLinearColor_VT.BaseFlattenLinearColor_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.10.29-19.51.31:408][651]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenLinearColor_VT.BaseFlattenLinearColor_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.10.29-19.51.31:408][651]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT.BaseFlattenGrayscaleMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.10.29-19.51.31:408][651]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT.BaseFlattenGrayscaleMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.10.29-19.51.31:408][651]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenEmissiveMap_VT.BaseFlattenEmissiveMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.10.29-19.51.31:408][651]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenEmissiveMap_VT.BaseFlattenEmissiveMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.10.29-19.51.31:408][651]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenDiffuseMap_VT.BaseFlattenDiffuseMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.10.29-19.51.32:944][656]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenDiffuseMap_VT.BaseFlattenDiffuseMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.10.29-19.51.33:514][658]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 224 Packages Remain 525 Total 749
+[2025.10.29-19.51.33:712][658]UATHelper: Packaging (Windows): LogMaterial: Display: Missing cached shadermap for M_Rocket in PCD3D_SM6, Default, SM6, Game (DDC key hash: a24002425dc38a13a164f42a4afb9bdb970bdf2d), compiling.
+[2025.10.29-19.51.33:797][658]UATHelper: Packaging (Windows): LogMaterial: Display: Missing cached shadermap for M_Rocket in PCD3D_SM5, Default, SM5, Game (DDC key hash: 0a6311b1607b8cc8c6fa6b45d9856747d62840a1), compiling.
+[2025.10.29-19.51.38:887][674]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2025.10.29-19.52.06:624][757]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 400 Packages Remain 349 Total 749
+[2025.10.29-19.52.06:624][757]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 415 Packages Remain 334 Total 749
+[2025.10.29-19.52.06:851][758]UATHelper: Packaging (Windows): LogCook: Display: Cook Diagnostics: OpenFileHandles=3599, VirtualMemory=2150MiB, VirtualMemoryAvailable=8248MiB
+[2025.10.29-19.52.07:245][759]UATHelper: Packaging (Windows): LogMaterial: Display: Missing cached shadermap for M_TrailMaterial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 163b8af817f2e22767a6d3a53f3a9afc6503ec53), compiling.
+[2025.10.29-19.52.08:484][763]UATHelper: Packaging (Windows): LogMaterial: Display: Missing cached shadermap for M_TrailMaterial in PCD3D_SM5, Default, SM5, Game (DDC key hash: d7e23992d361966d0cf968e868e2763c40899dde), compiling.
+[2025.10.29-19.52.08:484][763]UATHelper: Packaging (Windows): LogCook: Display: Garbage collection triggered (Full). Triggered by conditions:
+[2025.10.29-19.52.08:484][763]UATHelper: Packaging (Windows):   CookSettings.MemoryMinFreePhysical: Available physical memory 2041MiB is less than 2048MiB.
+[2025.10.29-19.52.08:484][763]UATHelper: Packaging (Windows): LogCookCommandlet: Display: Detected max mem exceeded - forcing shader compilation flush
+[2025.10.29-19.52.08:485][763]UATHelper: Packaging (Windows): LogCookCommandlet: Display: Finished flushing shader jobs at 6
+[2025.10.29-19.52.08:505][763]UATHelper: Packaging (Windows): LogCookCommandlet: Display: GarbageCollection... (Exceeded Max Memory)
+[2025.10.29-19.52.08:956][764]UATHelper: Packaging (Windows): LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_FPGun) ...
+[2025.10.29-19.52.08:967][764]UATHelper: Packaging (Windows): LogCook: Display: GarbageCollection Results:
+[2025.10.29-19.52.08:967][764]UATHelper: Packaging (Windows): 	Type: Full
+[2025.10.29-19.52.08:967][764]UATHelper: Packaging (Windows): 	NumObjects:
+[2025.10.29-19.52.08:967][764]UATHelper: Packaging (Windows): 		Capacity:           25231360
+[2025.10.29-19.52.08:968][764]UATHelper: Packaging (Windows): 		Before GC:             95396
+[2025.10.29-19.52.08:968][764]UATHelper: Packaging (Windows): 		After GC:              48304
+[2025.10.29-19.52.08:968][764]UATHelper: Packaging (Windows): 		Freed by GC:           47092
+[2025.10.29-19.52.08:968][764]UATHelper: Packaging (Windows): 	Virtual Memory:
+[2025.10.29-19.52.08:968][764]UATHelper: Packaging (Windows): 		Before GC:              2334 MB
+[2025.10.29-19.52.08:968][764]UATHelper: Packaging (Windows): 		After GC:               2137 MB
+[2025.10.29-19.52.08:968][764]UATHelper: Packaging (Windows): 		Freed by GC:             196 MB
+[2025.10.29-19.52.09:744][766]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 629 Packages Remain 120 Total 749
+[2025.10.29-19.52.11:038][770]UATHelper: Packaging (Windows): LogMaterial: Display: Missing cached shadermap for M_radial in PCD3D_SM6, Default, SM6, Game (DDC key hash: 6a43da4222939b40ed366188637f20803a6460c6), compiling.
+[2025.10.29-19.52.11:038][770]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 659 Packages Remain 90 Total 749
+[2025.10.29-19.52.13:782][778]UATHelper: Packaging (Windows): LogMaterial: Display: Missing cached shadermap for MI_PrototypeGrid_TopDark in PCD3D_SM6, Default, SM6, Game (DDC key hash: 65c3deab60ed29449268460e0110ebed6c6fe5a2), compiling.
+[2025.10.29-19.52.13:951][779]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 672 Packages Remain 77 Total 749
+[2025.10.29-19.52.14:553][781]UATHelper: Packaging (Windows): LogMaterial: Display: Missing cached shadermap for MI_PrototypeGrid_TopDark in PCD3D_SM5, Default, SM5, Game (DDC key hash: 6f86dcc70da3d6f53d4241cc60a6a15b127e5a73), compiling.
+[2025.10.29-19.52.14:553][781]UATHelper: Packaging (Windows): LogCook: Display: Garbage collection triggers ignored: Out of memory condition has been detected, but is only 6s after the last GC. It will be prevented until 60 seconds have passed and we may run out of memory.
+[2025.10.29-19.52.14:553][781]UATHelper: Packaging (Windows): Garbage collection triggered by conditions:
+[2025.10.29-19.52.14:554][781]UATHelper: Packaging (Windows):   CookSettings.MemoryMinFreePhysical: Available physical memory 2014MiB is less than 2048MiB.
+[2025.10.29-19.52.19:536][796]UATHelper: Packaging (Windows): LogMaterial: Display: Missing cached shadermap for M_radial in PCD3D_SM5, Default, SM5, Game (DDC key hash: b37d92ea4acc91d63ac1bc7d0936752225174fcd), compiling.
+[2025.10.29-19.52.24:283][810]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 703 Packages Remain 46 Total 749
+[2025.10.29-19.52.24:389][810]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 708 Packages Remain 41 Total 749
+[2025.10.29-19.52.31:072][830]UATHelper: Packaging (Windows): LogStaticMesh: Display: Waiting for static meshes to be ready 0/11 (/Engine/EngineSky/SM_SkySphere) ...
+[2025.10.29-19.52.31:376][831]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 728 Packages Remain 21 Total 749
+[2025.10.29-19.52.31:376][831]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 751 Packages Remain 0 Total 751
+[2025.10.29-19.52.31:376][831]UATHelper: Packaging (Windows): LogCook: Display: Cook Diagnostics: OpenFileHandles=778, VirtualMemory=2244MiB, VirtualMemoryAvailable=7370MiB
+[2025.10.29-19.52.31:376][831]UATHelper: Packaging (Windows): LogCook: Display: Finishing up...
+[2025.10.29-19.52.31:376][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: ================================================
+[2025.10.29-19.52.31:376][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.29-19.52.31:376][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Total job queries 86, among them cache hits 2 (2.33%), DDC hits 41 (47.67%), Duplicates 6 (6.98%)
+[2025.10.29-19.52.31:376][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Tracking 78 distinct input hashes that result in 75 distinct outputs (96.15%)
+[2025.10.29-19.52.31:376][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: RAM used: 103.59 KiB of 819.20 MiB budget. Usage: 0.01%
+[2025.10.29-19.52.31:376][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.29-19.52.31:376][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Shaders Compiled: 37
+[2025.10.29-19.52.31:376][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Jobs assigned 37, completed 37 (100%)
+[2025.10.29-19.52.31:376][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Average time worker was idle: 3.38 s
+[2025.10.29-19.52.31:376][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Time job spent in pending queue: average 0.16 s, longest 1.62 s
+[2025.10.29-19.52.31:376][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Job execution time: average 1.84 s, max 3.74 s
+[2025.10.29-19.52.31:376][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Job life time (pending + execution): average 2.00 s, max 3.82
+[2025.10.29-19.52.31:376][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Shader code size: average 8.803 KiB, min 460 B, max 21.297 KiB
+[2025.10.29-19.52.31:377][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 13.19 s
+[2025.10.29-19.52.31:377][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2025.10.29-19.52.31:377][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Jobs were issued in 33 batches (only local compilation was used), average 1.12 jobs/batch
+[2025.10.29-19.52.31:377][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Average processing rate: 2.81 jobs/sec
+[2025.10.29-19.52.31:377][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Total thread time: 47.469 s
+[2025.10.29-19.52.31:377][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Total thread preprocess time: 2.058 s
+[2025.10.29-19.52.31:377][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Percentage time preprocessing: 4.34%
+[2025.10.29-19.52.31:377][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Effective parallelization: 3.60 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.10.29-19.52.31:377][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.29-19.52.31:386][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    3 times, average 1.92 sec, max 2.09 sec, min 1.63 sec)
+[2025.10.29-19.52.31:386][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    4 times, average 1.74 sec, max 2.54 sec, min 0.93 sec)
+[2025.10.29-19.52.31:386][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    5 times, average 1.66 sec, max 2.38 sec, min 1.36 sec)
+[2025.10.29-19.52.31:386][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 1.52 sec, max 1.52 sec, min 1.52 sec)
+[2025.10.29-19.52.31:386][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    4 times, average 1.45 sec, max 2.61 sec, min 0.70 sec)
+[2025.10.29-19.52.31:386][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.29-19.52.31:386][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.50% of total time (compiled    5 times, average 1.66 sec, max 2.38 sec, min 1.36 sec)
+[2025.10.29-19.52.31:386][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 14.98% of total time (compiled    5 times, average 1.42 sec, max 2.28 sec, min 0.93 sec)
+[2025.10.29-19.52.31:386][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 14.62% of total time (compiled    4 times, average 1.74 sec, max 2.54 sec, min 0.93 sec)
+[2025.10.29-19.52.31:386][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display:                                                  FHitProxyVS - 12.25% of total time (compiled    4 times, average 1.45 sec, max 2.61 sec, min 0.70 sec)
+[2025.10.29-19.52.31:386][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 12.16% of total time (compiled    3 times, average 1.92 sec, max 2.09 sec, min 1.63 sec)
+[2025.10.29-19.52.31:386][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: === Material stats ===
+[2025.10.29-19.52.31:386][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Materials Cooked:        162
+[2025.10.29-19.52.31:386][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Materials Translated:    8
+[2025.10.29-19.52.31:386][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Material Total Translate Time: 0.03 s
+[2025.10.29-19.52.31:386][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Material Translation Only: 0.02 s (71%)
+[2025.10.29-19.52.31:386][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.10.29-19.52.31:386][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.10.29-19.52.31:471][831]UATHelper: Packaging (Windows): LogShaderCompilers: Display: ================================================
+[2025.10.29-19.52.31:504][832]UATHelper: Packaging (Windows): LogAssetRegistryGenerator: Display: Saving asset registry v17.
+[2025.10.29-19.52.31:525][832]UATHelper: Packaging (Windows): LogAssetRegistryGenerator: Display: Generated development asset registry E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Saved/Cooked/Windows/ProjectFate/Metadata/DevelopmentAssetRegistry.bin num assets 801, size is 752.60kb, XxHash64[LE] = 0x501C75A621DF3847, waited on hash 0.00 seconds
+[2025.10.29-19.52.31:610][832]UATHelper: Packaging (Windows): LogAssetRegistryGenerator: Display: Generated asset registry num assets 793, size is 411.21kb
+[2025.10.29-19.52.31:610][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display:
+[2025.10.29-19.52.31:610][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Shader Library 'ProjectFate' (PCD3D_SM6-PCD3D_SM6) Stats:
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Assets: 152, Unique Shadermaps: 157 (103.29%)
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shaders: 3320, Unique Shaders: 2305 (69.43%)
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shader Size: 27.76mb, Unique Shaders Size: 21.30mb (76.72%)
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: === Extended info:
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Median number of shaders in shadermap: 13
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Maximum number of shaders in shadermap: 645
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display:     76, 51, 42, 32, 30, 26, 19, 18, 17, 17
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_Compute: 471 shaders (20.43%), compressed size: 6.54 MB (14.22 KB avg per shader), uncompressed size: 8.66 MB (18.82 KB avg per shader)
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_Pixel: 901 shaders (39.09%), compressed size: 6.02 MB (6.84 KB avg per shader), uncompressed size: 7.83 MB (8.90 KB avg per shader)
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_RayHitGroup: 372 shaders (16.14%), compressed size: 4.38 MB (12.05 KB avg per shader), uncompressed size: 5.57 MB (15.32 KB avg per shader)
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_Vertex: 492 shaders (21.34%), compressed size: 3.63 MB (7.56 KB avg per shader), uncompressed size: 4.85 MB (10.09 KB avg per shader)
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_Mesh: 60 shaders (2.60%), compressed size: 0.60 MB (10.16 KB avg per shader), uncompressed size: 0.73 MB (12.46 KB avg per shader)
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_RayMiss: 6 shaders (0.26%), compressed size: 0.11 MB (19.19 KB avg per shader), uncompressed size: 0.16 MB (27.01 KB avg per shader)
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_Geometry: 2 shaders (0.09%), compressed size: 0.01 MB (5.30 KB avg per shader), uncompressed size: 0.01 MB (7.49 KB avg per shader)
+[2025.10.29-19.52.31:620][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_RayCallable: 1 shaders (0.04%), compressed size: 0.00 MB (4.66 KB avg per shader), uncompressed size: 0.01 MB (5.90 KB avg per shader)
+[2025.10.29-19.52.31:621][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Textual dump saved to 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderDebug-ProjectFate-PCD3D_SM6-PCD3D_SM6/Dump.txt'
+[2025.10.29-19.52.31:631][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2025.10.29-19.52.31:631][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display:
+[2025.10.29-19.52.31:631][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Shader Library 'ProjectFate' (PCD3D_SM5-PCD3D_SM5) Stats:
+[2025.10.29-19.52.31:631][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2025.10.29-19.52.31:631][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Assets: 152, Unique Shadermaps: 156 (102.63%)
+[2025.10.29-19.52.31:631][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shaders: 1724, Unique Shaders: 1137 (65.95%)
+[2025.10.29-19.52.31:631][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shader Size: 4.65mb, Unique Shaders Size: 3.40mb (73.21%)
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: === Extended info:
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Median number of shaders in shadermap: 6
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Maximum number of shaders in shadermap: 248
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display:     32, 19, 18, 17, 17, 16, 16, 15, 15, 15
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_Pixel: 622 shaders (54.71%), compressed size: 1.51 MB (2.48 KB avg per shader), uncompressed size: 5.31 MB (8.73 KB avg per shader)
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_Vertex: 377 shaders (33.16%), compressed size: 1.00 MB (2.72 KB avg per shader), uncompressed size: 3.18 MB (8.64 KB avg per shader)
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_Compute: 136 shaders (11.96%), compressed size: 0.89 MB (6.68 KB avg per shader), uncompressed size: 3.88 MB (29.22 KB avg per shader)
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: SF_Geometry: 2 shaders (0.18%), compressed size: 0.00 MB (1.66 KB avg per shader), uncompressed size: 0.01 MB (5.37 KB avg per shader)
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Textual dump saved to 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-ProjectFate-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogCook: Display: Finalize package store(s)...
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogCook: Display: Cook by the book total time in tick 60.140053s total time 66.053032
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogCook: Display: Peak Used virtual 2575 MiB Peak Used physical 2660 MiB
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogCook: Display: Packages Cooked: 743, Packages Iteratively Skipped: 0, Packages Skipped by Platform: 8, Total Packages: 751
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogCookStats: Display: Hierarchy Timer Information:
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogCookStats: Display:   Root: 0.000s (0)
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogCookStats: Display:     CleanSandbox: 0.086s (1)
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogCookStats: Display:     CollectFilesToCook: 0.006s (1)
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogCookStats: Display:       CookModificationDelegate: 0.001s (1)
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogCookStats: Display:     GenerateLongPackageName: 0.001s (1)
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogCookStats: Display:     TickMainCookLoop: 60.140s (3)
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogCookStats: Display:       PumpPollables: 0.004s (3)
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogCookStats: Display:       PumpRequests: 0.037s (26)
+[2025.10.29-19.52.31:642][832]UATHelper: Packaging (Windows): LogCookStats: Display:       LoadPackageForCooking: 40.503s (759)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:       ValidateSourcePackage: 0.000s (759)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:       SavingPackages: 19.365s (115)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:         PollPendingCookedPlatformDatas: 0.310s (2043)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:         PrepareSave: 0.462s (1393)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:         PrecachePlatformDataForNextPackage: 8.290s (750)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:           PrepareSave: 8.290s (1022)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:         SaveCookedPackage: 10.101s (751)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:           GEditorSavePackage: 10.016s (751)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:             VerifyCanCookPackage: 0.007s (743)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:         ClearAllCachedCookedPlatformData: 0.039s (751)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:       PostLoadPackageFixup: 0.000s (6)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:       WaitForAsync: 0.184s (8221)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:     CookByTheBookFinished: 0.267s (1)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:       SavingCurrentIniSettings: 0.050s (1)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:         ProcessingAccessedStrings: 0.009s (1)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:       ChunkGeneration: 0.012s (1)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:       CalculateReferencedSet: 0.000s (1)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:       FinishPopulateShaderLibrary: 0.002s (1)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:       GeneratorPreSave: 0.000s (1)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:       BuildChunkManifest: 0.031s (1)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:         FixupPackageDependenciesForChunks: 0.008s (1)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:       SaveManifests: 0.000s (1)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:       SaveAssetRegistry: 0.050s (1)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:       WriteCookerOpenOrder: 0.035s (1)
+[2025.10.29-19.52.31:653][832]UATHelper: Packaging (Windows): LogCookStats: Display:       WriteCookMetadata: 0.002s (1)
+[2025.10.29-19.52.31:654][832]UATHelper: Packaging (Windows): LogCookStats: Display:       WriteReferencedSet: 0.001s (1)
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:       FinalizePackageStore: 0.003s (1)
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display: Misc Cook Stats
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display: ===============
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display: Niagara
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     NiagaraScriptTranslationCount=0
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     NiagaraCpuScriptCompileCount=0
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     NiagaraCpuScriptDdcCacheHitCount=0
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     NiagaraCpuScriptDdcCacheMissCount=0
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     NiagaraGpuScriptCompileCount=0
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     NiagaraGpuScriptDdcCacheHitCount=0
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     NiagaraGpuScriptDdcCacheMissCount=0
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     NiagaraSystemWaitForCompilationCompleteTime=0.020376
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display: NiagaraShader.Misc
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     ShadersCompiled=16
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display: ComputeKernelShader.Misc
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     ShadersCompiled=0
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display: ShaderCompiler
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     BlockingTimeSec=7.311803
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     AsyncCompileTimeSec=57.667591
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     GlobalBeginCompileShaderTimeSec=0.013228
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     GlobalBeginCompileShaderCalls=86
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     ProcessAsyncResultsTimeSec=0.024133
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display: GlobalShader.Misc
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     ShadersCompiled=0
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display: Material
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     FinishCacheShadersSec=0.270860
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display: Package.Load
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     NumRequestedLoads=405
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     NumPackagesLoaded=3851
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     NumInlineLoads=3446
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     LoadPackageTimeSec=41.785190
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display: Package.Save
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     NumPackagesIterativelySkipped=0
+[2025.10.29-19.52.31:663][832]UATHelper: Packaging (Windows): LogCookStats: Display:     NumPackagesSaved=751
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display:     SavePackageTimeSec=9.862826
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display:     TagPackageExportsPresaveTimeSec=0.000000
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display:     TagPackageExportsTimeSec=0.000000
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display:     FullyLoadLoadersTimeSec=0.000000
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display:     ResetLoadersTimeSec=0.000000
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display:     TagPackageExportsGetObjectsWithOuter=0.000000
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display:     TagPackageExportsGetObjectsWithMarks=0.000000
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display:     SerializeImportsTimeSec=0.000000
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display:     SortExportsSeekfreeInnerTimeSec=0.000000
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display:     SerializeExportsTimeSec=0.000000
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display:     SerializeBulkDataTimeSec=0.008645
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display:     AsyncWriteTimeSec=0.000000
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display:     MBWritten=0.000000
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display: CookOnTheFlyServer
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display:     PeakRequestQueueSize=749
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display:     PeakLoadQueueSize=93
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display:     PeakSaveQueueSize=58
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display: Package.DifferentPackagesSizeMBPerAsset
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display: Package.NumberOfDifferencesInPackagesPerAsset
+[2025.10.29-19.52.31:664][832]UATHelper: Packaging (Windows): LogCookStats: Display: Package.PackageDifferencesSizeMBPerAsset
+[2025.10.29-19.52.31:665][832]UATHelper: Packaging (Windows): LogCookStats: Display: Package.DiffTotal
+[2025.10.29-19.52.31:665][832]UATHelper: Packaging (Windows): LogCookStats: Display:     NumberOfDifferentPackages=0
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:     DifferentPackagesSizeMB=0.000000
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:     NumberOfDifferencesInPackages=0
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:     PackageDifferencesSizeMB=0.000000
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display: UnversionedProperties
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:     SavedStructs=0
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:     SavedMB=0
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:     EquivalentTaggedMB=0
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:     CompressionRatio=-nan(ind)
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:     BitfieldWasteKB=0
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display: Cook Profile
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display: ============
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  0.CookWallTimeSec=81.991683
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  0. 0.StartupWallTimeSec=15.551312
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  0. 1.StartCookByTheBookTimeSec=5.442566
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  0. 1. 0.BlockOnAssetRegistryTimeSec=0.198332
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  0. 1. 1.GameCookModificationDelegateTimeSec=0.000670
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  0. 2.TickCookOnTheSideTimeSec=37.723391
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  0. 2. 0.TickCookOnTheSideLoadPackagesTimeSec=40.502815
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  0. 2. 1.TickCookOnTheSideSaveCookedPackageTimeSec=10.101147
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  0. 2. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  0. 2. 2.TickCookOnTheSidePrepareSaveTimeSec=8.751635
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  0. 3.TickLoopGCTimeSec=0.574904
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  0. 4.TickLoopRecompileShaderRequestsTimeSec=0.000000
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  0. 5.TickLoopShaderProcessAsyncResultsTimeSec=0.000008
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  0. 6.TickLoopProcessDeferredCommandsTimeSec=0.000005
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  0. 7.TickLoopTickCommandletStatsTimeSec=0.000001
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  0. 8.TickLoopFlushRenderingCommandsTimeSec=0.003835
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  0. 9.ShaderFlushTimeSec=0.000015
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  0. 10.ValidationTimeSec=0.000406
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  1.CookParameters=
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  1. 0.TargetPlatforms=Windows
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  1. 1.CookProject=ProjectFate
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  1. 2.CookCultures=
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  1. 3.IsCookAll=false
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  1. 4.IsCookOnTheFly=false
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  1. 5.IsIterativeCook=false
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  1. 6.IsUnversioned=true
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  1. 7.CookLabel=
+[2025.10.29-19.52.31:674][832]UATHelper: Packaging (Windows): LogCookStats: Display:  1. 8.IsFastCook=false
+[2025.10.29-19.52.31:675][832]UATHelper: Packaging (Windows): LogCookStats: Display:
+[2025.10.29-19.52.31:675][832]UATHelper: Packaging (Windows): LogCookStats: Display: DDC Summary Stats
+[2025.10.29-19.52.31:675][832]UATHelper: Packaging (Windows): LogCookStats: Display: =================
+[2025.10.29-19.52.31:675][832]UATHelper: Packaging (Windows): LogCookStats: Display: BackEnd         =InstalledDerivedDataBackendGraph
+[2025.10.29-19.52.31:675][832]UATHelper: Packaging (Windows): LogCookStats: Display: HasLocalCache   =      true
+[2025.10.29-19.52.31:675][832]UATHelper: Packaging (Windows): LogCookStats: Display: HasSharedCache  =     false
+[2025.10.29-19.52.31:675][832]UATHelper: Packaging (Windows): LogCookStats: Display: HasCloudCache   =     false
+[2025.10.29-19.52.31:675][832]UATHelper: Packaging (Windows): LogCookStats: Display: HasZenCache     =      true
+[2025.10.29-19.52.31:675][832]UATHelper: Packaging (Windows): LogCookStats: Display: TotalGetHits    =      5577
+[2025.10.29-19.52.31:675][832]UATHelper: Packaging (Windows): LogCookStats: Display: TotalGetMisses  =        69
+[2025.10.29-19.52.31:675][832]UATHelper: Packaging (Windows): LogCookStats: Display: TotalGets       =      5646
+[2025.10.29-19.52.31:675][832]UATHelper: Packaging (Windows): LogCookStats: Display: TotalGetHitPct  =  0.987779
+[2025.10.29-19.52.31:675][832]UATHelper: Packaging (Windows): LogCookStats: Display: GetMissPct      =  0.012221
+[2025.10.29-19.52.31:675][832]UATHelper: Packaging (Windows): LogCookStats: Display: TotalPutHits    =        69
+[2025.10.29-19.52.31:675][832]UATHelper: Packaging (Windows): LogCookStats: Display: TotalPutMisses  =         0
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: TotalPuts       =        69
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: TotalPutHitPct  =  1.000000
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: PutMissPct      =  0.000000
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: LocalGetHits    =      5577
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: LocalGetMisses  =        69
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: LocalGetTotal   =      5646
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: LocalGetHitPct  =  0.987779
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: SharedGetHits   =         0
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: SharedGetTotal  =         0
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: SharedGetHitPct =  0.000000
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: ZenLocalGetHits =      5577
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: ZenLocalGetTotal=      5646
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: ZenLocalGetHitPct=  0.987779
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: ZenRemoteGetHits=         0
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: ZenRemoteGetTotal=         0
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: ZenRemoteGetHitPct=  0.000000
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: CloudGetHits    =         0
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: CloudGetTotal   =         0
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: CloudGetHitPct  =  0.000000
+[2025.10.29-19.52.31:676][832]UATHelper: Packaging (Windows): LogCookStats: Display: LocalLatency    =  1.081846
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: LocalReadSpeed  = 75.185623
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: LocalWriteSpeed = 92.866128
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: SharedLatency   =  0.000000
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: SharedReadSpeed =  0.000000
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: SharedWriteSpeed=  0.000000
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: CloudLatency    =  0.000000
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: CloudReadSpeed  =  0.000000
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: CloudWriteSpeed =  0.000000
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display:
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: DDC Resource Stats
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: =======================================================================================================
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: SkeletalMesh                                    7.77                   0.08             1         16.30
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: MaterialShader                                  0.18                   0.37             8         35.35
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: BulkDataList                                    0.05                   0.00             0          0.59
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: GlobalShader                                    0.03                   0.04             0         99.32
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: NiagaraShader                                   0.02                   0.04            16          0.21
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: Texture                                         0.01                   0.00             0         96.77
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: Shader                                          0.01                   0.00            37          0.31
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: StaticMesh                                      0.01                   0.04             0          2.13
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: GeometryCollection                              0.00                   0.00             1          0.00
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: NavCollision                                    0.00                   0.01             0          0.08
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: DistanceField                                   0.00                   0.02             0          2.45
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: CardRepresentation                              0.00                   0.01             0          0.03
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: AnimationSequence                               0.00                   0.00             0          0.81
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: STREAMEDAUDIO                                   0.00                   0.00             0          4.99
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: MaterialTranslation                             0.00                   0.00             5          0.00
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: BulkDataPayloadId                               0.00                   0.00             1          0.00
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: Audio                                           0.00                   0.00             0          4.98
+[2025.10.29-19.52.31:685][832]UATHelper: Packaging (Windows): LogCookStats: Display: CKERSM                                          0.00                   0.00             0          0.18
+[2025.10.29-19.52.31:686][832]UATHelper: Packaging (Windows): LogCookStats: Display: NiagaraScript                                   0.00                   0.00             0          0.05
+[2025.10.29-19.52.31:686][832]UATHelper: Packaging (Windows): LogCookStats: Display: BodySetup                                       0.00                   0.00             0          0.42
+[2025.10.29-19.52.31:686][832]UATHelper: Packaging (Windows): LogPackageBuildDependencyTracker: Display: Package Accesses (484 referencing packages with a total of 4323 unique accesses)
+[2025.10.29-19.52.31:686][832]UATHelper: Packaging (Windows): LogConfigBuildDependencyTracker: Display: Config Accesses (457 referencing packages with a total of 2847 unique accesses). 3030 unique accesses that were not associated with a package.
+[2025.10.29-19.52.31:686][832]UATHelper: Packaging (Windows): LogCook: Display: Done!
+[2025.10.29-19.52.31:686][832]UATHelper: Packaging (Windows): LogSavePackage: Display: Took 0.000975s to verify the EDL loading graph.
+[2025.10.29-19.52.31:686][832]UATHelper: Packaging (Windows): LogInit: Display:
+[2025.10.29-19.52.31:686][832]UATHelper: Packaging (Windows): LogInit: Display: Success - 0 error(s), 0 warning(s)
+[2025.10.29-19.52.31:686][832]UATHelper: Packaging (Windows): LogInit: Display:
+[2025.10.29-19.52.31:686][832]UATHelper: Packaging (Windows): Execution of commandlet took:  1m 6s (66.45 seconds)
+[2025.10.29-19.52.34:281][840]UATHelper: Packaging (Windows): LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.10.29-19.52.34:281][840]UATHelper: Packaging (Windows): Took 85.33s to run UnrealEditor-Cmd.exe, ExitCode=0
+[2025.10.29-19.52.34:291][840]UATHelper: Packaging (Windows): Cook command time: 85.36 s
+[2025.10.29-19.52.34:291][840]UATHelper: Packaging (Windows): ********** COOK COMMAND COMPLETED **********
+[2025.10.29-19.52.34:291][840]UATHelper: Packaging (Windows): ********** STAGE COMMAND STARTED **********
+[2025.10.29-19.52.34:354][840]UATHelper: Packaging (Windows): Creating Staging Manifest...
+[2025.10.29-19.52.34:533][841]UATHelper: Packaging (Windows): Patching bootstrap executable; E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Intermediate\Staging\ProjectFate.exe
+[2025.10.29-19.52.34:533][841]UATHelper: Packaging (Windows): Begin update resource 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Intermediate\Staging\ProjectFate.exe' (0)
+[2025.10.29-19.52.34:533][841]UATHelper: Packaging (Windows): Add resource 101, length 104 (True)
+[2025.10.29-19.52.34:533][841]UATHelper: Packaging (Windows): Add resource 1, length 1996 (True)
+[2025.10.29-19.52.34:533][841]UATHelper: Packaging (Windows): Add resource 2, length 2447 (True)
+[2025.10.29-19.52.34:533][841]UATHelper: Packaging (Windows): Add resource 3, length 2535 (True)
+[2025.10.29-19.52.34:544][841]UATHelper: Packaging (Windows): Add resource 4, length 3037 (True)
+[2025.10.29-19.52.34:544][841]UATHelper: Packaging (Windows): Add resource 5, length 3244 (True)
+[2025.10.29-19.52.34:544][841]UATHelper: Packaging (Windows): Add resource 6, length 3531 (True)
+[2025.10.29-19.52.34:544][841]UATHelper: Packaging (Windows): Add resource 7, length 6931 (True)
+[2025.10.29-19.52.34:544][841]UATHelper: Packaging (Windows): Add resource 201, length 86 (True)
+[2025.10.29-19.52.34:544][841]UATHelper: Packaging (Windows): Add resource 202, length 24 (True)
+[2025.10.29-19.52.34:544][841]UATHelper: Packaging (Windows): End update resource (True/0)
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\Base.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\BaseCompat.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\BaseDeviceProfiles.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\BaseEditor.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\BaseEditorKeyBindings.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\BaseEditorPerProjectUserSettings.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\BaseEditorSettings.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\BaseEngine.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\BaseGame.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\BaseGameUserSettings.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\BaseHardware.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\BaseInput.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\BaseInstallBundle.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\BaseLightmass.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\BasePakFileRules.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\BaseRuntimeOptions.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\BaseScalability.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\BaseSourceControlSettings.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\ConfigRedirects.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\ConsoleVariables.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\PluginBase.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\Layouts\DefaultLayout.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\Layouts\UE4ClassicLayout.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\Localization\Category.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\Localization\Editor.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\Localization\EditorTutorials.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\Localization\Engine.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\Localization\Keywords.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\Localization\PortableObjectExport.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\Localization\PortableObjectImport.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\Localization\PropertyNames.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\Localization\RepairData.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\Localization\ToolTips.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\Localization\WordCount.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\VulkanPC\DataDrivenPlatformInfo.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\Windows\BaseWindowsEngine.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\Windows\BaseWindowsInput.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\Windows\DataDrivenPlatformInfo.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Excluding config file D:\Games\EpicGames\UE_5.5\Engine\Config\Windows\WindowsEditorPerProjectUserSettings.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\Windows\WindowsEngine.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\Windows\WindowsGame.ini
+[2025.10.29-19.52.34:554][841]UATHelper: Packaging (Windows): Including config file D:\Games\EpicGames\UE_5.5\Engine\Config\Windows\WindowsInput.ini
+[2025.10.29-19.52.34:565][841]UATHelper: Packaging (Windows): Excluding config file E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Config\DefaultEditor.ini
+[2025.10.29-19.52.34:565][841]UATHelper: Packaging (Windows): Excluding config file E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Config\DefaultEditorPerProjectUserSettings.ini
+[2025.10.29-19.52.34:565][841]UATHelper: Packaging (Windows): Including config file E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Config\DefaultEngine.ini
+[2025.10.29-19.52.34:565][841]UATHelper: Packaging (Windows): Including config file E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Config\DefaultGame.ini
+[2025.10.29-19.52.34:565][841]UATHelper: Packaging (Windows): Including config file E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Config\DefaultInput.ini
+[2025.10.29-19.52.34:886][842]UATHelper: Packaging (Windows): Cleaning Stage Directory: E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\StagedBuilds\Windows
+[2025.10.29-19.52.34:939][842]UATHelper: Packaging (Windows): Creating pak using staging manifest.
+[2025.10.29-19.52.34:939][842]UATHelper: Packaging (Windows): DumpManifest: C:\Users\idhant\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Games+EpicGames+UE_5.5\PrePak_Windows_NonUFSFiles.txt, NumItems: 41
+[2025.10.29-19.52.34:939][842]UATHelper: Packaging (Windows): DumpManifest: C:\Users\idhant\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Games+EpicGames+UE_5.5\PrePak_Windows_NonUFSFilesDebug.txt, NumItems: 8
+[2025.10.29-19.52.34:939][842]UATHelper: Packaging (Windows): DumpManifest: C:\Users\idhant\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Games+EpicGames+UE_5.5\PrePak_Windows_UFSFiles.txt, NumItems: 3296
+[2025.10.29-19.52.35:139][842]UATHelper: Packaging (Windows): No matching platform for PakFileRules for Section ExcludeContentForMobile : Windows
+[2025.10.29-19.52.35:192][843]UATHelper: Packaging (Windows): Using 0 pak order files:
+[2025.10.29-19.52.35:202][843]UATHelper: Packaging (Windows): Running UnrealPak with arguments: "E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\ProjectFate.uproject"  -cryptokeys="E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\Cooked\Windows\ProjectFate\Metadata\Crypto.json" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken  -platform=Windows  -CreateMultiple="C:\Users\idhant\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Games+EpicGames+UE_5.5\PakCommands.txt"
+[2025.10.29-19.52.35:202][843]UATHelper: Packaging (Windows): Running: D:\Games\EpicGames\UE_5.5\Engine\Binaries\Win64\UnrealPak.exe "E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\ProjectFate.uproject"  -cryptokeys="E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\Cooked\Windows\ProjectFate\Metadata\Crypto.json" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken  -platform=Windows  -CreateMultiple="C:\Users\idhant\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Games+EpicGames+UE_5.5\PakCommands.txt"
+[2025.10.29-19.52.36:389][846]UATHelper: Packaging (Windows): LogPakFile: Display: ProjectDir: E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/
+[2025.10.29-19.52.36:400][846]UATHelper: Packaging (Windows): LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+[2025.10.29-19.52.36:400][846]UATHelper: Packaging (Windows): LogPakFile: Display: CompressionFormats in priority order: Oodle, Zlib
+[2025.10.29-19.52.36:400][846]UATHelper: Packaging (Windows): LogPakFile: Display: Oodle enabled on 'NoPluginCompression' files
+[2025.10.29-19.52.36:400][846]UATHelper: Packaging (Windows): LogPakFile: Display: Loading response file D:\Games\EpicGames\UE_5.5\Engine\Programs\AutomationTool\Saved\ResponseFiles\PakList_ProjectFate-Windows.txt
+[2025.10.29-19.52.36:400][846]UATHelper: Packaging (Windows): LogPakFile: Display: Added 1625 entries to add to pak file.
+[2025.10.29-19.52.36:411][846]UATHelper: Packaging (Windows): LogPakFile: Display: Collecting files to add to pak file...
+[2025.10.29-19.52.36:411][846]UATHelper: Packaging (Windows): LogPakFile: Display: Collected 1625 files in 0.01s.
+[2025.10.29-19.52.36:411][846]UATHelper: Packaging (Windows): LogPakFile: Display: Creating pak E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\StagedBuilds\Windows\ProjectFate\Content\Paks\ProjectFate-Windows.pak.
+[2025.10.29-19.52.37:605][850]UATHelper: Packaging (Windows): OodleDataCompression: Display: Oodle v2.9.12 format for pak/iostore with method=Kraken, level=4=Normal
+[2025.10.29-19.52.37:616][850]UATHelper: Packaging (Windows): LogPakFile: Display: Created pak file: E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\StagedBuilds\Windows\ProjectFate\Content\Paks\ProjectFate-Windows.pak
+[2025.10.29-19.52.37:616][850]UATHelper: Packaging (Windows): LogPakFile: Display: CompressionFormat 0 [Oodle] : 357 files, 25765714 -> 9110873 bytes
+[2025.10.29-19.52.37:616][850]UATHelper: Packaging (Windows): LogPakFile: Display: CompressionFormat 2 [None] : 1268 files, 744298 -> 744298 bytes
+[2025.10.29-19.52.37:616][850]UATHelper: Packaging (Windows): LogPakFile: Display: Added 1625 files, 10483247 bytes total
+[2025.10.29-19.52.37:616][850]UATHelper: Packaging (Windows): LogPakFile: Display: PrimaryIndex size: 22534 bytes
+[2025.10.29-19.52.37:626][850]UATHelper: Packaging (Windows): LogPakFile: Display: PathHashIndex size: 50838 bytes
+[2025.10.29-19.52.37:626][850]UATHelper: Packaging (Windows): LogPakFile: Display: FullDirectoryIndex size: 54137 bytes
+[2025.10.29-19.52.37:626][850]UATHelper: Packaging (Windows): LogPakFile: Display: Compression summary: 35.36% of original size. Compressed Size 9110873 bytes, Original Size 25765714 bytes.
+[2025.10.29-19.52.37:626][850]UATHelper: Packaging (Windows): LogPakFile: Display: Encryption - DISABLED
+[2025.10.29-19.52.37:626][850]UATHelper: Packaging (Windows): LogPakFile: Display:
+[2025.10.29-19.52.37:626][850]UATHelper: Packaging (Windows): LogPakFile: Display: Writer and Compression Threads exited.
+[2025.10.29-19.52.37:668][850]UATHelper: Packaging (Windows): LogPakFile: Display: UnrealPak executed in 1.227226 seconds
+[2025.10.29-19.52.37:668][850]UATHelper: Packaging (Windows): Took 2.47s to run UnrealPak.exe, ExitCode=0
+[2025.10.29-19.52.37:679][850]UATHelper: Packaging (Windows): Running UnrealPak with arguments: "E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\ProjectFate.uproject" -CreateGlobalContainer="E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\StagedBuilds\Windows\ProjectFate\Content\Paks\global.utoc" -PackageStoreManifest="E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\Cooked\Windows\ProjectFate\Metadata\packagestore.manifest" -CookedDirectory="E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\Cooked\Windows" -Commands="C:\Users\idhant\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Games+EpicGames+UE_5.5\IoStoreCommands.txt" -ScriptObjects="E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\Cooked\Windows\ProjectFate\Metadata\scriptobjects.bin" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken   -cryptokeys="E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\Cooked\Windows\ProjectFate\Metadata\Crypto.json" -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled 
+[2025.10.29-19.52.37:680][850]UATHelper: Packaging (Windows): Running: D:\Games\EpicGames\UE_5.5\Engine\Binaries\Win64\UnrealPak.exe "E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\ProjectFate.uproject" -CreateGlobalContainer="E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\StagedBuilds\Windows\ProjectFate\Content\Paks\global.utoc" -PackageStoreManifest="E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\Cooked\Windows\ProjectFate\Metadata\packagestore.manifest" -CookedDirectory="E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\Cooked\Windows" -Commands="C:\Users\idhant\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Games+EpicGames+UE_5.5\IoStoreCommands.txt" -ScriptObjects="E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\Cooked\Windows\ProjectFate\Metadata\scriptobjects.bin" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken   -cryptokeys="E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\Cooked\Windows\ProjectFate\Metadata\Crypto.json" -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled
+[2025.10.29-19.52.38:064][851]UATHelper: Packaging (Windows): LogPakFile: Display: ProjectDir: E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/
+[2025.10.29-19.52.38:064][851]UATHelper: Packaging (Windows): LogIoStore: Display: ==================== IoStore Utils ====================
+[2025.10.29-19.52.38:074][851]UATHelper: Packaging (Windows): LogIoStore: Display: Parsing crypto keys from a crypto key cache file 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\Cooked\Windows\ProjectFate\Metadata\Crypto.json'
+[2025.10.29-19.52.38:074][851]UATHelper: Packaging (Windows): LogIoStore: Display: Container signing - DISABLED
+[2025.10.29-19.52.38:074][851]UATHelper: Packaging (Windows): LogIoStore: Display: Directory index - ENABLED
+[2025.10.29-19.52.38:074][851]UATHelper: Packaging (Windows): LogIoStore: Display: Using compression format 'Oodle'
+[2025.10.29-19.52.38:074][851]UATHelper: Packaging (Windows): LogIoStore: Display: Using memory mapping alignment '16384'
+[2025.10.29-19.52.38:074][851]UATHelper: Packaging (Windows): LogIoStore: Display: Using compression block size '65536'
+[2025.10.29-19.52.38:074][851]UATHelper: Packaging (Windows): LogIoStore: Display: Using compression block alignment '2048'
+[2025.10.29-19.52.38:074][851]UATHelper: Packaging (Windows): LogIoStore: Display: Using compression min bytes saved '1024'
+[2025.10.29-19.52.38:074][851]UATHelper: Packaging (Windows): LogIoStore: Display: Using compression min percent saved '5'
+[2025.10.29-19.52.38:074][851]UATHelper: Packaging (Windows): LogIoStore: Display: Using max partition size '0'
+[2025.10.29-19.52.38:074][851]UATHelper: Packaging (Windows): LogIoStore: Display: Not using DDC for compression
+[2025.10.29-19.52.38:074][851]UATHelper: Packaging (Windows): LogIoStore: Display: Using command list file: 'C:\Users\idhant\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Games+EpicGames+UE_5.5\IoStoreCommands.txt'
+[2025.10.29-19.52.38:074][851]UATHelper: Packaging (Windows): LogIoStore: Display: Selected Oodle level 4 (Normal) from command line for shaders
+[2025.10.29-19.52.38:074][851]UATHelper: Packaging (Windows): LogIoStore: Display: Fetched 751 oplog items from Manifest in 0.00 seconds
+[2025.10.29-19.52.38:085][851]UATHelper: Packaging (Windows): LogIoStore: Display: Parsed 751 oplog items 0.00 seconds, 924 chunks
+[2025.10.29-19.52.38:095][851]UATHelper: Packaging (Windows): LogIoStore: Display: Using input asset registry: E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Saved/Cooked/Windows/ProjectFate/Metadata/DevelopmentAssetRegistry.bin
+[2025.10.29-19.52.38:095][851]UATHelper: Packaging (Windows): LogIoStore: Display: Loaded 181 chunk hashes from AssetRegistry in 0.01 seconds, 181 hashes updated in 0.00 seconds
+[2025.10.29-19.52.38:116][851]UATHelper: Packaging (Windows): LogIoStore: Display: Searching for cooked assets in folder 'E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\Cooked\Windows'
+[2025.10.29-19.52.38:127][851]UATHelper: Packaging (Windows): LogIoStore: Display: Found '1675' files
+[2025.10.29-19.52.38:127][851]UATHelper: Packaging (Windows): LogIoStore: Display: Creating container targets...
+[2025.10.29-19.52.38:169][852]UATHelper: Packaging (Windows): OodleDataCompression: Display: Oodle v2.9.12 format for pak/iostore with method=Kraken, level=4=Normal
+[2025.10.29-19.52.38:169][852]UATHelper: Packaging (Windows): LogIoStore: Display: Parsing packages...
+[2025.10.29-19.52.38:180][852]UATHelper: Packaging (Windows): LogIoStore: Display: Reading package assets...
+[2025.10.29-19.52.38:191][852]UATHelper: Packaging (Windows): LogIoStore: Display: Packages read 743 files in 0.01 seconds, 2,124,621 total bytes, 188,459,853 bytes per second
+[2025.10.29-19.52.38:213][852]UATHelper: Packaging (Windows): LogIoStore: Display: Processing shader libraries, compressing with Oodle Mermaid, level 4 (Normal)
+[2025.10.29-19.52.38:396][852]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 360 groups (135 of them didn't need new indices), average uncompressed size 156200 bytes, min 249 bytes, max 1047981 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2025.10.29-19.52.38:459][852]UATHelper: Packaging (Windows): LogIoStore: Display: Global-PCD3D_SM5(PCD3D_SM5): Recompressed 3915 shaders as 360 groups. Library size changed from 12644 KB (4.34 : 1 ratio) to 5565 KB (9.87 : 1 ratio), 44.01% of previous.
+[2025.10.29-19.52.39:771][856]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 543 groups (182 of them didn't need new indices), average uncompressed size 211555 bytes, min 1249 bytes, max 1045875 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2025.10.29-19.52.39:771][856]UATHelper: Packaging (Windows): LogIoStore: Display: Global-PCD3D_SM6(PCD3D_SM6): Recompressed 7584 shaders as 543 groups. Library size changed from 85873 KB (1.31 : 1 ratio) to 48458 KB (2.32 : 1 ratio), 56.43% of previous.
+[2025.10.29-19.52.39:802][856]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 228 groups (94 of them didn't need new indices), average uncompressed size 56927 bytes, min 325 bytes, max 975730 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2025.10.29-19.52.39:823][857]UATHelper: Packaging (Windows): LogIoStore: Display: ProjectFate-PCD3D_SM5(PCD3D_SM5): Recompressed 1137 shaders as 228 groups. Library size changed from 3483 KB (3.64 : 1 ratio) to 1691 KB (7.49 : 1 ratio), 48.55% of previous.
+[2025.10.29-19.52.40:082][857]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 255 groups (73 of them didn't need new indices), average uncompressed size 114356 bytes, min 2490 bytes, max 973950 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2025.10.29-19.52.40:082][857]UATHelper: Packaging (Windows): LogIoStore: Display: ProjectFate-PCD3D_SM6(PCD3D_SM6): Recompressed 2305 shaders as 255 groups. Library size changed from 21806 KB (1.31 : 1 ratio) to 14862 KB (1.92 : 1 ratio), 68.16% of previous.
+[2025.10.29-19.52.40:082][857]UATHelper: Packaging (Windows): LogIoStore: Display: Shaders processed in 1.89 seconds
+[2025.10.29-19.52.40:082][857]UATHelper: Packaging (Windows): LogIoStore: Display: Initialized WriteRequestManager with MaxConcurrentSourceReads=6 (12 cores), MaxSourceBufferMemory=3072MiB
+[2025.10.29-19.52.40:082][857]UATHelper: Packaging (Windows): LogIoStore: Display: Processing redirects...
+[2025.10.29-19.52.40:094][857]UATHelper: Packaging (Windows): LogIoStore: Display: Creating disk layout...
+[2025.10.29-19.52.40:105][857]UATHelper: Packaging (Windows): LogIoStore: Display: Ordered 743 packages using fallback bundle order
+[2025.10.29-19.52.41:913][863]UATHelper: Packaging (Windows): LogIoStore: Display: Serializing container(s)...
+[2025.10.29-19.52.41:913][863]UATHelper: Packaging (Windows): LogIoStore: Display: Writing and compressing took 1.72 seconds, writes to disk took 0.55 seconds for 291,814,288 bytes @ 533,406,244 bytes per second.
+[2025.10.29-19.52.41:913][863]UATHelper: Packaging (Windows): LogIoStore: Display: ProjectFate-Windows: Found perfect hashmap for 2313 items.
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display: global: Found perfect hashmap for 1 items.
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display: Finalize took 0.0 seconds for 2 writers to write 260,790 bytes, 33,361,903 bytes per second
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display: Writing tocs... [Physical: 796 MiB, Virtual: 3412 MiB]
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display: 181 / 2,314 hashes were loaded from the hash database, by type:
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display:     BulkData                   181
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display: 924 / 2,314 chunks attempted to compress, by type:
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display:     ExportBundleData           743 / 743
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display:     BulkData                   181 / 181
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display:     ScriptObjects              0 / 1
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display:     ContainerHeader            0 / 1
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display:     ShaderCodeLibrary          0 / 4
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display:     ShaderCode                 0 / 1,384
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display: Source bytes read:
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display:     Zen:                                  0
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display:     Loose File:                 589,925,987
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display:         ExportBundleData        414,684,788 bytes over 1,486 reads
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display:         BulkData                175,241,199 bytes over 181 reads
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display:     Memory:                     145,761,038
+[2025.10.29-19.52.41:924][863]UATHelper: Packaging (Windows): LogIoStore: Display:         ShaderCodeLibrary         1,223,856 bytes over 8 reads
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display:         ShaderCode              144,537,182 bytes over 2,768 reads
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: Calculating stats...
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: Container Summary
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: ==================
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: Container                                               Flags      Chunk(s) #       TOC (KiB)       Raw Size (MiB)           Size (MiB)
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: global                                              -/-/-/-/-               1            0.63                 2.31                 2.31 -
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: ProjectFate-Windows                                 C/-/-/I/-            2313          254.04               437.67               275.98 (36.94% Oodle)
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: Total                                                                    2314          254.68               439.99               278.30
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: ** Flags: (C)ompressed / (E)ncrypted / (S)igned) / (I)ndexed) / (O)nDemand **
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: Compression block padding:     1.71 MiB
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: Container Directory Index
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: ==========================
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: Container                                          Size (KiB)
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: global                                                   0.00
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: ProjectFate-Windows                                     42.36
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: Container Patch Report
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: ========================
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: Container                                             Total #       Modified #          Added #   Modified (MiB)      Added (MiB)
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: global                                                      1                0                0             0.00             0.00
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display: ProjectFate-Windows                                      2313                0             2313             0.00           274.27
+[2025.10.29-19.52.41:925][863]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: PackageStore
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: =============
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: Container                                          Size (KiB)      Packages #     Localized #
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: ProjectFate-Windows                                        26             743               0
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: Total                                                      26             743               0
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: Input:       743 Packages
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: Input:      0.19 GB UExp
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: Input:      0.00 GB UAsset
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: Input:      0.16 GB UBulk
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: Input:     52.76 MB for 903 Global shaders
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: Input:      2.23 MB for 185 Shared shaders
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: Input:      0.00 MB for 0 Unique shaders
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: Input:     13.94 MB for 296 Inline shaders
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: Output:    22093 Name map entries
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: Output:     1001 Imported package entries
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: Output:      401 Packages without imports
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: Output:        0 Public runtime script objects
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: Output:     0.00 GB HeaderData
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display: Output:     2.31 MB InitialLoadData
+[2025.10.29-19.52.41:935][863]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.10.29-19.52.41:979][863]UATHelper: Packaging (Windows): LogPakFile: Display: UnrealPak executed in 3.864362 seconds
+[2025.10.29-19.52.41:979][863]UATHelper: Packaging (Windows): Took 4.30s to run UnrealPak.exe, ExitCode=0
+[2025.10.29-19.52.41:989][863]UATHelper: Packaging (Windows): DumpManifest: C:\Users\idhant\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Games+EpicGames+UE_5.5\FinalCopyWin64_UFSFiles.txt, NumItems: 3297
+[2025.10.29-19.52.41:989][863]UATHelper: Packaging (Windows): DumpManifest: C:\Users\idhant\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Games+EpicGames+UE_5.5\FinalCopyWin64_NonUFSFiles.txt, NumItems: 41
+[2025.10.29-19.52.41:989][863]UATHelper: Packaging (Windows): DumpManifest: C:\Users\idhant\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Games+EpicGames+UE_5.5\FinalCopyWin64_NonUFSFilesDebug.txt, NumItems: 8
+[2025.10.29-19.52.41:989][863]UATHelper: Packaging (Windows): Copying NonUFSFiles to staging directory: E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\StagedBuilds\Windows
+[2025.10.29-19.52.42:489][865]UATHelper: Packaging (Windows): Copying DebugFiles to staging directory: E:\Projects\UNREAL\Fate\FateShooter\ProjectFate\Saved\StagedBuilds\Windows
+[2025.10.29-19.52.42:797][865]UATHelper: Packaging (Windows): Stage command time: 8.51 s
+[2025.10.29-19.52.42:797][865]UATHelper: Packaging (Windows): ********** STAGE COMMAND COMPLETED **********
+[2025.10.29-19.52.42:808][865]UATHelper: Packaging (Windows): ********** PACKAGE COMMAND STARTED **********
+[2025.10.29-19.52.42:808][865]UATHelper: Packaging (Windows): Package command time: 0.00 s
+[2025.10.29-19.52.42:808][865]UATHelper: Packaging (Windows): ********** PACKAGE COMMAND COMPLETED **********
+[2025.10.29-19.52.42:808][865]UATHelper: Packaging (Windows): ********** ARCHIVE COMMAND STARTED **********
+[2025.10.29-19.52.42:808][865]UATHelper: Packaging (Windows): Archiving to E:/Projects/UNREAL/Builds/EOO
+[2025.10.29-19.52.43:706][868]UATHelper: Packaging (Windows): Archive command time: 0.90 s
+[2025.10.29-19.52.43:706][868]UATHelper: Packaging (Windows): ********** ARCHIVE COMMAND COMPLETED **********
+[2025.10.29-19.52.43:706][868]UATHelper: Packaging (Windows): BuildCookRun time: 166.24 s
+[2025.10.29-19.52.43:706][868]UATHelper: Packaging (Windows): BUILD SUCCESSFUL
+[2025.10.29-19.52.43:731][868]UATHelper: Packaging (Windows): AutomationTool executed for 0h 2m 47s
+[2025.10.29-19.52.43:731][868]UATHelper: Packaging (Windows): AutomationTool exiting with ExitCode=0 (Success)
+[2025.10.29-19.52.44:150][869]LogStreaming: Display: FlushAsyncLoading(511): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.29-19.53.04:239][933]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1704.948242
+[2025.10.29-19.53.04:720][937]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.29-19.53.04:720][937]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1705.206909, Update Interval: 326.448547
+[2025.10.29-19.53.11:600][990]LogUObjectHash: Compacting FUObjectHashTables data took  13.04ms
+[2025.10.29-19.55.41:726][481]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.29-19.55.42:018][481]LogUObjectHash: Compacting FUObjectHashTables data took   8.60ms
+[2025.10.29-19.55.42:133][481]LogSavePackage: Moving output files for package: /Game/MyContent/Levels/MainArenaLevel
+[2025.10.29-19.55.42:134][481]LogSavePackage: Moving 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Saved/MainArenaLevelD7D19580411116D9FC44878822A479AC.tmp' to 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyContent/Levels/MainArenaLevel.umap'
+[2025.10.29-19.55.42:185][481]LogFileHelpers: Saving map 'MainArenaLevel' took 0.301
+[2025.10.29-19.55.42:269][481]LogFileHelpers: InternalPromptForCheckoutAndSave took 543.814 ms (total: 11.8 sec)
+[2025.10.29-19.55.42:419][481]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.29-19.55.42:419][481]LogContentValidation: Enabled validators:
+[2025.10.29-19.55.42:420][481]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.29-19.55.42:420][481]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.29-19.55.42:420][481]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.29-19.55.42:420][481]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.29-19.55.42:420][481]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.29-19.55.42:420][481]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.29-19.55.42:422][481]AssetCheck: /Game/MyContent/Levels/MainArenaLevel Validating asset
+[2025.10.29-19.55.43:089][493]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.29-19.55.43:129][493]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.29-19.55.43:148][493]LogPlayLevel: Creating play world package: /Game/MyContent/Levels/UEDPIE_0_MainArenaLevel
+[2025.10.29-19.55.43:225][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077399s)
+[2025.10.29-19.55.43:225][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Levels/MainArenaLevel.MainArenaLevel to /Game/MyContent/Levels/UEDPIE_0_MainArenaLevel.MainArenaLevel (0.078643s)
+[2025.10.29-19.55.43:254][493]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2025.10.29-19.55.43:263][493]LogChaosDD: Creating Chaos Debug Draw Scene for world MainArenaLevel
+[2025.10.29-19.55.43:339][493]LogPlayLevel: PIE: World Init took: (0.076753s)
+[2025.10.29-19.55.43:343][493]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.10.29-19.55.43:345][493]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.29-19.55.43:345][493]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.29-19.55.43:345][493]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.29-19.55.43:345][493]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.29-19.55.43:345][493]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.29-19.55.43:345][493]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.29-19.55.43:345][493]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.29-19.55.43:345][493]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.29-19.55.43:348][493]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.29-19.55.43:348][493]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.29-19.55.43:348][493]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.29-19.55.43:353][493]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.29-19.55.43:657][493]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.10.29-19.55.43:664][493]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.29-19.55.43:665][493]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.29-19.55.43:665][493]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.29-19.55.43:669][493]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.10.29-19.55.43:669][493]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.10.29-19.55.43:673][493]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.10.29-19.55.43:673][493]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.10.29-19.55.43:673][493]LogInit: FAudioDevice initialized with ID 9.
+[2025.10.29-19.55.43:673][493]LogAudio: Display: Audio Device (ID: 9) registered with world 'MainArenaLevel'.
+[2025.10.29-19.55.43:674][493]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.10.29-19.55.43:713][493]LogLoad: Game class is 'BP_GM_Gameplay_C'
+[2025.10.29-19.55.43:751][493]LogWorld: Bringing World /Game/MyContent/Levels/UEDPIE_0_MainArenaLevel.MainArenaLevel up for play (max tick rate 60) at 2025.10.29-19.55.43
+[2025.10.29-19.55.43:755][493]LogWorld: Bringing up level for play took: 0.039621
+[2025.10.29-19.55.43:769][493]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2025.10.29-19.55.43:783][493]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.10.29-19.55.43:783][493]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.10.29-19.55.43:783][493]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.10.29-19.55.43:804][493]LogActor: Warning: BP_NullBlaster_C /Game/MyContent/Levels/UEDPIE_0_MainArenaLevel.MainArenaLevel:PersistentLevel.BP_NullBlaster_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.10.29-19.55.43:809][493]LogActor: Warning: BP_NullBlaster_C /Game/MyContent/Levels/UEDPIE_0_MainArenaLevel.MainArenaLevel:PersistentLevel.BP_NullBlaster_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.10.29-19.55.43:810][493]LogActor: Warning: BP_NullBlaster_C /Game/MyContent/Levels/UEDPIE_0_MainArenaLevel.MainArenaLevel:PersistentLevel.BP_NullBlaster_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.10.29-19.55.43:810][493]LogActor: Warning: BP_NullBlaster_C /Game/MyContent/Levels/UEDPIE_0_MainArenaLevel.MainArenaLevel:PersistentLevel.BP_NullBlaster_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.10.29-19.55.43:811][493]LogActor: Warning: BP_Launcher_C /Game/MyContent/Levels/UEDPIE_0_MainArenaLevel.MainArenaLevel:PersistentLevel.BP_Launcher_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.10.29-19.55.43:811][493]LogActor: Warning: BP_Launcher_C /Game/MyContent/Levels/UEDPIE_0_MainArenaLevel.MainArenaLevel:PersistentLevel.BP_Launcher_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.10.29-19.55.43:811][493]LogActor: Warning: BP_NullBlaster_C /Game/MyContent/Levels/UEDPIE_0_MainArenaLevel.MainArenaLevel:PersistentLevel.BP_NullBlaster_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.10.29-19.55.43:812][493]LogActor: Warning: BP_NullBlaster_C /Game/MyContent/Levels/UEDPIE_0_MainArenaLevel.MainArenaLevel:PersistentLevel.BP_NullBlaster_C_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.10.29-19.55.43:812][493]LogActor: Warning: BP_Launcher_C /Game/MyContent/Levels/UEDPIE_0_MainArenaLevel.MainArenaLevel:PersistentLevel.BP_Launcher_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.10.29-19.55.43:813][493]LogActor: Warning: BP_Launcher_C /Game/MyContent/Levels/UEDPIE_0_MainArenaLevel.MainArenaLevel:PersistentLevel.BP_Launcher_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.10.29-19.55.43:813][493]LogActor: Warning: BP_Launcher_C /Game/MyContent/Levels/UEDPIE_0_MainArenaLevel.MainArenaLevel:PersistentLevel.BP_Launcher_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.10.29-19.55.43:813][493]LogActor: Warning: BP_Launcher_C /Game/MyContent/Levels/UEDPIE_0_MainArenaLevel.MainArenaLevel:PersistentLevel.BP_Launcher_C_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.10.29-19.55.43:910][493]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.10.29-19.55.43:913][493]PIE: Server logged in
+[2025.10.29-19.55.43:915][493]PIE: Play in editor total start time 0.803 seconds.
+[2025.10.29-19.55.49:069][591]LogActor: Warning: BP_NullBlaster_C /Game/MyContent/Levels/UEDPIE_0_MainArenaLevel.MainArenaLevel:PersistentLevel.BP_NullBlaster_C_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.10.29-19.55.52:211][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-19.55.52:211][651]LogWorld: BeginTearingDown for /Game/MyContent/Levels/UEDPIE_0_MainArenaLevel
+[2025.10.29-19.55.52:218][651]LogWorld: UWorld::CleanupWorld for MainArenaLevel, bSessionEnded=true, bCleanupResources=true
+[2025.10.29-19.55.52:224][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-19.55.52:266][651]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.29-19.55.52:274][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.29-19.55.52:304][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.29-19.55.52:316][651]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.10.29-19.55.52:316][651]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.10.29-19.55.52:322][651]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.10.29-19.55.52:350][651]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.10.29-19.55.52:581][652]LogPlayLevel: Display: Destroying online subsystem :Context_18
