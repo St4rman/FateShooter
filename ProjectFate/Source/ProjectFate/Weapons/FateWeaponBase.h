@@ -93,6 +93,7 @@ public:
 
 	void Fire(const AProjectFateCharacter* OwningCharacter);
 	void DoShootFlair();
+	void DoShootSound();
 	
 	UFUNCTION()
 	virtual void FireProjectile();
@@ -100,7 +101,6 @@ public:
 	virtual void FireHitScan();
 
 	void OnWeaponDrop();
-	
 	
 	void OnweaponPickupEvent();
 
