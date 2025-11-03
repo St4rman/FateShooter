@@ -13,14 +13,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcec5a1-d210-4a75-911d-ed9f7bcc681a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Build/Windows/FileOpenOrder/CookerOpenOrder.log" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Windows/FileOpenOrder/CookerOpenOrder.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build/Windows/FileOpenOrder/EditorOpenOrder.log" beforeDir="false" afterPath="$PROJECT_DIR$/Build/Windows/FileOpenOrder/EditorOpenOrder.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/MyContent/Levels/MainArenaLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyContent/Levels/MainArenaLevel.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealGame/Inc/AdvancedSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealGame/Inc/AdvancedSessions/UHT/Timestamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealGame/Inc/AdvancedSteamSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealGame/Inc/AdvancedSteamSessions/UHT/Timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectFate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSessions/UHT/Timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSteamSessions/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/AdvancedSteamSessions/Intermediate/Build/Win64/UnrealEditor/Inc/AdvancedSteamSessions/UHT/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Game.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Game.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Engine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/ProjectFate.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/ProjectFateCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateWeaponBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectFate/Weapons/FateWeaponBase.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,7 @@
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Core/Public/Delegates/Delegate.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Core/Public/HAL/LowLevelMemTracker.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/Core/Public/Misc/ObjectThumbnail.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/CoreUObject/Private/UObject/Class.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/CoreUObject/Private/UObject/ScriptCore.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://D:/Games/EpicGames/UE_5.5/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectHandle.h" root0="FORCE_HIGHLIGHTING" />
@@ -90,7 +91,7 @@
     "C/C++ Project.ProjectFate.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "sound-components",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -258,6 +259,7 @@
       <workItem from="1761052987906" duration="13228000" />
       <workItem from="1761145043882" duration="5818000" />
       <workItem from="1761750168603" duration="7261000" />
+      <workItem from="1762174281581" duration="1083000" />
     </task>
     <servers />
   </component>

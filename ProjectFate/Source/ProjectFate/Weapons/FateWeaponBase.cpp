@@ -157,12 +157,10 @@ void AFateWeaponBase::FireProjectile()
 
 void AFateWeaponBase::OnWeaponDrop()
 {
-	GEngine->AddOnScreenDebugMessage(1, 1, FColor::Green, "Fired ON Server");
 	Destroy();
 	if (!HasAuthority())
 	{
 		Destroy();
-		GEngine->AddOnScreenDebugMessage(1, 1, FColor::Green, "Fired ON client");
 	}
 }
 
