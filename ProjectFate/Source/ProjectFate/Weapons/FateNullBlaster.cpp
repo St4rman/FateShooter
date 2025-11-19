@@ -27,6 +27,8 @@ void AFateNullBlaster::FireHitScan()
 		
 		bool bIsHit = GetWorld()->LineTraceSingleByChannel(HitResult,TraceStart, TraceEnd, ECC_WorldStatic, QueryParams);
 
+		OutHitData.HitLocation = TraceEnd;
+		
 		//if hit populate data
 		if (bIsHit)
 		{
@@ -34,13 +36,6 @@ void AFateNullBlaster::FireHitScan()
 			OutHitData.HitDirection = HitResult.Location - TraceStart;
 			OutHitData.Shooter		= Character;
 			OutHitData.HitEffect	= HitEffect;
-			
-			if (AProjectFateCharacter* Shooter = Cast<AProjectFateCharacter>(Character))
-			{
-				
-				Shooter->CreateHitEffect(OutHitData);
-				Shooter->GetFateParticleComp()->SpawnEffectAtPosition(HitResult.Location, UKismetMathLibrary::MakeRotFromX(- OutHitData.HitDirection), HitEffect, 1);
-			}
 			if (AProjectFateCharacter* ShotActor = Cast<AProjectFateCharacter>(HitResult.GetActor()))
 			{
 				//refactor this
@@ -49,6 +44,14 @@ void AFateNullBlaster::FireHitScan()
 					ShotActor->GetStatComp()->LowerHealth(WeaponDamage, Character);
 				}
 			}
+		}
+		
+		if (AProjectFateCharacter* Shooter = Cast<AProjectFateCharacter>(Character))
+		{
+				
+			Shooter->CreateHitEffect(OutHitData);
+			Shooter->GetFateParticleComp()->SpawnEffectAtPosition(HitResult.Location, UKismetMathLibrary::MakeRotFromX(- OutHitData.HitDirection),
+				HitEffect, 1);
 		}
 		
 		AmmoCounter +=1;
