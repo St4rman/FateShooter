@@ -5674,3 +5674,74 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.19-14.55.27:784][332]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
 [2025.11.19-14.55.27:939][333]LogPlayLevel: Display: Destroying online subsystem :Context_56
 [2025.11.19-14.55.27:939][333]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2025.11.19-14.58.55:232][  4]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.19-14.58.55:496][  4]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2025.11.19-14.58.55:537][  4]LogSavePackage: Moving output files for package: /Game/MyContent/Levels/TestSandBoxLevel
+[2025.11.19-14.58.55:538][  4]LogSavePackage: Moving 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Saved/TestSandBoxLevelB576A98C4BAA508C6DD466909664D4EC.tmp' to 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyContent/Levels/TestSandBoxLevel.umap'
+[2025.11.19-14.58.55:568][  4]LogFileHelpers: Saving map 'TestSandBoxLevel' took 0.134
+[2025.11.19-14.58.55:664][  4]LogFileHelpers: InternalPromptForCheckoutAndSave took 432.256 ms (total: 14.8 sec)
+[2025.11.19-14.58.55:817][  4]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.19-14.58.55:817][  4]LogContentValidation: Enabled validators:
+[2025.11.19-14.58.55:817][  4]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.19-14.58.55:817][  4]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.19-14.58.55:817][  4]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.19-14.58.55:817][  4]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.19-14.58.55:817][  4]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.19-14.58.55:817][  4]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.19-14.58.55:818][  4]AssetCheck: /Game/MyContent/Levels/TestSandBoxLevel Validating asset
+[2025.11.19-14.59.08:678][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2025.11.19-14.59.08:793][215]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.19-14.59.08:967][215]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyBlueprints/GameModes/Gameplay/BP_GM_Gameplay] ([2] browsable assets)...
+[2025.11.19-14.59.08:967][215]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyBlueprints/GameModes/Gameplay/BP_GM_Gameplay]
+[2025.11.19-14.59.08:982][215]LogSavePackage: Moving output files for package: /Game/MyBlueprints/GameModes/Gameplay/BP_GM_Gameplay
+[2025.11.19-14.59.08:983][215]LogSavePackage: Moving 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Saved/BP_GM_GameplayA4C791CE46C9CFE268FE40B1205BCA35.tmp' to 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyBlueprints/GameModes/Gameplay/BP_GM_Gameplay.uasset'
+[2025.11.19-14.59.09:126][215]LogFileHelpers: InternalPromptForCheckoutAndSave took 332.393 ms (total: 15.1 sec)
+[2025.11.19-14.59.09:296][215]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.19-14.59.09:296][215]LogContentValidation: Enabled validators:
+[2025.11.19-14.59.09:296][215]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.19-14.59.09:296][215]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.19-14.59.09:296][215]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.19-14.59.09:296][215]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.19-14.59.09:296][215]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.19-14.59.09:296][215]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.19-14.59.09:297][215]AssetCheck: /Game/MyBlueprints/GameModes/Gameplay/BP_GM_Gameplay Validating asset
+[2025.11.19-14.59.37:441][709]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5051.134766
+[2025.11.19-14.59.37:686][714]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.19-14.59.37:686][714]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5051.328125, Update Interval: 318.402649
+[2025.11.19-15.00.14:866][355]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MyContent/UI/Game/WBP_Crossheirs.WBP_Crossheirs
+[2025.11.19-15.00.14:866][355]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_49
+[2025.11.19-15.00.14:937][355]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_50
+[2025.11.19-15.00.22:050][417]LogSlate: Window 'WBP_Crossheirs' being destroyed
+[2025.11.19-15.00.23:896][442]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.19-15.00.24:169][442]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyContent/UI/Game/WBP_HUD] ([2] browsable assets)...
+[2025.11.19-15.00.24:221][442]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/MyContent/UI/Game/WBP_HUD.WBP_HUD]
+[2025.11.19-15.00.24:221][442]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/UI/Game/WBP_HUD]
+[2025.11.19-15.00.24:221][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/UI/Game/WBP_HUD" FILE="E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyContent/UI/Game/WBP_HUD.uasset" SILENT=true
+[2025.11.19-15.00.24:230][442]LogSavePackage: Moving output files for package: /Game/MyContent/UI/Game/WBP_HUD
+[2025.11.19-15.00.24:231][442]LogSavePackage: Moving 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Saved/WBP_HUDE8F5430C4FFE9BEA1A39A3B2CEDB85EC.tmp' to 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyContent/UI/Game/WBP_HUD.uasset'
+[2025.11.19-15.00.24:339][442]LogFileHelpers: InternalPromptForCheckoutAndSave took 442.188 ms (total: 15.6 sec)
+[2025.11.19-15.00.24:500][442]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.19-15.00.24:500][442]LogContentValidation: Enabled validators:
+[2025.11.19-15.00.24:500][442]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.19-15.00.24:500][442]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.19-15.00.24:500][442]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.19-15.00.24:500][442]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.19-15.00.24:500][442]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.19-15.00.24:500][442]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.19-15.00.24:501][442]AssetCheck: /Game/MyContent/UI/Game/WBP_HUD Validating asset
+[2025.11.19-15.01.34:706][774]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.19-15.01.34:960][774]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/UI/Game/WBP_Crossheirs] ([2] browsable assets)...
+[2025.11.19-15.01.34:961][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/UI/Game/WBP_Crossheirs]
+[2025.11.19-15.01.34:961][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/UI/Game/WBP_Crossheirs" FILE="E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyContent/UI/Game/WBP_Crossheirs.uasset" SILENT=true
+[2025.11.19-15.01.34:967][774]LogSavePackage: Moving output files for package: /Game/MyContent/UI/Game/WBP_Crossheirs
+[2025.11.19-15.01.34:967][774]LogSavePackage: Moving 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Saved/WBP_Crossheirs7CD72D62471C13FFCC8CD8B02B606302.tmp' to 'E:/Projects/UNREAL/Fate/FateShooter/ProjectFate/Content/MyContent/UI/Game/WBP_Crossheirs.uasset'
+[2025.11.19-15.01.35:127][774]LogFileHelpers: InternalPromptForCheckoutAndSave took 421.121 ms (total: 16.0 sec)
+[2025.11.19-15.01.35:301][774]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.19-15.01.35:301][774]LogContentValidation: Enabled validators:
+[2025.11.19-15.01.35:301][774]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.19-15.01.35:301][774]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.19-15.01.35:301][774]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.19-15.01.35:301][774]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.19-15.01.35:301][774]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.19-15.01.35:301][774]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.19-15.01.35:301][774]AssetCheck: /Game/MyContent/UI/Game/WBP_Crossheirs Validating asset
