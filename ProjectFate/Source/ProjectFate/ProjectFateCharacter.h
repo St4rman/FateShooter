@@ -98,6 +98,8 @@ public:
 	
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 	UFateParticleComp* GetFateParticleComp()		  const { return PlayerParticleComp; }
+
+	UFUNCTION(BlueprintCallable)
 	AFateWeaponBase* GetCurrentWeapon()				  const { return CurrentWeapon; }
 	
 	UFUNCTION(BlueprintCallable)
