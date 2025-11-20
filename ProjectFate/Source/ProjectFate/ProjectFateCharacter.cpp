@@ -198,6 +198,7 @@ void AProjectFateCharacter::ServerWpnFire_Implementation()
 	if (CurrentWeapon)
 	{
 		CurrentWeapon->Fire(this);
+		
 	}
 }
 

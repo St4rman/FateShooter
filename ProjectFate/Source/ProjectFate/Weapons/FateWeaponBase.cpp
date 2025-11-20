@@ -93,6 +93,11 @@ void AFateWeaponBase::SetOwningPawn(AProjectFateCharacter* NewPawn)
  */
 void AFateWeaponBase::Fire(const AProjectFateCharacter* OwningCharacter)
 {
+	if (!bCanShoot)
+	{
+		return;
+	}
+	
 	//client code
 	if (!HasAuthority())
 	{
@@ -122,6 +127,12 @@ void AFateWeaponBase::Fire(const AProjectFateCharacter* OwningCharacter)
 			// DoUIFlair();
 		}
 		DoShootSound();
+		bCanShoot = false;
+		if (WeaponFiringRate == 0)
+		{
+			WeaponFiringRate = 120;
+		}
+		GetWorldTimerManager().SetTimer(WeaponCooldown, this, &AFateWeaponBase::SetCanShoot, 60/WeaponFiringRate);
 	}
 }
 
@@ -141,7 +152,7 @@ void AFateWeaponBase::DoShootFlair()
 		}
 	}
 
-	
+	Character->DoUIRecoil();
 }
 
 void AFateWeaponBase::DoShootSound()

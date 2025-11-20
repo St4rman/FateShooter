@@ -76,6 +76,10 @@ public:
 	UNiagaraSystem* HitEffect;
 
 	bool isEquipped = false;
+	bool bCanShoot = true;
+	
+	FTimerHandle WeaponCooldown;
+	
 protected:
 	virtual void BeginPlay() override;
 	
@@ -87,7 +91,7 @@ protected:
 	FCollisionQueryParams QueryParams;
 	FActorSpawnParameters ActorSpawnParams;
 
-	
+	void SetCanShoot(){bCanShoot = true;}
 	
 public:
 

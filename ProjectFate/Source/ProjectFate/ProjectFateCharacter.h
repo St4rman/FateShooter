@@ -140,4 +140,7 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnPlayerDeath(APlayerState* InstigatorPlayer);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void DoUIRecoil();
 };
