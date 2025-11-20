@@ -120,12 +120,7 @@ void AFateWeaponBase::Fire(const AProjectFateCharacter* OwningCharacter)
 				break;
 		}
 		
-		//if locally controlled then play sound Anim
-		if (OwningCharacter->IsLocallyControlled())
-		{
-			DoShootFlair();
-			// DoUIFlair();
-		}
+		DoShootFlair();
 		DoShootSound();
 		bCanShoot = false;
 		if (WeaponFiringRate == 0)
@@ -151,7 +146,6 @@ void AFateWeaponBase::DoShootFlair()
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
 	}
-
 	Character->DoUIRecoil();
 }
 
