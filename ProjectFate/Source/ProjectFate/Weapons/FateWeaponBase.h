@@ -41,7 +41,14 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="PickUpWeapon")
 	UProjectFatePickUpComponent* PickupComponent;
 
-	//PROPERTIES 
+	//PROPERTIES
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
+	FText WeaponName;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
+	UTexture2D* WeaponIcon;
+		
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
 	USkeletalMeshComponent* WeaponMesh;
 	
