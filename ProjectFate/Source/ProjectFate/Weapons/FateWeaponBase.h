@@ -41,7 +41,14 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="PickUpWeapon")
 	UProjectFatePickUpComponent* PickupComponent;
 
-	//PROPERTIES 
+	//PROPERTIES
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
+	FText WeaponName;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
+	UTexture2D* WeaponIcon;
+		
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category="Weapon Variables")
 	USkeletalMeshComponent* WeaponMesh;
 	
@@ -76,6 +83,10 @@ public:
 	UNiagaraSystem* HitEffect;
 
 	bool isEquipped = false;
+	bool bCanShoot = true;
+	
+	FTimerHandle WeaponCooldown;
+	
 protected:
 	virtual void BeginPlay() override;
 	
@@ -87,7 +98,7 @@ protected:
 	FCollisionQueryParams QueryParams;
 	FActorSpawnParameters ActorSpawnParams;
 
-	
+	void SetCanShoot(){bCanShoot = true;}
 	
 public:
 

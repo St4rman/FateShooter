@@ -58,12 +58,10 @@ void UFateParticleComp::NMC_ServerFire_Implementation(const FHitData InHit, bool
 			FVector LocationCache;
 			if (InHit.HitLocation == FVector::ZeroVector)
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Blue, "ZERO VEC");
 				LocationCache = SpawnLocation + InHit.HitDirection* currentWeapon->WeaponRange; 
 			}
 			else
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Blue, "NOT ZERO VEC");
 				LocationCache = InHit.HitLocation;
 			}
 			LazerEffect->SetVariableVec3("Location", LocationCache);

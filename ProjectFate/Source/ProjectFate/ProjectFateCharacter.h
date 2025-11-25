@@ -98,6 +98,8 @@ public:
 	
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 	UFateParticleComp* GetFateParticleComp()		  const { return PlayerParticleComp; }
+
+	UFUNCTION(BlueprintCallable)
 	AFateWeaponBase* GetCurrentWeapon()				  const { return CurrentWeapon; }
 	
 	UFUNCTION(BlueprintCallable)
@@ -138,4 +140,7 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnPlayerDeath(APlayerState* InstigatorPlayer);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void DoUIRecoil();
 };
